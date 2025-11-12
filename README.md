@@ -1,6 +1,6 @@
 # AI Prompts Library
 
-A curated collection of AI prompts for various use cases, available in multiple languages. This library provides well-crafted prompts with detailed voice and style guidelines to help you get the best results from AI models.
+A curated collection of reusable AI prompt templates for outreach, chatbot tone, and content generation, available in both English and Spanish. This library provides ready-to-use prompt snippets with detailed voice and style guidelines to help you get the best results from AI models.
 
 ## 📚 Available Prompts
 
