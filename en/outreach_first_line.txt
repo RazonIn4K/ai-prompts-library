@@ -1,0 +1,1 @@
+Hi {name}, I noticed {personalized_fact}. Here's how we can help…
