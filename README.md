@@ -38,6 +38,34 @@ Generate personalized, human-sounding cold-email opening lines based on prospect
 - **English**: [en/lead_research_to_email_intro.txt](en/lead_research_to_email_intro.txt)
 - **Spanish**: [es/lead_research_to_email_intro.txt](es/lead_research_to_email_intro.txt)
 
+### Proposals & Discovery
+Prompts and question templates for winning Upwork bids and scoping client projects effectively:
+
+#### Upwork Proposal General
+Draft compelling Upwork proposals that address client needs, outline a clear plan, and include a strong CTA. Input your client's job post and your capabilities to generate a personalized, concise proposal.
+
+- **English**: [en/upwork_proposal_general.txt](en/upwork_proposal_general.txt)
+- **Spanish**: [es/upwork_proposal_general.txt](es/upwork_proposal_general.txt)
+
+**Quick Example:**
+```
+Replace {client_job_post} with the Upwork job description and {my_capabilities} with your
+relevant skills/experience. The prompt generates a ready-to-submit proposal under 300 words
+that demonstrates empathy, outlines numbered steps, and includes a strong CTA.
+```
+
+#### Automation Discovery Questions
+Strategic questions to uncover a prospect's workflows, pain points, tools, and priorities. Use these before proposing any automation solution to ensure alignment with their actual needs.
+
+- **English**: [en/automation_discovery_questions.txt](en/automation_discovery_questions.txt)
+- **Spanish**: [es/automation_discovery_questions.txt](es/automation_discovery_questions.txt)
+
+#### Chatbot Discovery Questions
+Comprehensive discovery guide for scoping chatbot projects. Covers purpose, audience, functionality, languages, existing resources, integrations, and timeline—everything you need to propose the right solution.
+
+- **English**: [en/chatbot_discovery_questions.txt](en/chatbot_discovery_questions.txt)
+- **Spanish**: [es/chatbot_discovery_questions.txt](es/chatbot_discovery_questions.txt)
+
 ## 🌍 Supported Languages
 
 - **English** (`en/`)

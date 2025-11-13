@@ -1,0 +1,25 @@
+Use these discovery questions to understand a prospect's current workflows, pain points, and tools before proposing automation solutions.
+
+CURRENT WORKFLOWS & PROCESSES:
+1. What are your top 3 most time-consuming tasks or processes in your business right now?
+2. Walk me through one of those workflows—from start to finish. How many people are involved and what tools do you use?
+3. Which of these processes are mostly manual vs. partially automated?
+4. Do you have any documented SOPs (standard operating procedures) for these workflows?
+
+PAIN POINTS & BOTTLENECKS:
+5. Where do you lose the most time in each process?
+6. Are there any error-prone steps where mistakes happen frequently?
+7. Where do you have data silos—information stuck in one tool that needs to move to another?
+8. What's the cost (in time or money) of your current manual process?
+
+TOOLS & SYSTEMS:
+9. What tools are you currently using? (CRM, email, project management, databases, etc.)
+10. Are these tools already connected, or do you manually move data between them?
+11. What's your technical comfort level? Can your team handle slight changes to workflows?
+12. Do you have an IT team or is tech support outsourced?
+
+GOALS & PRIORITIES:
+13. If you could automate one thing tomorrow, what would have the biggest impact?
+14. How quickly do you need results implemented?
+15. What's your budget range for this automation project?
+16. Who else needs to approve this decision, and what are their main concerns?
