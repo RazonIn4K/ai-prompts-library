@@ -1,0 +1,37 @@
+Utiliza estas preguntas de descubrimiento para definir el alcance y entender los requisitos del proyecto de chatbot, la audiencia y los recursos existentes de un prospecto.
+
+PROPÓSITO Y OBJETIVOS DEL CHATBOT:
+1. ¿Cuál es el objetivo principal de tu chatbot? (soporte al cliente, generación de leads, automatización de preguntas frecuentes, asistencia de ventas, etc.)
+2. ¿Qué problemas específicos intentas resolver con un chatbot?
+3. ¿Cómo mides el éxito? (tiempo de respuesta, satisfacción del usuario, ahorros de costos, tasa de conversión, etc.)
+
+AUDIENCIA Y BASE DE USUARIOS:
+4. ¿Quién utilizará este chatbot? (clientes, empleados, leads, demografía específica?)
+5. ¿Cuál es tu volumen de uso esperado mensual/anual?
+6. ¿Desde qué dispositivos/plataformas accederán los usuarios? (sitio web, Facebook, WhatsApp, Slack, correo electrónico?)
+7. ¿Cuál es el nivel de comodidad técnico de tu usuario típico?
+
+ALCANCE Y FUNCIONALIDAD:
+8. ¿Cuáles son las 10 preguntas o temas principales que el chatbot debe manejar?
+9. ¿Hay escenarios donde el chatbot debe transferir a un humano? ¿Cuándo y cómo?
+10. ¿Debe integrarse con tus sistemas existentes? (CRM, mesa de ayuda, correo electrónico, base de conocimientos, sistemas de pago?)
+11. ¿Quieres que el chatbot realice transacciones (reservas, pagos, suscripciones)?
+
+IDIOMAS Y LOCALIZACIÓN:
+12. ¿Qué idiomas necesitas que soporte el chatbot?
+13. ¿Hay variaciones regionales o conocimiento local que afecte las respuestas?
+
+RECURSOS EXISTENTES Y DOCUMENTACIÓN:
+14. ¿Tienes una base de conocimientos, sección de preguntas frecuentes o documentación que podamos usar para entrenar el chatbot?
+15. ¿Con qué frecuencia cambian tus preguntas frecuentes o respuestas? ¿Cómo mantendrás actualizado el chatbot?
+16. ¿Tienes registros de llamadas, transcripciones de chat o datos de servicio al cliente de los que podamos aprender?
+
+INTEGRACIONES Y TÉCNICO:
+17. ¿Con qué sistemas necesita conectarse el chatbot? (bases de datos, APIs, herramientas de terceros)
+18. ¿Hay requisitos de cumplimiento o privacidad de datos? (GDPR, SOC2, PCI-DSS, etc.)
+19. ¿Cómo es tu infraestructura técnica? (nube, local, administrada?)
+
+CRONOGRAMA Y PRESUPUESTO:
+20. ¿Cuándo quieres que el chatbot esté en vivo?
+21. ¿Cuál es tu presupuesto para este proyecto?
+22. ¿Necesitas entrenamiento continuo, actualizaciones y mantenimiento? ¿Cómo debería verse eso?

@@ -1,0 +1,28 @@
+You are a content transformation expert. Take the following podcast transcript and create three pieces of content:
+
+TRANSCRIPT:
+{transcript}
+
+OUTPUT THE FOLLOWING:
+
+1. Blog Post (600–800 words):
+   - Write in a friendly, conversational tone
+   - Include 3–4 clear headings to break up the content
+   - Summarize the key insights and takeaways from the episode
+   - Make it engaging and easy to scan
+   - Add a compelling introduction and conclusion
+
+2. Show Notes (bullet points):
+   - List the main topics discussed
+   - Include key quotes or insights (if any)
+   - Keep each point concise and scannable
+   - Maximum 8–10 bullet points
+
+3. Five Social Media Posts:
+   - Create 5 standalone posts suitable for LinkedIn, Twitter, or Instagram
+   - Each post should be 1–2 sentences
+   - Include at least one call-to-action or thought-provoking question
+   - Vary the tone and focus across the posts
+   - Make them shareable and engaging
+
+Format your response clearly with sections labeled "BLOG POST," "SHOW NOTES," and "SOCIAL POSTS."

@@ -1,0 +1,37 @@
+Use these discovery questions to scope and understand a prospect's chatbot project requirements, audience, and existing resources.
+
+CHATBOT PURPOSE & GOALS:
+1. What is the primary goal of your chatbot? (customer support, lead generation, FAQ automation, sales assistance, etc.)
+2. What specific problems are you trying to solve with a chatbot?
+3. How do you measure success? (response time, user satisfaction, cost savings, conversion rate, etc.)
+
+AUDIENCE & USER BASE:
+4. Who will be using this chatbot? (customers, employees, leads, specific demographic?)
+5. What is your expected monthly/yearly usage volume?
+6. What devices/platforms will users access it from? (website, Facebook, WhatsApp, Slack, email?)
+7. What is the technical comfort level of your typical user?
+
+SCOPE & FUNCTIONALITY:
+8. What are the top 10 questions or topics the chatbot should handle?
+9. Are there scenarios where the chatbot should hand off to a human? When and how?
+10. Should it integrate with your existing systems? (CRM, help desk, email, knowledge base, payment systems?)
+11. Do you want the chatbot to perform transactions (bookings, payments, subscriptions)?
+
+LANGUAGES & LOCALIZATION:
+12. What languages do you need the chatbot to support?
+13. Do you have regional variations or local knowledge that affects responses?
+
+EXISTING RESOURCES & DOCUMENTATION:
+14. Do you have a knowledge base, FAQ section, or documentation we can use to train the chatbot?
+15. How often do your FAQs or answers change? How will you keep the chatbot updated?
+16. Do you have call logs, chat transcripts, or customer service data we can learn from?
+
+INTEGRATIONS & TECHNICAL:
+17. What systems does the chatbot need to connect to? (databases, APIs, third-party tools)
+18. Are there compliance or data privacy requirements? (GDPR, SOC2, PCI-DSS, etc.)
+19. What is your technical infrastructure like? (cloud, on-premise, managed?)
+
+TIMELINE & BUDGET:
+20. When do you want the chatbot live?
+21. What is your budget for this project?
+22. Do you need ongoing training, updates, and maintenance? What should that look like?

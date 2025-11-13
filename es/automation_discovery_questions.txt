@@ -1,0 +1,25 @@
+Utiliza estas preguntas de descubrimiento para entender los flujos de trabajo actuales, puntos débiles y herramientas de un prospecto antes de proponer soluciones de automatización.
+
+FLUJOS DE TRABAJO Y PROCESOS ACTUALES:
+1. ¿Cuáles son tus 3 tareas o procesos más intensivos en tiempo en tu negocio ahora?
+2. Camina conmigo a través de uno de esos flujos de trabajo—de principio a fin. ¿Cuántas personas están involucradas y qué herramientas usas?
+3. ¿Cuáles de estos procesos son principalmente manuales vs. parcialmente automatizados?
+4. ¿Tienes documentados POP (procedimientos de operación estándar) para estos flujos de trabajo?
+
+PUNTOS DÉBILES Y CUELLOS DE BOTELLA:
+5. ¿Dónde pierdes la mayor cantidad de tiempo en cada proceso?
+6. ¿Hay pasos propensos a errores donde los errores ocurren frecuentemente?
+7. ¿Dónde tienes silos de datos—información atrapada en una herramienta que necesita moverse a otra?
+8. ¿Cuál es el costo (en tiempo o dinero) de tu proceso manual actual?
+
+HERRAMIENTAS Y SISTEMAS:
+9. ¿Qué herramientas estás utilizando actualmente? (CRM, correo electrónico, gestión de proyectos, bases de datos, etc.)
+10. ¿Estas herramientas ya están conectadas, o mueves datos manualmente entre ellas?
+11. ¿Cuál es tu nivel de comodidad técnico? ¿Puede tu equipo manejar cambios ligeros en los flujos de trabajo?
+12. ¿Tienes un equipo de TI o está el soporte técnico subcontratado?
+
+OBJETIVOS Y PRIORIDADES:
+13. Si pudieras automatizar una cosa mañana, ¿qué tendría el mayor impacto?
+14. ¿Qué tan rápido necesitas que se implementen los resultados?
+15. ¿Cuál es tu rango de presupuesto para este proyecto de automatización?
+16. ¿Quién más necesita aprobar esta decisión y cuáles son sus principales preocupaciones?

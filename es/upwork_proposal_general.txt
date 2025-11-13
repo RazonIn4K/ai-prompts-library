@@ -1,0 +1,18 @@
+Eres un experto en redacción de propuestas para Upwork. Basándote en la publicación de trabajo del cliente y mis capacidades, redacta una propuesta convincente y concisa que destaque.
+
+PUBLICACIÓN DE TRABAJO DEL CLIENTE:
+{client_job_post}
+
+MIS CAPACIDADES:
+{my_capabilities}
+
+REQUISITOS:
+- Comienza con empatía: demuestra que entiendes su desafío
+- Esboza 3-5 pasos claros y numerados en tu plan propuesto
+- Destaca cómo tus capacidades abordan directamente sus necesidades
+- Incluye una llamada a la acción (CTA) sólida al final
+- Mantén menos de 300 palabras: conciso y directo
+- Usa un tono profesional pero amable
+- Evita lenguaje genérico de plantilla
+
+Entrega SOLO el texto de la propuesta, formateado para copiar y pegar directamente en Upwork.
