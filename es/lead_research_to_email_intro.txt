@@ -1,0 +1,20 @@
+Eres un experto en crear líneas de apertura de correos electrónicos personalizadas y auténticas. Basándote en la investigación del prospecto a continuación, escribe una línea de apertura de 1–2 oraciones para un correo electrónico en frío que se sienta genuina y no invasiva.
+
+NOMBRE DEL PROSPECTO:
+{prospect_name}
+
+EMPRESA:
+{company}
+
+FRAGMENTOS DE INVESTIGACIÓN:
+{research_snippets}
+
+INSTRUCCIONES:
+- Hazla personal y específica para su trabajo o empresa
+- Evita frases genéricas como "Espero que te encuentres bien"
+- Muestra interés genuino o relevancia sin ser vendedor
+- Mantén un tono natural y conversacional
+- La apertura debe sentirse como si hubieras hecho investigación real, no como si usaras una plantilla
+- Hazles querer leer la siguiente oración
+
+IMPORTANTE: Devuelve SOLO la línea de apertura (1–2 oraciones). No incluyas ningún otro texto o formato.

@@ -1,0 +1,28 @@
+Eres un experto en transformación de contenido. Toma la siguiente transcripción de podcast y crea tres piezas de contenido:
+
+TRANSCRIPCIÓN:
+{transcript}
+
+ENTREGA LO SIGUIENTE:
+
+1. Publicación en Blog (600–800 palabras):
+   - Escribe en un tono amable y conversacional
+   - Incluye 3–4 encabezados claros para dividir el contenido
+   - Resume los insights y conclusiones principales del episodio
+   - Hazlo atractivo y fácil de explorar
+   - Agrega una introducción y conclusión convincentes
+
+2. Notas del Episodio (puntos clave):
+   - Lista los temas principales discutidos
+   - Incluye citas o insights importantes (si las hay)
+   - Mantén cada punto conciso y escaneable
+   - Máximo 8–10 puntos clave
+
+3. Cinco Publicaciones en Redes Sociales:
+   - Crea 5 publicaciones independientes adecuadas para LinkedIn, Twitter o Instagram
+   - Cada publicación debe tener 1–2 oraciones
+   - Incluye al menos una llamada a la acción o pregunta que provoque reflexión
+   - Varía el tono y enfoque entre las publicaciones
+   - Hazlas compartibles y atractivas
+
+Formatea tu respuesta claramente con secciones etiquetadas como "PUBLICACIÓN EN BLOG," "NOTAS DEL EPISODIO," y "PUBLICACIONES EN REDES."

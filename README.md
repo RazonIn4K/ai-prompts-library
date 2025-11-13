@@ -16,6 +16,28 @@ Define consistent voice and style characteristics for AI chatbot interactions to
 - **English**: [en/chatbot_tone.md](en/chatbot_tone.md)
 - **Spanish**: [es/chatbot_tone.md](es/chatbot_tone.md)
 
+### Quick-Start Income Prompts
+Ready-to-use prompts designed to help generate monetizable content and streamline your sales workflow:
+
+#### Podcast to Blog
+Transform podcast transcripts into multi-format content: a 600–800 word blog post with headings, concise show notes, and five shareable social media posts—all in one go.
+
+- **English**: [en/podcast_to_blog.txt](en/podcast_to_blog.txt)
+- **Spanish**: [es/podcast_to_blog.txt](es/podcast_to_blog.txt)
+
+**Quick Example:**
+```
+Copy the prompt from en/podcast_to_blog.txt, replace {transcript} with your podcast transcript,
+and paste into your preferred AI model. You'll get formatted blog content, show notes, and
+five social posts ready to publish.
+```
+
+#### Lead Research to Email Intro
+Generate personalized, human-sounding cold-email opening lines based on prospect research. 1–2 sentences that feel genuine and non-spammy, not templated.
+
+- **English**: [en/lead_research_to_email_intro.txt](en/lead_research_to_email_intro.txt)
+- **Spanish**: [es/lead_research_to_email_intro.txt](es/lead_research_to_email_intro.txt)
+
 ## 🌍 Supported Languages
 
 - **English** (`en/`)
