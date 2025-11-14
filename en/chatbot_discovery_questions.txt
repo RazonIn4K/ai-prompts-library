@@ -1,4 +1,10 @@
-Use these discovery questions to scope and understand a prospect's chatbot project requirements, audience, and existing resources.
+CATEGORY: Discovery
+PURPOSE: Comprehensive questions to scope chatbot projects (purpose, audience, functionality, integrations, timeline)
+VARIABLES: None (reference guide)
+TONE: Consultative, thorough, technical and business-focused
+
+PROMPT:
+Use these discovery questions to fully understand a prospect's chatbot project requirements before proposing a solution. Cover all key dimensions: purpose, audience, functionality, languages, resources, integrations, and budget.
 
 CHATBOT PURPOSE & GOALS:
 1. What is the primary goal of your chatbot? (customer support, lead generation, FAQ automation, sales assistance, etc.)
@@ -35,3 +41,6 @@ TIMELINE & BUDGET:
 20. When do you want the chatbot live?
 21. What is your budget for this project?
 22. Do you need ongoing training, updates, and maintenance? What should that look like?
+
+EXAMPLE USAGE:
+Walk through these questions during your initial discovery meeting or send as a detailed questionnaire. The answers will give you everything needed to propose a tailored chatbot solution that matches their business needs, budget, and technical environment.

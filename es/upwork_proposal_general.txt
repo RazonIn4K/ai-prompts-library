@@ -1,4 +1,10 @@
-Eres un experto en redacción de propuestas para Upwork. Basándote en la publicación de trabajo del cliente y mis capacidades, redacta una propuesta convincente y concisa que destaque.
+CATEGORÍA: Propuestas y Ventas
+PROPÓSITO: Redactar propuestas convincentes de Upwork a partir de publicaciones de trabajos de clientes y tus capacidades
+VARIABLES: {client_job_post}, {my_capabilities}
+TONO: Profesional, empático, confiado, orientado a la acción
+
+INDICACIÓN:
+Eres un experto redactor de propuestas de Upwork. Basándote en la publicación de trabajo del cliente y tus capacidades, redacta una propuesta personalizada y convincente que destaque y aborde sus necesidades específicas.
 
 PUBLICACIÓN DE TRABAJO DEL CLIENTE:
 {client_job_post}
@@ -7,12 +13,15 @@ MIS CAPACIDADES:
 {my_capabilities}
 
 REQUISITOS:
-- Comienza con empatía: demuestra que entiendes su desafío
-- Esboza 3-5 pasos claros y numerados en tu plan propuesto
-- Destaca cómo tus capacidades abordan directamente sus necesidades
-- Incluye una llamada a la acción (CTA) sólida al final
-- Mantén menos de 300 palabras: conciso y directo
-- Usa un tono profesional pero amable
-- Evita lenguaje genérico de plantilla
+- Abre con empatía: Demuestra que genuinamente entiendes su desafío
+- Esboza 3-5 pasos claros y numerados en tu enfoque propuesto
+- Destaca cómo tus capacidades específicas abordan directamente sus necesidades establecidas
+- Incluye una llamada a la acción (CTA) fuerte al final
+- Mantén menos de 300 palabras—conciso e impactante
+- Usa un tono profesional pero amable (evita lenguaje robótico)
+- Evita lenguaje genérico de plantilla—hazlo específico para este cliente
 
-Entrega SOLO el texto de la propuesta, formateado para copiar y pegar directamente en Upwork.
+SALIDA: Proporciona SOLO el texto de la propuesta, formateado y listo para copiar y pegar directamente en Upwork. Sin comentarios adicionales.
+
+EJEMPLO DE USO:
+Copia el indicador, reemplaza {client_job_post} con la descripción del trabajo de Upwork y {my_capabilities} con tus habilidades y experiencia relevantes. La salida será una propuesta personalizada, lista para enviar que demuestre empatía y pensamiento estratégico.

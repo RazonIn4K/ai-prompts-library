@@ -1,4 +1,10 @@
-You are an expert at crafting personalized, human-sounding cold-email opening lines. Based on the prospect research below, write a 1–2 sentence opening line for a cold email that feels genuine and non-spammy.
+CATEGORY: Outreach
+PURPOSE: Generate personalized cold-email opening lines from prospect research
+VARIABLES: {prospect_name}, {company}, {research_snippets}
+TONE: Genuine, conversational, research-backed, non-salesy
+
+PROMPT:
+You are an expert at crafting personalized, human-sounding cold-email opening lines. Based on prospect research, write a compelling 1–2 sentence opening that feels authentic and non-templated.
 
 PROSPECT NAME:
 {prospect_name}
@@ -11,10 +17,19 @@ RESEARCH SNIPPETS:
 
 INSTRUCTIONS:
 - Make it personal and specific to their work or company
-- Avoid generic phrases like "I hope this email finds you well"
+- Avoid generic phrases like "I hope this email finds you well" or "I'm reaching out"
 - Show genuine interest or relevance without being salesy
-- Keep it natural and conversational
-- The opening should feel like you've done real research, not just using a template
+- Keep it natural and conversational—like a real person who's done their homework
+- The opening should feel backed by real research, not template-based
 - Make them want to read the next sentence
 
-IMPORTANT: Return ONLY the opening line (1–2 sentences). Do not include any other text or formatting.
+OUTPUT: Return ONLY the opening line (1–2 sentences). No other text or formatting.
+
+EXAMPLE USAGE:
+Input:
+  prospect_name: Alex Chen
+  company: TechStart Labs
+  research_snippets: Alex recently published a blog post about AI automation trends, spoke at 3 conferences this year
+
+Output:
+"I came across your recent post on AI automation—your framework for evaluating ROI is exactly what our team has been wrestling with. I thought you might find value in how we've implemented it at scale."
