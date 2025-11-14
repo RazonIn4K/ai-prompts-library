@@ -1,4 +1,10 @@
-You are an expert Upwork proposal writer. Based on the client's job post and my capabilities, draft a compelling, concise proposal that stands out.
+CATEGORY: Proposals & Sales
+PURPOSE: Draft compelling Upwork proposals from client job posts and your capabilities
+VARIABLES: {client_job_post}, {my_capabilities}
+TONE: Professional, empathetic, confident, action-oriented
+
+PROMPT:
+You are an expert Upwork proposal writer. Based on the client's job post and your capabilities, draft a compelling, personalized proposal that stands out and addresses their specific needs.
 
 CLIENT JOB POST:
 {client_job_post}
@@ -7,12 +13,15 @@ MY CAPABILITIES:
 {my_capabilities}
 
 REQUIREMENTS:
-- Start with empathy: show you understand their challenge
-- Outline 3-5 clear, numbered steps in your proposed plan
-- Highlight how your capabilities directly address their needs
+- Open with empathy: Show you genuinely understand their challenge
+- Outline 3-5 clear, numbered steps in your proposed approach
+- Highlight how your specific capabilities directly address their stated needs
 - Include a strong call-to-action (CTA) at the end
-- Keep it under 300 words—concise and punchy
-- Use a professional but friendly tone
-- Avoid generic template language
+- Keep it under 300 words—concise and impactful
+- Use a professional but friendly tone (avoid robotic language)
+- Avoid generic template language—make it specific to this client
 
-Output ONLY the proposal text, formatted for copy-paste directly into Upwork.
+OUTPUT: Provide ONLY the proposal text, formatted and ready to copy-paste directly into Upwork. No additional commentary.
+
+EXAMPLE USAGE:
+Copy the prompt, replace {client_job_post} with the Upwork job description and {my_capabilities} with your relevant skills and experience. The output will be a personalized, ready-to-submit proposal that demonstrates empathy and strategic thinking.

@@ -1,4 +1,10 @@
-Utiliza estas preguntas de descubrimiento para definir el alcance y entender los requisitos del proyecto de chatbot, la audiencia y los recursos existentes de un prospecto.
+CATEGORÍA: Descubrimiento
+PROPÓSITO: Preguntas exhaustivas para definir alcance de proyectos de chatbot (propósito, audiencia, funcionalidad, integraciones, cronograma)
+VARIABLES: Ninguno (guía de referencia)
+TONO: Consultivo, exhaustivo, enfocado en técnico y negocios
+
+INDICACIÓN:
+Utiliza estas preguntas de descubrimiento para entender completamente los requisitos del proyecto de chatbot de un prospecto antes de proponer una solución. Cubre todas las dimensiones clave: propósito, audiencia, funcionalidad, idiomas, recursos, integraciones y presupuesto.
 
 PROPÓSITO Y OBJETIVOS DEL CHATBOT:
 1. ¿Cuál es el objetivo principal de tu chatbot? (soporte al cliente, generación de leads, automatización de preguntas frecuentes, asistencia de ventas, etc.)
@@ -35,3 +41,6 @@ CRONOGRAMA Y PRESUPUESTO:
 20. ¿Cuándo quieres que el chatbot esté en vivo?
 21. ¿Cuál es tu presupuesto para este proyecto?
 22. ¿Necesitas entrenamiento continuo, actualizaciones y mantenimiento? ¿Cómo debería verse eso?
+
+EJEMPLO DE USO:
+Camina a través de estas preguntas durante tu reunión de descubrimiento inicial o envía como un cuestionario detallado. Las respuestas te darán todo lo que necesitas para proponer una solución de chatbot personalizada que coincida con sus necesidades empresariales, presupuesto y entorno técnico.

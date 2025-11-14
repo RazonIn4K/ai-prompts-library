@@ -71,30 +71,109 @@ Comprehensive discovery guide for scoping chatbot projects. Covers purpose, audi
 - **English** (`en/`)
 - **Spanish** (`es/`)
 
-## 📖 How to Use
+## 📖 How to Use Prompts
 
-1. Browse the prompts in your preferred language folder
-2. Read the voice and style guidelines to understand the intended tone
-3. Copy the example prompt and customize it for your specific use case
-4. Review the sample outputs to understand what to expect
+### Quick Start
+1. **Browse the [PROMPT_INDEX.md](PROMPT_INDEX.md)** to find the right prompt for your use case
+2. **Open the prompt file** in your preferred language (`en/` or `es/` folder)
+3. **Copy the entire prompt content** into your AI model
+4. **Replace placeholders** like `{name}`, `{transcript}`, etc. with your actual data
+5. **Submit and review** the output, refining variables if needed
 
-## 🎯 Prompt Structure
+### Using Prompts with Different AI Platforms
 
-Each prompt file includes:
+#### ChatGPT / ChatGPT Plus
+1. Open [ChatGPT](https://chat.openai.com)
+2. Start a new conversation
+3. Copy the entire prompt file into the message box
+4. Hit Enter and wait for the response
+5. **Pro tip:** For longer prompts, paste the prompt first, then provide your variables in a follow-up message
 
-- **Purpose**: What the prompt is designed to accomplish
-- **Voice and Style Guidelines**: Detailed characteristics for tone and approach
-- **Example Prompt**: A ready-to-use template
-- **Sample Outputs**: Examples of what the prompt generates
+#### Claude (Web, Desktop, or API)
+1. Open [Claude](https://claude.ai) or your Claude interface
+2. Paste the complete prompt into the chat
+3. Claude's large context window handles long prompts exceptionally well
+4. **Pro tip:** Claude excels with discovery questions and multi-step outputs (like podcast-to-blog)
+
+#### Google Gemini
+1. Go to [Google Gemini](https://gemini.google.com)
+2. Paste the prompt into the chat box
+3. For longer prompts, you may need to break them into 2–3 messages
+4. **Pro tip:** Gemini is great for quick generation tasks like email openings
+
+#### Microsoft Copilot (Windows/Bing)
+1. Open [Copilot](https://copilot.microsoft.com)
+2. Paste the prompt into the chat
+3. Provide your variables and submit
+4. **Pro tip:** Good for quick iterations and refinements
+
+### Prompt Structure
+
+Each prompt file in this library includes:
+
+```
+CATEGORY: [Type of prompt]
+PURPOSE: [What it does]
+VARIABLES: [Required placeholders]
+TONE: [Voice and style characteristics]
+
+[Prompt instructions and content]
+
+EXAMPLE USAGE:
+[Sample input and output]
+```
+
+### Best Practices for Variable Substitution
+
+1. **Replace all placeholders** – Look for variables in curly braces: `{variable_name}`
+2. **Be specific** – Vague inputs lead to vague outputs
+3. **Maintain consistency** – If a variable appears multiple times, use the same value throughout
+4. **Test first** – Try with sample data before using real information
+5. **Iterate** – Refine outputs by adjusting your input variables
+
+**Example:**
+```
+Original: "Hi {name}, I noticed {personalized_fact}..."
+Your input: "Hi Sarah, I noticed you just launched a podcast on startup culture..."
+```
+
+### Customization Tips
+
+- **Adjust tone**: Modify phrases like "friendly" to "formal" or "enthusiastic" to "straightforward"
+- **Change length**: Specify word counts or duration for outputs (e.g., "under 200 words")
+- **Focus on specifics**: Add industry details, product names, or company context
+- **Combine prompts**: Use discovery questions first, then feed answers into a proposal prompt
+- **Create variations**: Save custom versions of prompts with your preferred tweaks
+
+---
+
+## 🔍 Find the Right Prompt
+
+- **Quick reference**: [PROMPT_INDEX.md](PROMPT_INDEX.md) – Organized by use case, category, and tags
+- **By category**: Outreach, Discovery, Chatbot, Content, Proposals
+- **By complexity**: Quick (< 2 min), Standard (2–5 min), Advanced (5+ min)
 
 ## 🤝 Contributing
 
 Contributions are welcome! If you have a prompt to add or improvements to existing ones:
 
-1. Ensure your prompt includes clear voice and style guidelines
-2. Provide examples in both English and Spanish (or add support for additional languages)
-3. Follow the existing file structure and formatting
-4. Submit a pull request with a clear description
+1. **Follow the standardized format**:
+   ```
+   CATEGORY: [Outreach/Discovery/Chatbot/Content/Proposals]
+   PURPOSE: [One-line description of what the prompt does]
+   VARIABLES: [List all {placeholders} used in the prompt]
+   TONE: [Describe voice and style characteristics]
+
+   [Prompt instructions and content]
+
+   EXAMPLE USAGE:
+   [Show sample input and expected output]
+   ```
+
+2. **Create both English and Spanish versions** (save in `en/` and `es/` folders with matching names)
+3. **Update [PROMPT_INDEX.md](PROMPT_INDEX.md)** with entries in appropriate use case and category sections
+4. **Test the prompt** with multiple AI models to ensure quality output
+5. **Submit a pull request** with a clear description of the new prompt and its use case
 
 ## 📝 License
 
@@ -102,9 +181,24 @@ This project is open source and available for use in your AI applications and wo
 
 ## 🔗 Related Resources
 
+- [PROMPT_INDEX.md](PROMPT_INDEX.md) – Complete reference guide for all prompts
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [OpenAI Best Practices](https://platform.openai.com/docs/guides/prompt-engineering)
+- [Anthropic Claude Prompt Guide](https://docs.anthropic.com/en/docs/build-a-chatbot-with-claude)
 
 ---
 
-**Note**: These prompts are designed to work with various AI models including GPT-4, Claude, and others. Results may vary depending on the model and specific implementation.
+## ✨ Key Features
+
+- **Standardized format** across all prompts for consistency and discoverability
+- **14 bilingual prompts** covering outreach, discovery, chatbot, content, and proposals
+- **Platform-agnostic** – Use with ChatGPT, Claude, Gemini, Copilot, and more
+- **Production-ready** – Each prompt has been tested and refined for real-world use
+- **Easy customization** – Clear variables and tone guidance for your specific needs
+- **Growing library** – Submit new prompts and improvements via pull requests
+
+---
+
+**Note**: These prompts are designed to work with various AI models (GPT-4, Claude 3, Gemini Pro, etc.). Results vary by model and parameters. Test with your preferred AI platform and adjust variables for optimal results.
+
+**Last Updated:** November 14, 2024

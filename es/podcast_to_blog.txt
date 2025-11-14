@@ -1,28 +1,37 @@
-Eres un experto en transformación de contenido. Toma la siguiente transcripción de podcast y crea tres piezas de contenido:
+CATEGORÍA: Generación de Contenido
+PROPÓSITO: Transformar transcripciones de podcast en publicación de blog, notas del episodio y publicaciones en redes sociales
+VARIABLES: {transcript}
+TONO: Amable, atractivo, conversacional, profesional
+
+INDICACIÓN:
+Eres un experto en transformación de contenido. Toma la siguiente transcripción de podcast y crea tres piezas de contenido de múltiples plataformas.
 
 TRANSCRIPCIÓN:
 {transcript}
 
-ENTREGA LO SIGUIENTE:
+ENTREGA LO SIGUIENTE (en este formato exacto):
 
-1. Publicación en Blog (600–800 palabras):
+1. PUBLICACIÓN EN BLOG (600–800 palabras):
    - Escribe en un tono amable y conversacional
    - Incluye 3–4 encabezados claros para dividir el contenido
    - Resume los insights y conclusiones principales del episodio
    - Hazlo atractivo y fácil de explorar
    - Agrega una introducción y conclusión convincentes
 
-2. Notas del Episodio (puntos clave):
+2. NOTAS DEL EPISODIO (puntos clave):
    - Lista los temas principales discutidos
    - Incluye citas o insights importantes (si las hay)
    - Mantén cada punto conciso y escaneable
    - Máximo 8–10 puntos clave
 
-3. Cinco Publicaciones en Redes Sociales:
+3. CINCO PUBLICACIONES EN REDES SOCIALES:
    - Crea 5 publicaciones independientes adecuadas para LinkedIn, Twitter o Instagram
    - Cada publicación debe tener 1–2 oraciones
    - Incluye al menos una llamada a la acción o pregunta que provoque reflexión
    - Varía el tono y enfoque entre las publicaciones
    - Hazlas compartibles y atractivas
 
-Formatea tu respuesta claramente con secciones etiquetadas como "PUBLICACIÓN EN BLOG," "NOTAS DEL EPISODIO," y "PUBLICACIONES EN REDES."
+FORMATO: Etiqueta claramente cada sección ("PUBLICACIÓN EN BLOG", "NOTAS DEL EPISODIO", "PUBLICACIONES EN REDES").
+
+EJEMPLO DE USO:
+Pega tu transcripción de podcast y recibe contenido listo para publicar en tres formatos. Personaliza la redacción o ajusta el tono antes de publicar para que coincida con la voz de tu marca.

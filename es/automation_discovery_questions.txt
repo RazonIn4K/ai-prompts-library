@@ -1,4 +1,10 @@
-Utiliza estas preguntas de descubrimiento para entender los flujos de trabajo actuales, puntos débiles y herramientas de un prospecto antes de proponer soluciones de automatización.
+CATEGORÍA: Descubrimiento
+PROPÓSITO: Preguntas estratégicas para descubrir flujos de trabajo, puntos débiles, herramientas y prioridades para proyectos de automatización
+VARIABLES: Ninguno (guía de referencia)
+TONO: Consultivo, abierto, enfocado en descubrimiento
+
+INDICACIÓN:
+Utiliza estas preguntas de descubrimiento antes de proponer cualquier solución de automatización. Te ayudan a entender los procesos actuales, puntos débiles, herramientas y prioridades empresariales de un prospecto para garantizar la alineación con sus necesidades reales.
 
 FLUJOS DE TRABAJO Y PROCESOS ACTUALES:
 1. ¿Cuáles son tus 3 tareas o procesos más intensivos en tiempo en tu negocio ahora?
@@ -19,7 +25,10 @@ HERRAMIENTAS Y SISTEMAS:
 12. ¿Tienes un equipo de TI o está el soporte técnico subcontratado?
 
 OBJETIVOS Y PRIORIDADES:
-13. Si pudieras automatizar una cosa mañana, ¿qué tendría el mayor impacto?
+13. Si pudiera automatizar una cosa mañana, ¿qué tendría el mayor impacto?
 14. ¿Qué tan rápido necesitas que se implementen los resultados?
 15. ¿Cuál es tu rango de presupuesto para este proyecto de automatización?
 16. ¿Quién más necesita aprobar esta decisión y cuáles son sus principales preocupaciones?
+
+EJEMPLO DE USO:
+Usa estas preguntas durante una llamada de descubrimiento o un cuestionario por correo electrónico antes de escribir tu propuesta. Las notas de estas preguntas informarán tu diseño de solución y garantizarán que estés abordando necesidades reales, no solo posibilidades técnicas.
