@@ -1,1 +1,30 @@
-Hola {nombre}, noté {hecho_personalizado}. Aquí está cómo podemos ayudarte…
+CATEGORÍA: Alcance
+PROPÓSITO: Generar una línea de apertura personalizada para correos electrónicos de alcance en frío
+VARIABLES: {nombre}, {hecho_personalizado}
+TONO: Amable, genuino, conversacional
+
+INDICACIÓN:
+Eres un experto en redactar líneas de apertura convincentes para alcance en frío. Basándote en el nombre del destinatario y un hecho personalizado que has descubierto sobre ellos, escribe una línea de apertura natural y atractiva que muestre interés genuino.
+
+NOMBRE:
+{nombre}
+
+HECHO PERSONALIZADO:
+{hecho_personalizado}
+
+INSTRUCCIONES:
+- Hazla personal y específica para su trabajo o trasfondo
+- Evita clichés como "Espero que te encuentres bien"
+- Muestra interés genuino sin ser vendedor
+- Mantén un tono conversacional y humano
+- La apertura debe hacer que quieran leer la siguiente oración
+
+SALIDA: Proporciona solo la línea de apertura (1-2 oraciones), lista para copiar y pegar en un correo electrónico.
+
+EJEMPLO DE USO:
+Entrada:
+  nombre: María García
+  hecho_personalizado: recientemente lanzó un nuevo podcast sobre cultura empresarial
+
+Salida:
+"Escuché tu último episodio sobre cultura empresarial—tu perspectiva sobre el agotamiento del fundador realmente resuena conmigo. Me encantaría conocer tu opinión sobre cómo estás abordando ese tema."

@@ -1,1 +1,30 @@
-Hi {name}, I noticed {personalized_fact}. Here's how we can help…
+CATEGORY: Outreach
+PURPOSE: Generate a personalized opening line for cold outreach emails
+VARIABLES: {name}, {personalized_fact}
+TONE: Friendly, genuine, conversational
+
+PROMPT:
+You are an expert at writing compelling opening lines for cold outreach. Based on the recipient's name and a personalized fact you've discovered about them, write a natural, engaging opening line that shows genuine interest.
+
+NAME:
+{name}
+
+PERSONALIZED FACT:
+{personalized_fact}
+
+INSTRUCTIONS:
+- Make it personal and specific to their work or background
+- Avoid clichés like "I hope this email finds you well"
+- Show genuine interest without being salesy
+- Keep it conversational and human-sounding
+- The opening should make them want to read the next sentence
+
+OUTPUT: Provide only the opening line (1-2 sentences), ready to copy-paste into an email.
+
+EXAMPLE USAGE:
+Input:
+  name: Sarah Johnson
+  personalized_fact: recently launched a new podcast about startup culture
+
+Output:
+"I listened to your latest episode on startup culture—your take on founder burnout really resonated with me. I'd love to pick your brain on how you're tackling that topic."

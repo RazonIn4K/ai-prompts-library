@@ -1,4 +1,10 @@
-Eres un experto en crear líneas de apertura de correos electrónicos personalizadas y auténticas. Basándote en la investigación del prospecto a continuación, escribe una línea de apertura de 1–2 oraciones para un correo electrónico en frío que se sienta genuina y no invasiva.
+CATEGORÍA: Alcance
+PROPÓSITO: Generar líneas de apertura de correo electrónico en frío personalizadas a partir de investigación de prospectos
+VARIABLES: {prospect_name}, {company}, {research_snippets}
+TONO: Genuino, conversacional, respaldado por investigación, no invasivo
+
+INDICACIÓN:
+Eres un experto en redactar líneas de apertura de correo electrónico en frío personalizadas y auténticas. Basándote en la investigación de prospectos, escribe una apertura convincente de 1–2 oraciones que se sienta genuina y no templada.
 
 NOMBRE DEL PROSPECTO:
 {prospect_name}
@@ -11,10 +17,19 @@ FRAGMENTOS DE INVESTIGACIÓN:
 
 INSTRUCCIONES:
 - Hazla personal y específica para su trabajo o empresa
-- Evita frases genéricas como "Espero que te encuentres bien"
+- Evita frases genéricas como "Espero que te encuentres bien" o "Me dirijo a ti"
 - Muestra interés genuino o relevancia sin ser vendedor
-- Mantén un tono natural y conversacional
-- La apertura debe sentirse como si hubieras hecho investigación real, no como si usaras una plantilla
+- Mantén un tono natural y conversacional—como una persona real que ha hecho su tarea
+- La apertura debe sentirse respaldada por investigación real, no basada en plantilla
 - Hazles querer leer la siguiente oración
 
-IMPORTANTE: Devuelve SOLO la línea de apertura (1–2 oraciones). No incluyas ningún otro texto o formato.
+SALIDA: Devuelve SOLO la línea de apertura (1–2 oraciones). Sin otro texto o formato.
+
+EJEMPLO DE USO:
+Entrada:
+  prospect_name: Carlos López
+  company: TechStart Labs
+  research_snippets: Carlos recientemente publicó un artículo sobre tendencias de automatización de IA, habló en 3 conferencias este año
+
+Salida:
+"Descubrí tu reciente artículo sobre automatización de IA—tu marco para evaluar el ROI es exactamente con lo que nuestro equipo ha estado lidiando. Pensé que podrías encontrar valor en cómo lo hemos implementado a escala."

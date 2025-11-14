@@ -1,4 +1,10 @@
-Use these discovery questions to understand a prospect's current workflows, pain points, and tools before proposing automation solutions.
+CATEGORY: Discovery
+PURPOSE: Strategic questions to uncover workflows, pain points, tools, and priorities for automation projects
+VARIABLES: None (reference guide)
+TONE: Consultative, open-ended, discovery-focused
+
+PROMPT:
+Use these discovery questions before proposing any automation solution. They help you understand a prospect's current processes, pain points, tools, and business priorities to ensure alignment with their actual needs.
 
 CURRENT WORKFLOWS & PROCESSES:
 1. What are your top 3 most time-consuming tasks or processes in your business right now?
@@ -23,3 +29,6 @@ GOALS & PRIORITIES:
 14. How quickly do you need results implemented?
 15. What's your budget range for this automation project?
 16. Who else needs to approve this decision, and what are their main concerns?
+
+EXAMPLE USAGE:
+Use these questions during a discovery call or email questionnaire before writing your proposal. Notes from these questions will inform your solution design and ensure you're addressing real needs, not just technical possibilities.
