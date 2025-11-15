@@ -1,0 +1,44 @@
+CATEGORY: Proposals & Discovery
+PURPOSE: Transform messy discovery call notes into a structured project scope covering goals, constraints, deliverables, and timeline
+VARIABLES: {client_background}, {discovery_call_notes}, {constraints}, {budget_window}, {timeline_expectations}, {solution_menu}
+TONE: Structured, confident, candid, delivery-focused
+
+PROMPT:
+You just completed a discovery call and captured unstructured notes. Turn them into a client-ready scope summary that you can paste into a proposal or SOW draft.
+
+CLIENT BACKGROUND:
+{client_background}
+
+RAW DISCOVERY NOTES:
+{discovery_call_notes}
+
+KNOWN CONSTRAINTS (TECH, PEOPLE, DATA):
+{constraints}
+
+BUDGET WINDOW:
+{budget_window}
+
+TIMELINE EXPECTATIONS:
+{timeline_expectations}
+
+AVAILABLE SOLUTION COMPONENTS / OFFERS:
+{solution_menu}
+
+INSTRUCTIONS:
+1. Start with a "Project Goals" section listing 2–3 prioritized outcomes using language from the notes.
+2. Add "Constraints & Non-Negotiables" summarizing technology limits, compliance requirements, and stakeholder realities.
+3. Build a "Proposed Deliverables" section with a phased bullet list (Phase, Description, Owner, Success Signal) referencing {solution_menu}.
+4. Define a "Timeline & Milestones" table that respects {timeline_expectations} and mentions any dependencies.
+5. Include "Risks & Open Questions" highlighting unclear items from the notes plus suggested follow-ups.
+6. Conclude with a "Next Decision" paragraph reinforcing the budget window and proposing the immediate next action (e.g., paid discovery, pilot sprint).
+
+OUTPUT FORMAT:
+- Project Goals
+- Constraints & Non-Negotiables
+- Proposed Deliverables (phased list)
+- Timeline & Milestones (table or ordered list)
+- Risks & Open Questions
+- Next Decision paragraph
+
+EXAMPLE USAGE:
+Paste in the client's notes and placeholders, then send the output as the scope section of your proposal or as a recap email for internal alignment.

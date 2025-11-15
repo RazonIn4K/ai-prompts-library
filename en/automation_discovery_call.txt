@@ -1,0 +1,36 @@
+CATEGORY: Discovery & Strategy
+PURPOSE: Prepare a structured automation discovery call agenda that uncovers bottlenecks, data sources, and success criteria
+VARIABLES: {client_overview}, {current_stack}, {call_duration}, {my_capabilities}
+TONE: Consultative, calm, practical, business-focused
+
+PROMPT:
+You are an automation consultant preparing for a live discovery call. Use the context below to design a step-by-step call plan that keeps the conversation grounded in business outcomes and technical feasibility.
+
+CLIENT OVERVIEW:
+{client_overview}
+
+CURRENT STACK / WORKFLOWS:
+{current_stack}
+
+CALL DURATION:
+{call_duration}
+
+MY CAPABILITIES:
+{my_capabilities}
+
+INSTRUCTIONS:
+1. Provide a 3-phase call agenda (rapport & context, diagnostic deep dive, success alignment + next steps) with time boxes.
+2. Within the diagnostic phase, list targeted questions grouped by process visibility, tool connectivity, and measurable impact. Each question should include a short note on why it matters.
+3. Call out the data or artifacts I should request (dashboards, SOPs, exports) to validate assumptions after the call.
+4. Flag likely automation candidates (e.g., scraping handoffs, CRM updates, report generation) based on the stack provided.
+5. End with a closing script that recaps promised follow-ups and sets a concrete next step.
+
+OUTPUT FORMAT:
+- Agenda with timestamps
+- Question list with rationale
+- Requested artifacts
+- Automation candidates table (Process | Pain Point | Proposed Automation)
+- Closing script paragraph
+
+EXAMPLE USAGE:
+Paste this prompt into ChatGPT or Claude, replace the variables with the client info gathered from research or intake forms, and you will receive a ready-to-follow discovery call plan tailored to the automation stack in question.

@@ -54,6 +54,67 @@ relevant skills/experience. The prompt generates a ready-to-submit proposal unde
 that demonstrates empathy, outlines numbered steps, and includes a strong CTA.
 ```
 
+#### Upwork Job Response Helper
+Answer Upwork invitations or fresh postings with a 200–300 word response that mirrors the client's stated goal, lists 3–5 deliverables, and closes with a concrete CTA linked to your preferred next step.
+
+- **English**: [en/upwork_job_response_helper.txt](en/upwork_job_response_helper.txt)
+- **Spanish**: [es/upwork_job_response_helper.txt](es/upwork_job_response_helper.txt)
+
+**Quick Example:**
+```
+Drop in {client_job_post}, paste proof points into {my_capabilities}, and set {cta_offer} to the specific
+next step you want (call, Loom, audit). The AI returns a skim-friendly reply with mirrored goals,
+deliverable bullets, and a CTA paragraph that matches your request.
+```
+
+#### Discovery Notes to Scope
+Take raw discovery call notes and instantly convert them into a structured scope section with goals, constraints, phased deliverables, and milestones.
+
+- **English**: [en/discovery_notes_to_scope.txt](en/discovery_notes_to_scope.txt)
+- **Spanish**: [es/discovery_notes_to_scope.txt](es/discovery_notes_to_scope.txt)
+
+**Quick Example:**
+```
+Paste your transcript into {discovery_call_notes}, note blockers in {constraints}, and specify {budget_window} / {timeline_expectations}.
+The output becomes the scope portion of your proposal or the recap email you send right after the call.
+```
+
+#### Client Fit / Red Flag Analyzer
+Score new opportunities against budget, timeline, and collaboration signals before committing to a proposal.
+
+- **English**: [en/client_fit_red_flag_analyzer.txt](en/client_fit_red_flag_analyzer.txt)
+- **Spanish**: [es/client_fit_red_flag_analyzer.txt](es/client_fit_red_flag_analyzer.txt)
+
+**Quick Example:**
+```
+Drop in the job description or discovery notes, plus your gut-check comments in {gut_check_notes}. The AI returns a fit table,
+risk list, and a Yes/No/Conditional recommendation with suggested next steps under 300 words.
+```
+
+#### Upwork Profile Rewriter
+Refresh your profile title and summary to match a niche (automation, chatbots, AI security) while staying keyword-aware for Upwork search.
+
+- **English**: [en/upwork_profile_rewriter.txt](en/upwork_profile_rewriter.txt)
+- **Spanish**: [es/upwork_profile_rewriter.txt](es/upwork_profile_rewriter.txt)
+
+**Quick Example:**
+```
+Paste your current profile copy into {current_profile_summary}, set {target_niche} to "AI security for SaaS", and add proof bullets.
+You'll get 3 title options, a tightened summary with hook/credibility/offer/proof/CTA, plus a checklist of assets to update.
+```
+
+#### Upwork Job Triage → Proposal Plan
+Analyze 3–5 job posts alongside your available time, then get a prioritized plan with proposal angle, Loom hook, and follow-up timing.
+
+- **English**: [en/upwork_job_triage_plan.txt](en/upwork_job_triage_plan.txt)
+- **Spanish**: [es/upwork_job_triage_plan.txt](es/upwork_job_triage_plan.txt)
+
+**Quick Example:**
+```
+List job links with summary/budget/timeline under {jobs_list}, specify {available_time_hours}=2, and note assets in {proof_assets}.
+The output ranks each job, chooses Yes/Maybe/Pass, and gives per-job mini plans so you can execute proposals efficiently.
+```
+
 #### Automation Discovery Questions
 Strategic questions to uncover a prospect's workflows, pain points, tools, and priorities. Use these before proposing any automation solution to ensure alignment with their actual needs.
 
@@ -65,6 +126,48 @@ Comprehensive discovery guide for scoping chatbot projects. Covers purpose, audi
 
 - **English**: [en/chatbot_discovery_questions.txt](en/chatbot_discovery_questions.txt)
 - **Spanish**: [es/chatbot_discovery_questions.txt](es/chatbot_discovery_questions.txt)
+
+#### Automation Discovery Call
+Generate a call-ready agenda, grouped questions with rationales, recommended artifacts, and a closing script so every automation discovery call feels crisp and repeatable.
+
+- **English**: [en/automation_discovery_call.txt](en/automation_discovery_call.txt)
+- **Spanish**: [es/automation_discovery_call.txt](es/automation_discovery_call.txt)
+
+#### Chatbot Discovery Call
+Lead chatbot-focused calls with confidence using structured agendas, question banks, validation checklists, success metrics, and recap scripts tuned to AI assistants.
+
+- **English**: [en/chatbot_discovery_call.txt](en/chatbot_discovery_call.txt)
+- **Spanish**: [es/chatbot_discovery_call.txt](es/chatbot_discovery_call.txt)
+
+### Post-Engagement
+Close loops with client-friendly recaps that celebrate wins and invite the next phase.
+
+#### Post-Project Retrospective
+Package project context, measurable outcomes, the client’s voice, and a forward-looking CTA into one shareable document for testimonials or case studies.
+
+- **English**: [en/post_project_retrospective.txt](en/post_project_retrospective.txt)
+- **Spanish**: [es/post_project_retrospective.txt](es/post_project_retrospective.txt)
+
+**Quick Example:**
+```
+Fill the placeholders with your project metrics ({measured_results}) plus a quote in {client_quote}. The prompt returns an overview
+paragraph, highlights bullets, a "Client Voice" section, and a "What's Next" CTA you can drop into a recap email or slide deck.
+```
+
+### Operations
+Stay accountable to weekly goals across Upwork, content, and code delivery.
+
+#### Weekly Review & Planning
+Turn end-of-week notes into a Monday-ready action plan with focus areas for sales, content, and implementation.
+
+- **English**: [en/weekly_review_planning.txt](en/weekly_review_planning.txt)
+- **Spanish**: [es/weekly_review_planning.txt](es/weekly_review_planning.txt)
+
+**Quick Example:**
+```
+List {wins}, {blockers}, and pipeline notes at the end of the week. The output summarizes the week, assigns 2–3 actions per workstream,
+and adds a pipeline watchlist plus personal ops reminder—all in under 250 words.
+```
 
 ## 🌍 Supported Languages
 
@@ -79,6 +182,8 @@ Comprehensive discovery guide for scoping chatbot projects. Covers purpose, audi
 3. **Copy the entire prompt content** into your AI model
 4. **Replace placeholders** like `{name}`, `{transcript}`, etc. with your actual data
 5. **Submit and review** the output, refining variables if needed
+
+Need an end-to-end reference? Check the [Usage Playbook](docs/usage_playbook.md) for a walkthrough from outreach to retrospective with prompt links.
 
 ### Using Prompts with Different AI Platforms
 
@@ -150,7 +255,7 @@ Your input: "Hi Sarah, I noticed you just launched a podcast on startup culture.
 ## 🔍 Find the Right Prompt
 
 - **Quick reference**: [PROMPT_INDEX.md](PROMPT_INDEX.md) – Organized by use case, category, and tags
-- **By category**: Outreach, Discovery, Chatbot, Content, Proposals
+- **By category**: Outreach, Discovery, Chatbot, Content, Proposals, Post-Engagement, Operations
 - **By complexity**: Quick (< 2 min), Standard (2–5 min), Advanced (5+ min)
 
 ## 🤝 Contributing
@@ -182,6 +287,7 @@ This project is open source and available for use in your AI applications and wo
 ## 🔗 Related Resources
 
 - [PROMPT_INDEX.md](PROMPT_INDEX.md) – Complete reference guide for all prompts
+- [Usage Playbook](docs/usage_playbook.md) – Stage-by-stage walkthrough from outreach to retrospective
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 - [OpenAI Best Practices](https://platform.openai.com/docs/guides/prompt-engineering)
 - [Anthropic Claude Prompt Guide](https://docs.anthropic.com/en/docs/build-a-chatbot-with-claude)
@@ -191,7 +297,7 @@ This project is open source and available for use in your AI applications and wo
 ## ✨ Key Features
 
 - **Standardized format** across all prompts for consistency and discoverability
-- **14 bilingual prompts** covering outreach, discovery, chatbot, content, and proposals
+- **32 bilingual prompts** covering outreach, discovery, chatbot, content, proposals, post-engagement, and operations
 - **Platform-agnostic** – Use with ChatGPT, Claude, Gemini, Copilot, and more
 - **Production-ready** – Each prompt has been tested and refined for real-world use
 - **Easy customization** – Clear variables and tone guidance for your specific needs
@@ -201,4 +307,4 @@ This project is open source and available for use in your AI applications and wo
 
 **Note**: These prompts are designed to work with various AI models (GPT-4, Claude 3, Gemini Pro, etc.). Results vary by model and parameters. Test with your preferred AI platform and adjust variables for optimal results.
 
-**Last Updated:** November 14, 2024
+**Last Updated:** January 2025

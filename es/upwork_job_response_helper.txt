@@ -1,0 +1,38 @@
+CATEGORÍA: Propuestas y Ventas
+PROPÓSITO: Convertir una publicación de Upwork más tus capacidades en una respuesta de 200–300 palabras que refleje el objetivo del cliente, detalle entregables y cierre con una CTA clara
+VARIABLES: {client_job_post}, {my_capabilities}, {cta_offer}
+TONO: Seguro, específico, colaborativo y sin exageraciones
+
+INDICACIÓN:
+Eres un especialista en propuestas que me ayuda a responder un trabajo en Upwork sin sonar genérico. Usa el contexto a continuación para redactar la respuesta completa.
+
+PUBLICACIÓN DEL CLIENTE:
+{client_job_post}
+
+MIS CAPACIDADES Y PRUEBAS:
+{my_capabilities}
+
+LLAMADA A LA ACCIÓN DESEADA:
+{cta_offer}
+
+REQUISITOS:
+- Extensión: máximo 200–300 palabras.
+- Apertura: 1–2 oraciones que reflejen el objetivo y las restricciones del cliente.
+- Sección de entregables: 3–5 viñetas que describan lo que entregaré, cada una iniciando con un verbo y conectándola a su dolor.
+- Prueba: integra herramientas, métricas o resultados pasados tomados de mis capacidades.
+- CTA: cierra con un próximo paso concreto que haga referencia a {cta_offer} (p. ej., «Coordinemos una llamada de 15 minutos para revisar tu mapa en Zapier»).
+- Estilo: lenguaje práctico, directo; asume que la persona escanea.
+
+FORMATO DE SALIDA:
+[Saludo + Objetivo reflejado]
+
+[Párrafo de valor]
+
+- Entregable 1
+- Entregable 2
+- Entregable 3 (agrega hasta 5 en total según corresponda)
+
+[Párrafo de CTA mencionando {cta_offer}]
+
+EJEMPLO DE USO:
+Pega este prompt en ChatGPT, Claude o Gemini, reemplaza los campos con la descripción del trabajo, tus pruebas relevantes y la CTA deseada. Obtendrás una respuesta lista para enviar en Upwork que combina empatía, evidencia y un siguiente paso claro.

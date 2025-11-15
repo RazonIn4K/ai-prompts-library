@@ -1,0 +1,38 @@
+CATEGORÍA: Propuestas y Descubrimiento
+PROPÓSITO: Evaluar varios trabajos de Upwork a la vez, decidir cuáles abordar y definir un mini plan de propuesta por cada selección
+VARIABLES: {jobs_list}, {available_time_hours}, {current_pipeline_pressure}, {proof_assets}, {followup_capacity}
+TONO: Priorizado, decisivo y orientado a la acción
+
+INDICACIÓN:
+Tienes tiempo limitado hoy. Revisa las ofertas, asígnales puntajes y diseña un plan con propuesta, Loom y seguimiento para las que valen la pena.
+
+TRABAJOS (3–5 entradas; incluye link + resumen + presupuesto + timeline):
+{jobs_list}
+
+TIEMPO DISPONIBLE (horas):
+{available_time_hours}
+
+PRESIÓN DE PIPELINE / NECESIDAD DE INGRESOS:
+{current_pipeline_pressure}
+
+ASSETS DE PRUEBA DISPONIBLES (casos, Looms, automatizaciones):
+{proof_assets}
+
+CAPACIDAD DE FOLLOW-UP (días que puedes dar seguimiento):
+{followup_capacity}
+
+INSTRUCCIONES:
+1. Construye una tabla "Triage de Trabajos" con columnas Trabajo | Puntaje de encaje (1–5) | Esfuerzo estimado | Racional ganar.
+2. Indica cuáles perseguir (Sí/Quizá/Descartar) y justifica en 1 frase cada uno.
+3. Para cada trabajo marcado como Sí, crea un mini plan: ángulo de propuesta (30 palabras), idea para Loom, timing de follow-up usando {followup_capacity}, y dependencias (investigación, assets).
+4. Verifica que el esfuerzo total respete {available_time_hours}; si no, sugiere diferir o eliminar trabajos.
+5. Cierra con una lista "Orden de enfoque" (1,2,3) y recordatorios de assets a reutilizar de {proof_assets}.
+
+FORMATO DE SALIDA:
+- Tabla de Triage
+- Viñetas de recomendación
+- Mini planes (por trabajo Sí)
+- Lista de Orden de enfoque
+
+EJEMPLO DE USO:
+Pega los 3–5 links/descripciones, indica cuántas horas tienes y obtendrás un plan priorizado para ejecutar las propuestas sin dispersión.

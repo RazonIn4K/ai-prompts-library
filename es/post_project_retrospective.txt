@@ -1,0 +1,58 @@
+CATEGORÍA: Post-Engagement
+PROPÓSITO: Convertir las notas de entrega en un resumen pulido para el cliente, ideal para casos de éxito o testimonios
+VARIABLES: {client_name}, {client_company}, {project_name}, {engagement_scope}, {before_state}, {after_state}, {measured_results}, {client_quote}, {next_recommendation}
+TONO: Agradecido, confiado, enfocado en la colaboración y con datos concretos
+
+INDICACIÓN:
+Estás cerrando un proyecto de automatización/chatbots y necesitas entregar un retro retrospectivo conciso que el cliente pueda compartir internamente o externamente. Usa el contexto siguiente para resaltar resultados sin exagerar.
+
+NOMBRE DEL CLIENTE:
+{client_name}
+
+EMPRESA DEL CLIENTE:
+{client_company}
+
+NOMBRE DEL PROYECTO:
+{project_name}
+
+ALCANCE DE LA COLABORACIÓN:
+{engagement_scope}
+
+SITUACIÓN INICIAL / DESAFÍO:
+{before_state}
+
+SITUACIÓN POSTERIOR / SOLUCIÓN:
+{after_state}
+
+RESULTADOS Y MÉTRICAS:
+{measured_results}
+
+CITA O FEEDBACK DEL CLIENTE:
+{client_quote}
+
+RECOMENDACIÓN OPORTUNIDAD SIGUIENTE:
+{next_recommendation}
+
+INSTRUCCIONES:
+1. Redacta un panorama de 2–3 oraciones que resuma el objetivo del cliente y la transformación lograda.
+2. Crea una sección "Highlights" con 3 viñetas que cubran eficiencia, impacto en ingresos/CSAT y mejoras en herramientas, citando métricas de {measured_results}.
+3. Agrega un párrafo "Voz del Cliente" que parafrasee o use directamente {client_quote} (atribuye a {client_name} / {client_company}).
+4. Cierra con un párrafo "Lo que sigue" que mencione {next_recommendation} e invite a una conversación futura.
+5. Mantén el resumen por debajo de 250 palabras, listo para pegar en un caso de estudio o solicitud de testimonio.
+
+FORMATO DE SALIDA:
+[Párrafo de panorama]
+
+**Highlights**
+- Viñeta 1
+- Viñeta 2
+- Viñeta 3
+
+**Voz del Cliente**
+[Cita o parafraseo]
+
+**Lo que sigue**
+[Párrafo orientado al futuro]
+
+EJEMPLO DE USO:
+Pega este prompt en ChatGPT o Claude, reemplaza los campos con los datos de tu proyecto y recibirás un retrospectivo listo para enviar al cliente o convertir en un caso de éxito.

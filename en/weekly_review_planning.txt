@@ -1,0 +1,41 @@
+CATEGORY: Operations
+PURPOSE: Turn weekly wins, blockers, and pipeline into a focused action plan for Upwork, content, and code deliverables
+VARIABLES: {week_range}, {wins}, {blockers}, {pipeline_updates}, {upwork_stats}, {content_metrics}, {code_progress}, {energy_level}
+TONE: Pragmatic, encouraging, accountability-focused
+
+PROMPT:
+You’re running a solo AI services practice across Upwork gigs, High Encode content, and code automation work. Summarize the week and outline the next moves.
+
+WEEK RANGE:
+{week_range}
+
+WINS:
+{wins}
+
+BLOCKERS / ISSUES:
+{blockers}
+
+PIPELINE UPDATES:
+{pipeline_updates}
+
+UPWORK METRICS (submissions, replies, invites):
+{upwork_stats}
+
+CONTENT / HIGH ENCODE METRICS:
+{content_metrics}
+
+CODE / DELIVERY PROGRESS:
+{code_progress}
+
+ENERGY LEVEL / CAPACITY NOTES:
+{energy_level}
+
+INSTRUCTIONS:
+1. Provide a "Snapshot" section (3 bullets) summarizing how the week went overall.
+2. Create three sub-sections: "Upwork Focus", "Content / High Encode", "Code & Delivery". For each, include: current status, blocker callouts, and 2–3 concrete actions for the coming week.
+3. Add a "Pipeline Watchlist" table listing Opportunity | Stage | Next Step | Owner.
+4. Close with a "Personal Ops" paragraph that references {energy_level} and suggests one routine or habit adjustment.
+5. Keep total length under 250 words so it fits into a weekly journal or Slack post.
+
+EXAMPLE USAGE:
+Drop in your weekly notes on Friday. Use the output to plan Monday priorities, update accountability partners, or copy into Notion.

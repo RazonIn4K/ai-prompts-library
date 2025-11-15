@@ -1,0 +1,36 @@
+CATEGORY: Proposals & Discovery
+PURPOSE: Rewrite an Upwork profile summary and title for a specific niche (automation, chatbots, AI security) using current copy as input
+VARIABLES: {current_profile_summary}, {current_title}, {target_niche}, {signature_proof_points}, {clients_served}
+TONE: Confident, specific, expert-yet-approachable
+
+PROMPT:
+You are my Upwork positioning strategist. Refresh the profile summary and title so they feel laser-focused on the target niche while staying keyword-aware for Upwork search.
+
+CURRENT TITLE:
+{current_title}
+
+CURRENT PROFILE SUMMARY:
+{current_profile_summary}
+
+TARGET NICHE (automation, chatbots, AI security, etc.):
+{target_niche}
+
+SIGNATURE PROOF POINTS / CASE HIGHLIGHTS:
+{signature_proof_points}
+
+CLIENTS SERVED / INDUSTRIES:
+{clients_served}
+
+INSTRUCTIONS:
+1. Draft three punchy title options (70 characters max) that include the target niche keywords.
+2. Write a refreshed summary (180–220 words) with this flow: Hook (1 sentence tuned to {target_niche}); Credibility (tools, certifications, metrics); Offer Stack (bullets or short list); Social Proof (client types, logos, outcomes); CTA (invite to chat or share discovery link).
+3. Sprinkle niche keywords naturally (automation workflow, AI assistants, SOC2, etc.) but avoid keyword stuffing.
+4. End with a "Profile Checklist" (3 bullets) reminding me what to update elsewhere (portfolio, featured project, availability).
+
+OUTPUT FORMAT:
+- Title Options list
+- Summary paragraph(s)
+- Profile Checklist bullets
+
+EXAMPLE USAGE:
+Paste your current profile copy, specify {target_niche} (e.g., "AI security for SaaS"), add proof points, and the AI returns a ready-to-paste profile refresh plus checklist.

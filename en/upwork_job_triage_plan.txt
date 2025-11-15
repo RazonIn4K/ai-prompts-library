@@ -1,0 +1,38 @@
+CATEGORY: Proposals & Discovery
+PURPOSE: Evaluate multiple Upwork jobs at once, decide which to pursue, and outline a quick proposal plan per pick
+VARIABLES: {jobs_list}, {available_time_hours}, {current_pipeline_pressure}, {proof_assets}, {followup_capacity}
+TONE: Prioritized, decisive, action-oriented
+
+PROMPT:
+You have limited time today. Review the job options below, score them, and recommend a plan of attack for proposals, Looms, and follow-ups.
+
+JOBS (3–5 entries; include link + summary + budget + timeline):
+{jobs_list}
+
+AVAILABLE TIME (hours):
+{available_time_hours}
+
+PIPELINE PRESSURE / REVENUE NEEDS:
+{current_pipeline_pressure}
+
+PROOF ASSETS ON HAND (case studies, Looms, automations):
+{proof_assets}
+
+FOLLOW-UP CAPACITY (days you can nudge):
+{followup_capacity}
+
+INSTRUCTIONS:
+1. Build a table "Job Triage" with columns Job | Fit Score (1–5) | Est. Effort | Win Rationale.
+2. Recommend which jobs to pursue (Yes/Maybe/Pass) and justify in 1 sentence each.
+3. For each "Yes" job, outline a mini plan: Proposal angle (30 words), Loom hook idea, follow-up timing referencing {followup_capacity}, and any dependencies (e.g., need extra research).
+4. Ensure total effort respects {available_time_hours}; call out if not feasible and suggest deferrals.
+5. Close with a "Focus Order" list (1,2,3) and a quick reminder of assets to reuse from {proof_assets}.
+
+OUTPUT FORMAT:
+- Job Triage table
+- Recommendation bullets
+- Mini Plans (per Yes job)
+- Focus Order list
+
+EXAMPLE USAGE:
+Paste the 3–5 job links/descriptions, specify how many hours you can spend today, and the model returns a prioritized plan so you can execute proposals efficiently.

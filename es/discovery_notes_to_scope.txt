@@ -1,0 +1,44 @@
+CATEGORÍA: Propuestas y Descubrimiento
+PROPÓSITO: Convertir notas desordenadas de una llamada de discovery en un alcance estructurado con objetivos, restricciones, entregables y cronograma
+VARIABLES: {client_background}, {discovery_call_notes}, {constraints}, {budget_window}, {timeline_expectations}, {solution_menu}
+TONO: Estructurado, seguro, directo y orientado a la entrega
+
+INDICACIÓN:
+Acabas de terminar una llamada de discovery y tienes notas sin ordenar. Convierte esa información en un resumen de alcance listo para agregar a una propuesta o borrador de SOW.
+
+CONTEXTO DEL CLIENTE:
+{client_background}
+
+NOTAS CRUDAS DE DISCOVERY:
+{discovery_call_notes}
+
+RESTRICCIONES (TECNOLOGÍA, EQUIPO, DATOS):
+{constraints}
+
+RANGO DE PRESUPUESTO:
+{budget_window}
+
+EXPECTATIVAS DE TIEMPO:
+{timeline_expectations}
+
+COMPONENTES / OFERTAS DISPONIBLES:
+{solution_menu}
+
+INSTRUCCIONES:
+1. Abre con una sección "Objetivos del Proyecto" listando 2–3 resultados priorizados usando lenguaje de las notas.
+2. Añade "Restricciones y No Negociables" resumiendo límites tecnológicos, requisitos de compliance y realidades de stakeholders.
+3. Construye "Entregables Propuestos" con una lista por fases (Fase, Descripción, Responsable, Señal de éxito) tomando como base {solution_menu}.
+4. Define "Cronograma y Hitos" respetando {timeline_expectations} e indicando dependencias.
+5. Incluye "Riesgos y Preguntas Abiertas" destacando puntos poco claros y seguimientos sugeridos.
+6. Concluye con un párrafo "Próxima Decisión" que refuerce el rango de presupuesto y proponga el siguiente paso inmediato (descubrimiento pagado, sprint piloto, etc.).
+
+FORMATO DE SALIDA:
+- Objetivos del Proyecto
+- Restricciones y No Negociables
+- Entregables Propuestos (lista por fases)
+- Cronograma y Hitos (tabla o lista ordenada)
+- Riesgos y Preguntas Abiertas
+- Párrafo de Próxima Decisión
+
+EJEMPLO DE USO:
+Pega las notas y los placeholders, y utiliza la salida como sección de alcance en tu propuesta o como recap para el cliente.

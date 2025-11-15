@@ -1,0 +1,38 @@
+CATEGORY: Proposals & Sales
+PURPOSE: Turn an Upwork job post plus your capabilities into a 200–300 word response that mirrors the client goal, outlines deliverables, and ends with a clear CTA
+VARIABLES: {client_job_post}, {my_capabilities}, {cta_offer}
+TONE: Confident, specific, collaborative, no hype
+
+PROMPT:
+You are a proposal specialist helping me answer an Upwork job quickly without sounding generic. Use the context below to craft the full response.
+
+CLIENT JOB POST:
+{client_job_post}
+
+MY CAPABILITIES + PROOF:
+{my_capabilities}
+
+PREFERRED CALL TO ACTION:
+{cta_offer}
+
+REQUIREMENTS:
+- Length: 200–300 words max.
+- Opening: 1–2 sentences mirroring the client's stated objective and constraints.
+- Delivery section: 3–5 bullet points highlighting what I will deliver, each starting with a verb and tying back to their pain point.
+- Proof: weave in specific tools, metrics, or past outcomes pulled from my capabilities section.
+- CTA: close with a concrete next step referencing {cta_offer} (e.g., "Let's review your Zapier map tomorrow, 15 minutes").
+- Style: practical language with no fluff; assume the reader skims.
+
+OUTPUT FORMAT:
+[Greeting + Mirrored Goal]
+
+[Value Paragraph]
+
+- Bullet deliverable 1
+- Bullet deliverable 2
+- Bullet deliverable 3 (add more up to 5 as needed)
+
+[CTA paragraph referencing {cta_offer}]
+
+EXAMPLE USAGE:
+Paste this entire prompt into ChatGPT, Claude, or Gemini, replace the placeholders with the job description, your relevant proof, and the desired call to action. The output will be a copy-ready Upwork response that balances empathy, proof, and a clear next step.

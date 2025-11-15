@@ -1,0 +1,36 @@
+CATEGORÍA: Propuestas y Descubrimiento
+PROPÓSITO: Reescribir el título y resumen de Upwork para un nicho específico (automatización, chatbots, seguridad IA) usando el copy actual como base
+VARIABLES: {current_profile_summary}, {current_title}, {target_niche}, {signature_proof_points}, {clients_served}
+TONO: Seguro, específico y experto sin sonar distante
+
+INDICACIÓN:
+Eres mi estratega de posicionamiento en Upwork. Actualiza el título y el resumen para que se enfoquen en el nicho deseado y contengan palabras clave útiles para la búsqueda en Upwork.
+
+TÍTULO ACTUAL:
+{current_title}
+
+RESUMEN ACTUAL:
+{current_profile_summary}
+
+NICHO OBJETIVO (automatización, chatbots, seguridad IA, etc.):
+{target_niche}
+
+PRUEBAS / CASOS DESTACADOS:
+{signature_proof_points}
+
+CLIENTES / INDUSTRIAS ATENDIDAS:
+{clients_served}
+
+INSTRUCCIONES:
+1. Propón tres títulos contundentes (máx. 70 caracteres) que incluyan palabras clave del nicho.
+2. Escribe un nuevo resumen (180–220 palabras) con este flujo: Gancho (1 frase alineada al nicho), Credibilidad (herramientas, certificaciones, métricas), Oferta (lista corta o viñetas), Prueba social (tipos de clientes, logos, resultados), CTA (invita a conversar o compartir link de discovery).
+3. Usa palabras clave del nicho de forma natural y evita el relleno forzado.
+4. Cierra con una "Lista de verificación" (3 viñetas) recordando qué actualizar (portafolio, proyecto destacado, disponibilidad).
+
+FORMATO DE SALIDA:
+- Lista con opciones de título
+- Párrafos del nuevo resumen
+- Lista de verificación
+
+EJEMPLO DE USO:
+Pega tu copy actual, define {target_niche} (ej. "chatbots para soporte B2B"), añade tus pruebas clave y obtendrás un perfil listo para pegar con recordatorios para mantener coherencia.

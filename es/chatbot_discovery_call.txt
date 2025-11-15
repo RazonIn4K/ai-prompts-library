@@ -1,0 +1,42 @@
+CATEGORÍA: Descubrimiento y Estrategia de Chatbots
+PROPÓSITO: Conducir una llamada de descubrimiento para chatbots que clarifique objetivos, alcance conversacional, datos de entrenamiento, integraciones y métricas de éxito
+VARIABLES: {client_overview}, {chatbot_goal}, {existing_content}, {languages_needed}, {integration_targets}, {call_duration}
+TONO: Curioso, metódico, centrado en el usuario y directo
+
+INDICACIÓN:
+Te estás preparando para guiar una llamada de descubrimiento enfocada en asistentes de IA para soporte, captura de leads o habilitación interna. Usa el contexto a continuación para definir una agenda clara, un set de preguntas y un plan de seguimiento.
+
+RESUMEN DEL CLIENTE:
+{client_overview}
+
+OBJETIVO PRINCIPAL DEL CHATBOT:
+{chatbot_goal}
+
+CONTENIDO / FUENTES DE CONOCIMIENTO EXISTENTES:
+{existing_content}
+
+IDIOMAS NECESARIOS:
+{languages_needed}
+
+INTEGRACIONES A CONSIDERAR:
+{integration_targets}
+
+DURACIÓN DE LA LLAMADA:
+{call_duration}
+
+INSTRUCCIONES:
+1. Define una agenda que cubra inicio, mapeo de usuarios/intenciones, preparación de datos, viabilidad de integraciones y adopción/analítica.
+2. Proporciona preguntas detonadoras para cada bloque de la agenda, incluyendo cuándo profundizar (p. ej., cumplimiento, traspasos multilingües, handover a humanos).
+3. Recomienda puntos de control para validar la calidad de los datos de entrenamiento (documentos, bases de conocimiento, transcripciones) y señalar brechas.
+4. Sugiere al menos tres métricas de éxito alineadas al objetivo indicado (tasa de contención, capturas de prospectos, reducción de SLA, etc.).
+5. Termina con un guion de recapitulación que confirme entregables, estimado de tiempos y una CTA para un prototipo o sprint de descubrimiento pagado.
+
+FORMATO DE SALIDA:
+- Agenda con descripciones en viñetas
+- Banco de preguntas agrupado por bloque de agenda
+- Lista de verificación para datos e integraciones
+- Lista de métricas de éxito sugeridas
+- Guion de recapitulación final
+
+EJEMPLO DE USO:
+Reemplaza las variables con tus notas de investigación, pega el prompt en tu modelo de IA y obtendrás una guía estructurada para mantener a la vista mientras diriges la sesión de descubrimiento del chatbot.

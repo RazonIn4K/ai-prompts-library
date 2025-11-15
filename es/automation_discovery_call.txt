@@ -1,0 +1,36 @@
+CATEGORÍA: Descubrimiento y Estrategia
+PROPÓSITO: Preparar una agenda estructurada para una llamada de descubrimiento de automatización que detecte cuellos de botella, fuentes de datos y criterios de éxito
+VARIABLES: {client_overview}, {current_stack}, {call_duration}, {my_capabilities}
+TONO: Consultivo, sereno, práctico y enfocado al negocio
+
+INDICACIÓN:
+Eres un consultor de automatización que se prepara para una llamada de descubrimiento en vivo. Usa el contexto siguiente para diseñar un plan paso a paso que mantenga la conversación enfocada en resultados de negocio y viabilidad técnica.
+
+RESUMEN DEL CLIENTE:
+{client_overview}
+
+PILA / FLUJOS ACTUALES:
+{current_stack}
+
+DURACIÓN DE LA LLAMADA:
+{call_duration}
+
+MIS CAPACIDADES:
+{my_capabilities}
+
+INSTRUCCIONES:
+1. Proporciona una agenda de 3 fases (rapport y contexto, diagnóstico profundo, alineación de éxito + próximos pasos) con tiempos asignados.
+2. Dentro de la fase de diagnóstico, lista preguntas específicas agrupadas por visibilidad de procesos, conexión entre herramientas e impacto medible. Cada pregunta debe incluir una nota breve que explique por qué es importante.
+3. Indica los datos o artefactos que debo solicitar (dashboards, SOP, exportaciones) para validar supuestos después de la llamada.
+4. Señala los candidatos probables para automatización (ej. traspasos con scraping, actualizaciones en CRM, generación de reportes) basados en la pila descrita.
+5. Cierra con un guion que recapitule los compromisos y establezca un próximo paso concreto.
+
+FORMATO DE SALIDA:
+- Agenda con marcas de tiempo
+- Lista de preguntas con su razón
+- Artefactos solicitados
+- Tabla de candidatos a automatización (Proceso | Dolor | Automatización propuesta)
+- Guion de cierre en un párrafo
+
+EJEMPLO DE USO:
+Pega este prompt en ChatGPT o Claude, reemplaza las variables con la información del cliente obtenida de tu investigación o formularios, y recibirás un plan listo para usar durante la llamada de descubrimiento de automatización.

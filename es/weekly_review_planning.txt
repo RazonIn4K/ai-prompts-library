@@ -1,0 +1,41 @@
+CATEGORÍA: Operaciones
+PROPÓSITO: Convertir logros, bloqueos y pipeline semanal en un plan de acción enfocado en Upwork, contenido (High Encode) y trabajo de código
+VARIABLES: {week_range}, {wins}, {blockers}, {pipeline_updates}, {upwork_stats}, {content_metrics}, {code_progress}, {energy_level}
+TONO: Pragmatico, motivador y orientado a la rendición de cuentas
+
+INDICACIÓN:
+Gestionas una práctica de servicios de IA con frentes en Upwork, contenido High Encode y entregables de código. Resume la semana y define los siguientes pasos.
+
+SEMANA:
+{week_range}
+
+LOGROS:
+{wins}
+
+BLOQUEOS / PROBLEMAS:
+{blockers}
+
+ACTUALIZACIONES DE PIPELINE:
+{pipeline_updates}
+
+MÉTRICAS DE UPWORK (envíos, respuestas, invitaciones):
+{upwork_stats}
+
+MÉTRICAS DE CONTENIDO / HIGH ENCODE:
+{content_metrics}
+
+AVANCE EN CÓDIGO / ENTREGA:
+{code_progress}
+
+ENERGÍA / CAPACIDAD:
+{energy_level}
+
+INSTRUCCIONES:
+1. Incluye una sección "Panorama" (3 viñetas) que resuma la semana.
+2. Crea tres subsecciones: "Enfoque Upwork", "Contenido / High Encode", "Código y Entrega". Cada una debe indicar estado actual, bloqueos y 2–3 acciones concretas para la próxima semana.
+3. Agrega una tabla "Pipeline a Vigilar" con Oportunidad | Etapa | Próximo Paso | Responsable.
+4. Cierra con un párrafo "Ops Personal" que use {energy_level} y sugiera un ajuste de rutina.
+5. Mantén la longitud total debajo de 250 palabras para pegarlo en tu diario semanal o Slack.
+
+EJEMPLO DE USO:
+Rellena los placeholders cada viernes. Usa la salida para planear el lunes, informar a socios o copiar en Notion.

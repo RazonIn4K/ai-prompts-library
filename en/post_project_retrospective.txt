@@ -1,0 +1,58 @@
+CATEGORY: Post-Engagement
+PURPOSE: Turn project delivery notes into a polished, client-facing recap for case studies or testimonials
+VARIABLES: {client_name}, {client_company}, {project_name}, {engagement_scope}, {before_state}, {after_state}, {measured_results}, {client_quote}, {next_recommendation}
+TONE: Appreciative, confident, partnership-focused, concrete
+
+PROMPT:
+You are wrapping up an automation/chatbot engagement and want to deliver a concise retrospective the client can share internally or externally. Use the context below to highlight outcomes without hype.
+
+CLIENT NAME:
+{client_name}
+
+CLIENT COMPANY:
+{client_company}
+
+PROJECT NAME:
+{project_name}
+
+ENGAGEMENT SCOPE:
+{engagement_scope}
+
+BEFORE STATE / CHALLENGE:
+{before_state}
+
+AFTER STATE / SOLUTION:
+{after_state}
+
+MEASURED RESULTS / METRICS:
+{measured_results}
+
+CLIENT QUOTE OR FEEDBACK:
+{client_quote}
+
+NEXT RECOMMENDATION OR EXTENSION IDEA:
+{next_recommendation}
+
+INSTRUCTIONS:
+1. Draft a 2–3 sentence overview summarizing the client goal and the transformation achieved.
+2. Create a "Highlights" section with 3 bullet points covering efficiency wins, revenue/CSAT impact, and tooling improvements, referencing specific metrics from {measured_results}.
+3. Add a "Client Voice" paragraph that paraphrases or directly uses {client_quote} (attribute it to {client_name} / {client_company}).
+4. Close with a "What’s Next" paragraph that references {next_recommendation} and invites a follow-up conversation.
+5. Keep the recap under 250 words, ready to paste into a case study or testimonial request.
+
+OUTPUT FORMAT:
+[Overview paragraph]
+
+**Highlights**
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+**Client Voice**
+[Quote or paraphrased endorsement]
+
+**What’s Next**
+[Forward-looking paragraph]
+
+EXAMPLE USAGE:
+Paste this prompt into ChatGPT or Claude, replace the placeholders with your engagement details, and you will receive a polished retrospective you can email to the client or adapt into a case study slide.

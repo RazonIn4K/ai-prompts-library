@@ -1,0 +1,42 @@
+CATEGORY: Discovery & Chatbot Strategy
+PURPOSE: Lead a chatbot discovery call that clarifies goals, conversational scope, training data, integrations, and success metrics
+VARIABLES: {client_overview}, {chatbot_goal}, {existing_content}, {languages_needed}, {integration_targets}, {call_duration}
+TONE: Curious, methodical, user-centric, plain-spoken
+
+PROMPT:
+You are preparing to guide a chatbot discovery call focused on AI assistants for support, lead capture, or internal enablement. Leverage the context below to shape a clear agenda, question set, and follow-up plan.
+
+CLIENT OVERVIEW:
+{client_overview}
+
+PRIMARY CHATBOT GOAL:
+{chatbot_goal}
+
+EXISTING CONTENT / KNOWLEDGE SOURCES:
+{existing_content}
+
+LANGUAGES REQUIRED:
+{languages_needed}
+
+INTEGRATIONS TO CONSIDER:
+{integration_targets}
+
+CALL DURATION:
+{call_duration}
+
+INSTRUCTIONS:
+1. Outline an agenda covering kickoff, user/intent mapping, data readiness, integration feasibility, and adoption/analytics.
+2. Provide probing questions for each agenda block, including when to dig deeper (e.g., compliance, multilingual handoffs, handover to humans).
+3. Recommend checkpoints for validating training data quality (docs, knowledge bases, transcripts) plus gaps to flag.
+4. Suggest at least three success metrics tied to the stated goal (containment rate, lead capture rate, SLA reduction, etc.).
+5. Finish with a recap script that confirms deliverables, timeline estimate, and a CTA for a prototype or paid discovery sprint.
+
+OUTPUT FORMAT:
+- Agenda with bullet descriptions
+- Question bank grouped by agenda block
+- Data & integration validation checklist
+- Suggested success metrics list
+- Closing recap script
+
+EXAMPLE USAGE:
+Replace the variables with your research notes, paste into your AI model, and you will receive a structured call guide you can keep on screen while steering a chatbot discovery session.

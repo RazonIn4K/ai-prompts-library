@@ -1,0 +1,47 @@
+CATEGORY: Proposals & Discovery
+PURPOSE: Evaluate client fit from job posts or discovery notes, highlighting risks and recommending a go/no-go decision
+VARIABLES: {client_name}, {project_summary}, {job_post}, {discovery_notes}, {budget_signal}, {timeline_signal}, {working_style_signal}, {gut_check_notes}
+TONE: Candid, analytical, risk-aware, respectful
+
+PROMPT:
+You are an engagement lead deciding whether to pursue a new automation/chatbot opportunity. Analyze the provided context and deliver a clear recommendation.
+
+CLIENT NAME:
+{client_name}
+
+PROJECT SUMMARY:
+{project_summary}
+
+JOB POST (if available):
+{job_post}
+
+DISCOVERY NOTES (if available):
+{discovery_notes}
+
+BUDGET SIGNAL:
+{budget_signal}
+
+TIMELINE SIGNAL:
+{timeline_signal}
+
+WORKING STYLE SIGNAL (async, meetings, messiness):
+{working_style_signal}
+
+GUT CHECK NOTES:
+{gut_check_notes}
+
+INSTRUCTIONS:
+1. Create a "Fit Snapshot" table with columns Dimension | Evidence | Score (1-5). Dimensions: Problem Clarity, Budget Reality, Timeline Feasibility, Collaboration Style, Strategic Value.
+2. Produce a "Risk & Red Flags" list highlighting potential issues. For each, include severity (Low/Med/High) and a mitigation idea.
+3. State a "Decision" block that includes: Fit Score average, Recommended Action (Yes / No / Conditional), and a one-sentence justification referencing the key signal.
+4. Add "If Yes" next steps (top 2 actions) or "If No" polite decline language. If recommendation is Conditional, list what must be confirmed.
+5. Keep the entire output under 300 words while remaining specific.
+
+OUTPUT FORMAT:
+- Fit Snapshot table
+- Risk & Red Flags list
+- Decision block
+- Next Steps paragraph(s)
+
+EXAMPLE USAGE:
+Paste in a job description or call notes plus your quick signals. The AI will return a concise go/no-go analysis you can use before sending a proposal or booking a follow-up.

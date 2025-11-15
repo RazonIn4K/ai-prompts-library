@@ -1,0 +1,47 @@
+CATEGORÍA: Propuestas y Descubrimiento
+PROPÓSITO: Evaluar si conviene aceptar un proyecto a partir de publicaciones o notas de discovery, identificando riesgos y recomendando sí/no
+VARIABLES: {client_name}, {project_summary}, {job_post}, {discovery_notes}, {budget_signal}, {timeline_signal}, {working_style_signal}, {gut_check_notes}
+TONO: Directo, analítico, consciente del riesgo y respetuoso
+
+INDICACIÓN:
+Eres el responsable de cuentas y debes decidir si avanzar con una oportunidad de automatización/chatbots. Analiza el contexto y entrega una recomendación clara.
+
+NOMBRE DEL CLIENTE:
+{client_name}
+
+RESUMEN DEL PROYECTO:
+{project_summary}
+
+PUBLICACIÓN DEL TRABAJO (si aplica):
+{job_post}
+
+NOTAS DE DISCOVERY (si aplica):
+{discovery_notes}
+
+SEÑAL DE PRESUPUESTO:
+{budget_signal}
+
+SEÑAL DE TIEMPO:
+{timeline_signal}
+
+SEÑAL DE ESTILO DE TRABAJO (async, reuniones, caos):
+{working_style_signal}
+
+NOTAS DE INSTINTO:
+{gut_check_notes}
+
+INSTRUCCIONES:
+1. Crea una tabla "Radiografía de Encaje" con columnas Dimensión | Evidencia | Puntaje (1-5). Dimensiones: Claridad del problema, Realismo del presupuesto, Viabilidad de tiempos, Estilo de colaboración, Valor estratégico.
+2. Genera una lista de "Riesgos y Banderas Rojas". Para cada punto, incluye severidad (Baja/Media/Alta) y una idea de mitigación.
+3. Redacta un bloque "Decisión" con: Puntaje promedio, Acción recomendada (Sí / No / Condicional) y una frase justificando la elección.
+4. Añade próximos pasos: si es Sí, dos acciones clave; si es No, un texto breve para declinar; si es Condicional, lo que debe confirmarse.
+5. Mantén todo el output por debajo de 300 palabras y con ejemplos concretos.
+
+FORMATO DE SALIDA:
+- Tabla Radiografía de Encaje
+- Lista de Riesgos y Banderas Rojas
+- Bloque de Decisión
+- Párrafos de Próximos Pasos
+
+EJEMPLO DE USO:
+Pega la publicación o notas de llamada más tus señales rápidas. La IA devolverá un análisis go/no-go que puedes revisar antes de comprometerte con una propuesta.
