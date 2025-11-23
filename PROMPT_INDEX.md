@@ -80,6 +80,15 @@ Reusable message templates for GoHighLevel (GHL) campaigns across audience segme
 |--------|---------|-------|------------|
 | **GHL Message Templates** | Launch announcements, reminders, replays, teasers, newsletters, upsells, and support by segment | [en](en/ghl_message_templates.txt) / [es](es/ghl_message_templates.txt) | Standard |
 
+### 🤖 Marketing Automation
+Ready-to-use conversational copy for chatbot and messaging platform flows.
+
+| Prompt | Purpose | Files | Complexity |
+|--------|---------|-------|------------|
+| **ManyChat Copy Snippets** | Conversational copy for ManyChat flows with CTA buttons and tags | [en](en/manychat_copy_snippets.md) | Standard |
+| **Marketing Copy Blocks** | Checklist landing pages, quiz funnels, blog CTAs, popups, and 5-email sequences | [en](en/marketing_copy_blocks.md) | Standard |
+| **Systeme.io Copy Snippets** | Email copy for welcome sequences, nurture flows, discovery call CTAs, and drip reminders | [en](en/systeme_io_copy_snippets.md) | Standard |
+
 ---
 
 ## By Category
@@ -116,6 +125,11 @@ Reusable message templates for GoHighLevel (GHL) campaigns across audience segme
 
 ### Email & SMS Marketing (1 prompt)
 - GHL Message Templates
+
+### Marketing Automation (3 prompts)
+- ManyChat Copy Snippets
+- Marketing Copy Blocks
+- Systeme.io Copy Snippets
 
 ---
 
@@ -162,6 +176,11 @@ Each prompt is tagged with labels to help you filter by:
 
 #### 📧 Email & SMS Marketing
 - **GHL Message Templates** — Marketing, Standard, Message Templates, GHL / Membership / Courses
+
+#### 🤖 Marketing Automation
+- **ManyChat Copy Snippets** — Marketing Automation, Standard, Conversational Copy, ManyChat / WhatsApp / E-commerce / Coaches
+- **Marketing Copy Blocks** — Marketing Automation, Standard, Multi-format Copy, Landing Pages / Email Sequences / Quiz Funnels / B2B / SaaS
+- **Systeme.io Copy Snippets** — Email Marketing, Standard, Email Sequences, Systeme.io / Coaches / Course Creators / Service Providers
 
 ---
 
@@ -476,6 +495,63 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
+### 19. ManyChat Copy Snippets
+**Category:** Marketing Automation
+**Purpose:** Ready-to-use conversational copy snippets for ManyChat flows with CTA buttons and tags
+**Variables:** `{lead_name}`, `{product_name}`, `{price}`, `{bonus_name}`, `{deadline}`, `{whatsapp_link}`, `{testimonial_name}`, `{result_achieved}`
+**Tone:** Friendly mentor, warm, encouraging, conversational, no pressure
+**Complexity:** Standard
+**Files:** [English](en/manychat_copy_snippets.md)
+
+**Use When:**
+- Building ManyChat automation flows and need plug-and-play copy
+- Setting up welcome sequences, nurture flows, or sales funnels
+- Creating waitlist campaigns with urgency and countdown messaging
+- Designing FAQ bots or WhatsApp community invitations
+
+**Expected Output:** Complete copy blocks for 8 ManyChat flow types: keyword responses, welcome messages, waitlist pitches, nurture sequences (tips/testimonials/mini lessons), payment nudges, WhatsApp invites, countdown reminders, and FAQ responses—each with CTA button options and recommended ManyChat tags
+
+---
+
+### 20. Marketing Copy Blocks
+**Category:** Marketing Automation
+**Purpose:** Comprehensive copy blocks for checklist landing pages, quiz funnels, blog CTAs, popup headlines, and 5-email follow-up sequences
+**Variables:** `{lead_name}`, `{company_name}`, `{checklist_title}`, `{quiz_title}`, `{result_type}`, `{product_name}`, `{industry}`, `{stat_number}`, `{stat_source}`, `{benefit_1}`, `{benefit_2}`, `{benefit_3}`, `{cta_url}`
+**Tone:** Data-backed, compliance-friendly, professional, clear, benefit-driven
+**Complexity:** Standard
+**Files:** [English](en/marketing_copy_blocks.md)
+
+**Use When:**
+- Building lead magnet landing pages for checklists or downloadable resources
+- Creating quiz funnels with personalized result pages and segmentation
+- Adding high-converting CTAs to blog content (inline, end-of-post, sidebar)
+- Designing popup campaigns (exit-intent, timed, scroll-triggered)
+- Setting up 5-email follow-up sequences (orientation → proof → mini-teach → soft CTA → hard CTA)
+
+**Expected Output:** Complete copy blocks for 5 marketing asset types: (1) checklist landing page with headlines, body copy, form sections, and trust indicators; (2) quiz intro/results screens with three result paths; (3) blog CTAs for inline, end-of-article, and sidebar placements; (4) popup headlines for exit-intent, timed, and promotional use; (5) 5-email nurture sequence with subject lines and full body copy—all with compliance notes and variable references
+
+---
+
+### 21. Systeme.io Copy Snippets
+**Category:** Marketing Automation / Email Marketing
+**Purpose:** Reusable email copy for systeme.io campaigns including welcome sequences, nurture flows, discovery call CTAs, and drip reminders
+**Variables:** `{first_name}`, `{offer_name}`, `{bonus}`, `{deadline}`, `{calendar_link}`, `{sender_name}`, `{company_name}`
+**Tone:** Warm professional, conversational mentor, encouraging without being pushy
+**Complexity:** Standard
+**Files:** [English](en/systeme_io_copy_snippets.md)
+
+**Use When:**
+- Building systeme.io email automation campaigns
+- Setting up welcome sequences for new subscribers
+- Creating nurture flows to warm up leads before offers
+- Writing discovery call invitations and follow-ups
+- Designing deadline-based launch and drip reminder sequences
+- Re-engaging inactive subscribers
+
+**Expected Output:** Complete email templates across 5 categories: welcome emails (new lead, lead magnet delivery, returning subscriber), nurture touchpoints (teaching frameworks, stories, testimonials, FAQ/objection handlers, quick tips), discovery call CTAs (soft/direct invitations, reminders, no-show follow-ups), drip reminders (launch announcements, 72hr/24hr/final hour deadlines, post-deadline), and re-engagement emails (check-ins, value bombs, last-chance)—each with subject line options, segment-specific notes, and systeme.io tag recommendations
+
+---
+
 ## How to Use the Index
 
 1. **Start with "By Use Case"** if you know what you're trying to accomplish
@@ -498,4 +574,4 @@ When adding new prompts to the library:
 ---
 
 **Last Updated:** November 2025
-**Total Prompts:** 36 (18 English + 18 Spanish)
+**Total Prompts:** 38 (21 English + 17 Spanish)
