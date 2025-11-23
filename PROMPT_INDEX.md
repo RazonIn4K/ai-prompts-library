@@ -73,6 +73,13 @@ Run the business side of your solo practice with weekly planning.
 |--------|---------|-------|------------|
 | **Weekly Review & Planning** | Convert weekly notes into a go-forward plan | [en](en/weekly_review_planning.txt) / [es](es/weekly_review_planning.txt) | Quick |
 
+### 🤖 Marketing Automation
+Ready-to-use conversational copy for chatbot and messaging platform flows.
+
+| Prompt | Purpose | Files | Complexity |
+|--------|---------|-------|------------|
+| **ManyChat Copy Snippets** | Conversational copy for ManyChat flows with CTA buttons and tags | [en](en/manychat_copy_snippets.md) | Standard |
+
 ---
 
 ## By Category
@@ -106,6 +113,9 @@ Run the business side of your solo practice with weekly planning.
 
 ### Operations (1 prompt)
 - Weekly Review & Planning
+
+### Marketing Automation (1 prompt)
+- ManyChat Copy Snippets
 
 ---
 
@@ -149,6 +159,9 @@ Each prompt is tagged with labels to help you filter by:
 
 #### ⚙️ Operations
 - **Weekly Review & Planning** — Operations, Quick, Weekly Brief, Solo Practice
+
+#### 🤖 Marketing Automation
+- **ManyChat Copy Snippets** — Marketing Automation, Standard, Conversational Copy, ManyChat / WhatsApp / E-commerce / Coaches
 
 ---
 
@@ -446,6 +459,24 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
+### 18. ManyChat Copy Snippets
+**Category:** Marketing Automation
+**Purpose:** Ready-to-use conversational copy snippets for ManyChat flows with CTA buttons and tags
+**Variables:** `{lead_name}`, `{product_name}`, `{price}`, `{bonus_name}`, `{deadline}`, `{whatsapp_link}`, `{testimonial_name}`, `{result_achieved}`
+**Tone:** Friendly mentor, warm, encouraging, conversational, no pressure
+**Complexity:** Standard
+**Files:** [English](en/manychat_copy_snippets.md)
+
+**Use When:**
+- Building ManyChat automation flows and need plug-and-play copy
+- Setting up welcome sequences, nurture flows, or sales funnels
+- Creating waitlist campaigns with urgency and countdown messaging
+- Designing FAQ bots or WhatsApp community invitations
+
+**Expected Output:** Complete copy blocks for 8 ManyChat flow types: keyword responses, welcome messages, waitlist pitches, nurture sequences (tips/testimonials/mini lessons), payment nudges, WhatsApp invites, countdown reminders, and FAQ responses—each with CTA button options and recommended ManyChat tags
+
+---
+
 ## How to Use the Index
 
 1. **Start with "By Use Case"** if you know what you're trying to accomplish
@@ -467,5 +498,5 @@ When adding new prompts to the library:
 
 ---
 
-**Last Updated:** January 2025
-**Total Prompts:** 32 (16 English + 16 Spanish)
+**Last Updated:** November 2025
+**Total Prompts:** 33 (17 English + 16 Spanish)
