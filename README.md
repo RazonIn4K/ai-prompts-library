@@ -169,6 +169,20 @@ List {wins}, {blockers}, and pipeline notes at the end of the week. The output s
 and adds a pipeline watchlist plus personal ops reminder—all in under 250 words.
 ```
 
+### Marketing Automation
+Ready-to-use conversational copy for chatbot and messaging platform flows.
+
+#### ManyChat Copy Snippets
+Complete conversational copy for every ManyChat flow step: keyword responses, welcome messages, waitlist pitches, nurture sequences (tips, testimonials, mini lessons), payment nudges, WhatsApp invites, countdown reminders, and FAQ responses. Includes CTA button options and recommended ManyChat tags for segmentation.
+
+- **English**: [en/manychat_copy_snippets.md](en/manychat_copy_snippets.md)
+
+**Quick Example:**
+```
+Use the copy blocks directly in ManyChat by replacing {lead_name}, {product_name}, {price}, and other variables.
+Each snippet includes button labels and tag recommendations—just copy, customize, and publish your flow.
+```
+
 ## 🌍 Supported Languages
 
 - **English** (`en/`)
@@ -255,7 +269,7 @@ Your input: "Hi Sarah, I noticed you just launched a podcast on startup culture.
 ## 🔍 Find the Right Prompt
 
 - **Quick reference**: [PROMPT_INDEX.md](PROMPT_INDEX.md) – Organized by use case, category, and tags
-- **By category**: Outreach, Discovery, Chatbot, Content, Proposals, Post-Engagement, Operations
+- **By category**: Outreach, Discovery, Chatbot, Content, Proposals, Post-Engagement, Operations, Marketing Automation
 - **By complexity**: Quick (< 2 min), Standard (2–5 min), Advanced (5+ min)
 
 ## 🤝 Contributing
@@ -297,7 +311,7 @@ This project is open source and available for use in your AI applications and wo
 ## ✨ Key Features
 
 - **Standardized format** across all prompts for consistency and discoverability
-- **32 bilingual prompts** covering outreach, discovery, chatbot, content, proposals, post-engagement, and operations
+- **33 bilingual prompts** covering outreach, discovery, chatbot, content, proposals, post-engagement, operations, and marketing automation
 - **Platform-agnostic** – Use with ChatGPT, Claude, Gemini, Copilot, and more
 - **Production-ready** – Each prompt has been tested and refined for real-world use
 - **Easy customization** – Clear variables and tone guidance for your specific needs
@@ -307,4 +321,4 @@ This project is open source and available for use in your AI applications and wo
 
 **Note**: These prompts are designed to work with various AI models (GPT-4, Claude 3, Gemini Pro, etc.). Results vary by model and parameters. Test with your preferred AI platform and adjust variables for optimal results.
 
-**Last Updated:** January 2025
+**Last Updated:** November 2025
