@@ -169,6 +169,22 @@ List {wins}, {blockers}, and pipeline notes at the end of the week. The output s
 and adds a pipeline watchlist plus personal ops reminder—all in under 250 words.
 ```
 
+### Email & SMS Marketing
+Reusable message templates for GoHighLevel (GHL) campaigns across audience segments.
+
+#### GHL Message Templates
+Complete collection of email and SMS templates for product launches, reminder sequences, replay delivery, monthly teasers, newsletters, upsells, and support replies—segmented for All Access, Basic Member, and Non-member audiences.
+
+- **English**: [en/ghl_message_templates.txt](en/ghl_message_templates.txt)
+- **Spanish**: [es/ghl_message_templates.txt](es/ghl_message_templates.txt)
+
+**Quick Example:**
+```
+Choose template type (launch/reminder/replay/teaser/newsletter/upsell/support), select audience segment,
+replace placeholders like {product_name}, {launch_date}, {member_name}, {discount_code}, and paste into GHL.
+Templates include subject lines, email body copy, and SMS variants ready to customize.
+```
+
 ## 🌍 Supported Languages
 
 - **English** (`en/`)
@@ -297,7 +313,7 @@ This project is open source and available for use in your AI applications and wo
 ## ✨ Key Features
 
 - **Standardized format** across all prompts for consistency and discoverability
-- **32 bilingual prompts** covering outreach, discovery, chatbot, content, proposals, post-engagement, and operations
+- **36 bilingual prompts** covering outreach, discovery, chatbot, content, proposals, post-engagement, operations, and email/SMS marketing
 - **Platform-agnostic** – Use with ChatGPT, Claude, Gemini, Copilot, and more
 - **Production-ready** – Each prompt has been tested and refined for real-world use
 - **Easy customization** – Clear variables and tone guidance for your specific needs

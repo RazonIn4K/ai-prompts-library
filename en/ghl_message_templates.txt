@@ -1,0 +1,643 @@
+CATEGORY: Email & SMS Marketing
+PURPOSE: Reusable GoHighLevel (GHL) campaign message templates for launches, reminders, replays, teasers, newsletters, upsells, and support across audience segments
+VARIABLES: {product_name}, {launch_date}, {event_date}, {event_time}, {timezone}, {replay_link}, {access_link}, {member_name}, {product_price}, {discount_amount}, {discount_code}, {expiry_date}, {support_topic}, {cta_link}, {company_name}, {sender_name}
+TONE: Warm, professional, action-oriented, segment-appropriate (exclusive for All Access, appreciative for Basic, inviting for Non-member)
+
+PROMPT:
+You are a marketing copywriter creating GoHighLevel (GHL) campaign messages. Generate messages using the templates below, replacing placeholders with actual values. Adapt tone based on audience segment.
+
+---
+
+## AUDIENCE SEGMENTS
+
+**All Access** – Premium members with full access to all products/content. Tone: Exclusive, appreciative, insider language.
+**Basic Member** – Entry-level members with limited access. Tone: Grateful, upgrade-focused, value-highlighting.
+**Non-member** – Prospects or leads not yet subscribed. Tone: Inviting, benefit-driven, urgency-appropriate.
+
+---
+
+## 1. LAUNCH ANNOUNCEMENT TEMPLATES
+
+### All Access – Launch Announcement (Email)
+
+Subject: {member_name}, your exclusive early access to {product_name} is here
+
+Hey {member_name},
+
+As an All Access member, you're getting first dibs on {product_name} before anyone else.
+
+Starting {launch_date}, you'll have immediate access—no extra charge, no waitlist.
+
+Here's what's included:
+• [Benefit 1]
+• [Benefit 2]
+• [Benefit 3]
+
+Access it now: {access_link}
+
+Thanks for being part of the inner circle.
+
+{sender_name}
+{company_name}
+
+---
+
+### All Access – Launch Announcement (SMS)
+
+{member_name}, {product_name} just dropped! As All Access, you're in automatically. Check it out: {access_link}
+
+---
+
+### Basic Member – Launch Announcement (Email)
+
+Subject: Introducing {product_name} – Special pricing for members like you
+
+Hi {member_name},
+
+Big news: {product_name} launches {launch_date}, and as a valued member, you get exclusive early access.
+
+Here's what you'll get:
+• [Benefit 1]
+• [Benefit 2]
+• [Benefit 3]
+
+Member-only price: {product_price} (save {discount_amount} with code {discount_code})
+
+Grab your spot: {cta_link}
+
+This offer expires {expiry_date}.
+
+{sender_name}
+{company_name}
+
+---
+
+### Basic Member – Launch Announcement (SMS)
+
+{member_name}, {product_name} is LIVE! Members save {discount_amount} with code {discount_code}. Ends {expiry_date}: {cta_link}
+
+---
+
+### Non-member – Launch Announcement (Email)
+
+Subject: {product_name} is here – Join the waitlist now
+
+Hi {member_name},
+
+You've been asking for this, and it's finally here.
+
+{product_name} launches {launch_date}—and early supporters get priority access.
+
+What's inside:
+• [Benefit 1]
+• [Benefit 2]
+• [Benefit 3]
+
+Secure your spot now: {cta_link}
+
+Don't miss the launch window—early bird pricing ends {expiry_date}.
+
+{sender_name}
+{company_name}
+
+---
+
+### Non-member – Launch Announcement (SMS)
+
+{product_name} launches {launch_date}! Early bird pricing available now. Don't miss out: {cta_link}
+
+---
+
+## 2. REMINDER SEQUENCE TEMPLATES
+
+### All Access – Reminder Sequence (Email Series)
+
+**Email 1: 3 Days Before**
+Subject: {member_name}, {product_name} goes live in 3 days
+
+Hey {member_name},
+
+Quick reminder: {product_name} drops on {launch_date} and you'll have instant access as an All Access member.
+
+Mark your calendar—I'll send you the direct link the moment it's live.
+
+{sender_name}
+
+---
+
+**Email 2: Day Before**
+Subject: Tomorrow: {product_name} unlocks for you
+
+{member_name},
+
+This is it—{product_name} goes live tomorrow ({launch_date}).
+
+As an All Access member, everything is already included in your membership. Just log in and dive in.
+
+See you on the inside.
+
+{sender_name}
+
+---
+
+**Email 3: Day Of**
+Subject: It's LIVE: {product_name} is ready for you
+
+{member_name},
+
+{product_name} is officially live.
+
+Access it now: {access_link}
+
+No checkout, no extra steps—it's already yours.
+
+{sender_name}
+
+---
+
+### Basic Member – Reminder Sequence (Email Series)
+
+**Email 1: 3 Days Before**
+Subject: 3 days until {product_name} – lock in your member discount
+
+Hi {member_name},
+
+{product_name} launches in 3 days ({launch_date}).
+
+As a member, you'll get {discount_amount} off with code {discount_code}—but only until {expiry_date}.
+
+Reserve your spot: {cta_link}
+
+{sender_name}
+
+---
+
+**Email 2: Day Before**
+Subject: Tomorrow: {product_name} launches (your discount expires soon)
+
+{member_name},
+
+Last reminder before launch: {product_name} goes live tomorrow.
+
+Your member code {discount_code} saves you {discount_amount}, but it expires {expiry_date}.
+
+Don't wait: {cta_link}
+
+{sender_name}
+
+---
+
+**Email 3: Day Of**
+Subject: {product_name} is LIVE – Use your member discount now
+
+{member_name},
+
+{product_name} just launched!
+
+Use code {discount_code} at checkout for {discount_amount} off.
+
+Get it here: {cta_link}
+
+Offer valid until {expiry_date}.
+
+{sender_name}
+
+---
+
+### Non-member – Reminder Sequence (Email Series)
+
+**Email 1: 3 Days Before**
+Subject: {product_name} launches in 3 days – are you in?
+
+Hi {member_name},
+
+In 3 days, {product_name} officially launches.
+
+Early bird pricing is available NOW, but only until {expiry_date}.
+
+Secure your spot: {cta_link}
+
+{sender_name}
+
+---
+
+**Email 2: Day Before**
+Subject: Tomorrow: {product_name} goes live
+
+{member_name},
+
+Tomorrow's the day. {product_name} launches {launch_date}.
+
+Early bird pricing ends {expiry_date}—this is your last chance to save.
+
+Claim your spot: {cta_link}
+
+{sender_name}
+
+---
+
+**Email 3: Day Of**
+Subject: {product_name} is NOW LIVE
+
+{member_name},
+
+It's here. {product_name} is officially live.
+
+Grab it now before early pricing expires: {cta_link}
+
+{sender_name}
+
+---
+
+### Reminder SMS Templates (All Segments)
+
+**3 Days Before:**
+{member_name}, {product_name} drops in 3 days! Get ready: {cta_link}
+
+**Day Before:**
+Tomorrow: {product_name} launches! Don't miss it: {cta_link}
+
+**Day Of:**
+IT'S LIVE! {product_name} is ready. Access now: {cta_link}
+
+---
+
+## 3. REPLAY DELIVERY TEMPLATES
+
+### All Access – Replay Delivery (Email)
+
+Subject: {member_name}, your replay is ready
+
+Hey {member_name},
+
+Missed the live session? No worries—your replay is ready.
+
+Watch now: {replay_link}
+
+As an All Access member, this replay is yours to keep forever. Rewatch anytime.
+
+{sender_name}
+
+---
+
+### All Access – Replay Delivery (SMS)
+
+Replay ready! Watch {product_name} now: {replay_link}
+
+---
+
+### Basic Member – Replay Delivery (Email)
+
+Subject: Your {product_name} replay is here
+
+Hi {member_name},
+
+Thanks for joining us! Here's your replay:
+
+Watch now: {replay_link}
+
+Replay available until {expiry_date}.
+
+Want unlimited access to all replays? Upgrade to All Access: {cta_link}
+
+{sender_name}
+
+---
+
+### Basic Member – Replay Delivery (SMS)
+
+Your replay is ready: {replay_link} (available until {expiry_date})
+
+---
+
+### Non-member – Replay Delivery (Email)
+
+Subject: Watch the replay of {product_name}
+
+Hi {member_name},
+
+Thanks for your interest in {product_name}. Here's your limited-time replay:
+
+Watch now: {replay_link}
+
+Replay expires {expiry_date}.
+
+Ready to get full access? Join here: {cta_link}
+
+{sender_name}
+
+---
+
+### Non-member – Replay Delivery (SMS)
+
+Your replay: {replay_link} – Watch before {expiry_date}!
+
+---
+
+## 4. MONTHLY PRODUCT TEASER TEMPLATES
+
+### All Access – Monthly Teaser (Email)
+
+Subject: Coming this month: {product_name}
+
+Hey {member_name},
+
+Here's a sneak peek at what's dropping this month...
+
+**{product_name}** – Available {launch_date}
+
+• [Feature/benefit preview 1]
+• [Feature/benefit preview 2]
+• [Feature/benefit preview 3]
+
+As an All Access member, it's automatically included. I'll send you the link when it's live.
+
+Stay tuned,
+{sender_name}
+
+---
+
+### Basic Member – Monthly Teaser (Email)
+
+Subject: This month: {product_name} (exclusive member preview)
+
+Hi {member_name},
+
+Exciting news for this month...
+
+**{product_name}** launches {launch_date}
+
+Here's what's coming:
+• [Feature/benefit preview 1]
+• [Feature/benefit preview 2]
+• [Feature/benefit preview 3]
+
+Members get first access + special pricing. Watch your inbox on {launch_date}.
+
+{sender_name}
+
+---
+
+### Non-member – Monthly Teaser (Email)
+
+Subject: Something new is coming: {product_name}
+
+Hi {member_name},
+
+Mark your calendar for {launch_date}.
+
+We're launching **{product_name}**—and you're on the early notification list.
+
+Here's a preview:
+• [Feature/benefit preview 1]
+• [Feature/benefit preview 2]
+• [Feature/benefit preview 3]
+
+Want early access + member pricing? Join now: {cta_link}
+
+{sender_name}
+
+---
+
+### Monthly Teaser SMS (All Segments)
+
+Coming {launch_date}: {product_name}! Stay tuned for exclusive access.
+
+---
+
+## 5. NEWSLETTER SNIPPET TEMPLATES
+
+### All Access – Newsletter Snippet
+
+**Section Header:** Your All Access Perks This Week
+
+{member_name}, here's what's new in your membership:
+
+✓ **New Release:** {product_name} – Now available in your dashboard
+✓ **Coming Soon:** [Upcoming product/feature]
+✓ **Member Spotlight:** [Community win or testimonial]
+
+Access your dashboard: {access_link}
+
+---
+
+### Basic Member – Newsletter Snippet
+
+**Section Header:** Member Updates
+
+Hi {member_name},
+
+Here's what's happening:
+
+• **New for Members:** {product_name} – Get {discount_amount} off with code {discount_code}
+• **Upgrade Perk:** All Access members get [exclusive benefit]. Learn more: {cta_link}
+• **Resource:** [Helpful tip or article link]
+
+---
+
+### Non-member – Newsletter Snippet
+
+**Section Header:** What You're Missing
+
+Hi {member_name},
+
+Here's what our members are enjoying right now:
+
+• **Hot Release:** {product_name}
+• **Member Benefit:** [Exclusive perk they'd get]
+• **Community:** [Social proof or testimonial]
+
+Ready to join? {cta_link}
+
+---
+
+## 6. UPSELL PROMPT TEMPLATES
+
+### Basic Member → All Access Upsell (Email)
+
+Subject: Unlock everything with All Access, {member_name}
+
+Hi {member_name},
+
+You've been getting value from your Basic membership—but imagine having access to EVERYTHING.
+
+**What All Access includes:**
+• Instant access to {product_name} and all future releases
+• [Premium benefit 1]
+• [Premium benefit 2]
+• [Premium benefit 3]
+
+Upgrade now and save {discount_amount}: {cta_link}
+
+Use code {discount_code} at checkout. Expires {expiry_date}.
+
+{sender_name}
+
+---
+
+### Basic Member → All Access Upsell (SMS)
+
+{member_name}, upgrade to All Access and unlock {product_name} + everything else. Save {discount_amount} with code {discount_code}: {cta_link}
+
+---
+
+### Non-member → Basic Member Upsell (Email)
+
+Subject: Join {company_name} and get {product_name}
+
+Hi {member_name},
+
+You've been following along—now it's time to go deeper.
+
+**Basic Membership includes:**
+• Access to {product_name}
+• [Core benefit 1]
+• [Core benefit 2]
+• Member-only pricing on all future releases
+
+Join today for just {product_price}: {cta_link}
+
+Limited spots available.
+
+{sender_name}
+
+---
+
+### Non-member → Basic Member Upsell (SMS)
+
+Ready to join? Get {product_name} + member perks for {product_price}: {cta_link}
+
+---
+
+### Non-member → All Access Upsell (Email)
+
+Subject: Skip Basic—go straight to All Access
+
+Hi {member_name},
+
+Why start small when you can have it all?
+
+**All Access gives you:**
+• Instant access to {product_name} and our entire library
+• [Premium benefit 1]
+• [Premium benefit 2]
+• Priority support and early access to everything
+
+Join All Access: {cta_link}
+
+{sender_name}
+
+---
+
+### Non-member → All Access Upsell (SMS)
+
+Go All Access: Get {product_name} + our full library instantly. Join now: {cta_link}
+
+---
+
+## 7. SUPPORT REPLY TEMPLATES
+
+### All Access – Support Reply
+
+Subject: Re: {support_topic}
+
+Hi {member_name},
+
+Thanks for reaching out—happy to help!
+
+[Personalized response addressing their specific issue]
+
+As an All Access member, you also have access to:
+• Priority support (you're at the front of the line)
+• Our private community for quick answers
+• Direct access to [resource/documentation]
+
+If you need anything else, just reply to this email.
+
+{sender_name}
+{company_name} Support
+
+---
+
+### Basic Member – Support Reply
+
+Subject: Re: {support_topic}
+
+Hi {member_name},
+
+Thanks for your message—I'm here to help.
+
+[Personalized response addressing their specific issue]
+
+Quick tip: Many common questions are answered in our member FAQ: {cta_link}
+
+Need faster support? All Access members get priority response times. Learn more: {cta_link}
+
+{sender_name}
+{company_name} Support
+
+---
+
+### Non-member – Support Reply
+
+Subject: Re: {support_topic}
+
+Hi {member_name},
+
+Thanks for reaching out!
+
+[Personalized response addressing their specific issue]
+
+For detailed guides and priority support, check out our membership options: {cta_link}
+
+Let me know if you have any other questions.
+
+{sender_name}
+{company_name} Support
+
+---
+
+### Support SMS Templates
+
+**Acknowledgment:**
+{member_name}, we received your message about {support_topic}. We'll reply within 24 hours.
+
+**Resolution:**
+Hi {member_name}, your {support_topic} issue has been resolved. Questions? Reply here.
+
+**Follow-up:**
+{member_name}, just checking in—is your {support_topic} issue resolved? Let us know: {cta_link}
+
+---
+
+## QUICK REFERENCE: PLACEHOLDER GUIDE
+
+| Placeholder | Description | Example |
+|-------------|-------------|---------|
+| {product_name} | Name of product/course/event | "Content Mastery Course" |
+| {launch_date} | Launch or event date | "January 15, 2025" |
+| {event_date} | Specific event date | "January 20, 2025" |
+| {event_time} | Event start time | "2:00 PM" |
+| {timezone} | Time zone | "EST" |
+| {replay_link} | URL to replay | "https://example.com/replay" |
+| {access_link} | Dashboard/access URL | "https://example.com/dashboard" |
+| {member_name} | First name or full name | "Sarah" |
+| {product_price} | Price amount | "$197" |
+| {discount_amount} | Savings amount | "$50" |
+| {discount_code} | Promo code | "MEMBER50" |
+| {expiry_date} | Deadline date | "January 20, 2025" |
+| {support_topic} | Support ticket subject | "Login Issues" |
+| {cta_link} | Call-to-action URL | "https://example.com/join" |
+| {company_name} | Your brand name | "Acme Learning" |
+| {sender_name} | Your name or team name | "The Acme Team" |
+
+---
+
+EXAMPLE USAGE:
+1. Choose the template type (launch, reminder, replay, teaser, newsletter, upsell, or support)
+2. Select the appropriate audience segment (All Access, Basic Member, or Non-member)
+3. Copy the template and replace all placeholders with your actual content
+4. Paste into GHL campaign builder (email or SMS workflow)
+5. Test with a preview before sending
+
+PRO TIP: Create GHL custom values for common placeholders ({company_name}, {sender_name}, {access_link}) to auto-populate across campaigns.

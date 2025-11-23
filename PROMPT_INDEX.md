@@ -73,6 +73,13 @@ Run the business side of your solo practice with weekly planning.
 |--------|---------|-------|------------|
 | **Weekly Review & Planning** | Convert weekly notes into a go-forward plan | [en](en/weekly_review_planning.txt) / [es](es/weekly_review_planning.txt) | Quick |
 
+### 📧 Email & SMS Marketing
+Reusable message templates for GoHighLevel (GHL) campaigns across audience segments.
+
+| Prompt | Purpose | Files | Complexity |
+|--------|---------|-------|------------|
+| **GHL Message Templates** | Launch announcements, reminders, replays, teasers, newsletters, upsells, and support by segment | [en](en/ghl_message_templates.txt) / [es](es/ghl_message_templates.txt) | Standard |
+
 ---
 
 ## By Category
@@ -106,6 +113,9 @@ Run the business side of your solo practice with weekly planning.
 
 ### Operations (1 prompt)
 - Weekly Review & Planning
+
+### Email & SMS Marketing (1 prompt)
+- GHL Message Templates
 
 ---
 
@@ -149,6 +159,9 @@ Each prompt is tagged with labels to help you filter by:
 
 #### ⚙️ Operations
 - **Weekly Review & Planning** — Operations, Quick, Weekly Brief, Solo Practice
+
+#### 📧 Email & SMS Marketing
+- **GHL Message Templates** — Marketing, Standard, Message Templates, GHL / Membership / Courses
 
 ---
 
@@ -446,6 +459,23 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
+### 18. GHL Message Templates
+**Category:** Email & SMS Marketing
+**Purpose:** Reusable GoHighLevel (GHL) campaign message templates for launches, reminders, replays, teasers, newsletters, upsells, and support across audience segments
+**Variables:** `{product_name}`, `{launch_date}`, `{event_date}`, `{event_time}`, `{timezone}`, `{replay_link}`, `{access_link}`, `{member_name}`, `{product_price}`, `{discount_amount}`, `{discount_code}`, `{expiry_date}`, `{support_topic}`, `{cta_link}`, `{company_name}`, `{sender_name}`
+**Tone:** Warm, professional, action-oriented, segment-appropriate (exclusive for All Access, appreciative for Basic, inviting for Non-member)
+**Complexity:** Standard
+**Files:** [English](en/ghl_message_templates.txt) | [Spanish](es/ghl_message_templates.txt)
+
+**Use When:**
+- You're building GHL email/SMS workflows for product launches, webinars, or course releases
+- You need ready-to-customize copy for different membership tiers (All Access, Basic, Non-member)
+- You want consistent messaging across launch announcements, reminder sequences, replay delivery, monthly teasers, newsletters, upsells, and support replies
+
+**Expected Output:** Copy-paste message templates with placeholders for product names, dates, links, and pricing—organized by campaign type and audience segment
+
+---
+
 ## How to Use the Index
 
 1. **Start with "By Use Case"** if you know what you're trying to accomplish
@@ -467,5 +497,5 @@ When adding new prompts to the library:
 
 ---
 
-**Last Updated:** January 2025
-**Total Prompts:** 32 (16 English + 16 Spanish)
+**Last Updated:** November 2025
+**Total Prompts:** 36 (18 English + 18 Spanish)
