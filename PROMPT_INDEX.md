@@ -23,6 +23,13 @@ Generate leads and warm prospects with personalized messaging.
 | **Outreach First Line** | Generate personalized opening lines for cold emails | [en](en/outreach_first_line.txt) / [es](es/outreach_first_line.txt) | Quick |
 | **Lead Research to Email Intro** | Create 1–2 sentence cold-email openings from research | [en](en/lead_research_to_email_intro.txt) / [es](es/lead_research_to_email_intro.txt) | Quick |
 
+### 🏗️ Sales Pages & Funnels
+Build high-converting sales pages with structured layouts and design systems.
+
+| Prompt | Purpose | Files | Complexity |
+|--------|---------|-------|------------|
+| **Sales Layout Prompts** | Layout configurations for FG Funnels blocks (Hero, Credibility, Program, Testimonials, FAQ) | [en](en/sales_layout_prompts.md) | Advanced |
+
 ### 📄 Proposals & Discovery
 Close deals faster with proposal-ready responses and structured scoping artifacts.
 
@@ -51,6 +58,13 @@ Configure and train AI chatbots with consistent voice and behavior.
 | Prompt | Purpose | Files | Complexity |
 |--------|---------|-------|------------|
 | **Chatbot Tone** | Define chatbot voice, style, and interaction patterns | [en](en/chatbot_tone.md) / [es](es/chatbot_tone.md) | Quick |
+
+### 📞 Voice AI & Receptionists
+Build AI-powered phone systems with natural conversation flows.
+
+| Prompt | Purpose | Files | Complexity |
+|--------|---------|-------|------------|
+| **AI Receptionist Dialogue Blocks** | Reusable conversation flows for AI receptionists across industries (roofing, HVAC, dental, medspa, legal) | [en](en/ai_receptionist_dialogue_blocks.md) | Advanced |
 
 ### 📚 Content Creation
 Transform raw content into multi-format, publishable material.
@@ -88,6 +102,14 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 | **ManyChat Copy Snippets** | Conversational copy for ManyChat flows with CTA buttons and tags | [en](en/manychat_copy_snippets.md) | Standard |
 | **Marketing Copy Blocks** | Checklist landing pages, quiz funnels, blog CTAs, popups, and 5-email sequences | [en](en/marketing_copy_blocks.md) | Standard |
 | **Systeme.io Copy Snippets** | Email copy for welcome sequences, nurture flows, discovery call CTAs, and drip reminders | [en](en/systeme_io_copy_snippets.md) | Standard |
+| **Bootcamp Funnel Emails** | Complete email sequences for bootcamp funnels: nurture, webinar, purchase nudges, onboarding | [en](en/bootcamp_funnel_emails.md) | Standard |
+
+### 🎨 Branding & Copy
+Establish brand voice and create consistent, on-brand messaging.
+
+| Prompt | Purpose | Files | Complexity |
+|--------|---------|-------|------------|
+| **Brand Voice Guidelines** | Brand voice principles + reusable copy snippets (headlines, CTAs, teasers, emails) | [en](en/brand_voice_guidelines.md) | Standard |
 
 ---
 
@@ -105,6 +127,9 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 
 ### Chatbot Configuration (1 prompt)
 - Chatbot Tone
+
+### Voice AI (1 prompt)
+- AI Receptionist Dialogue Blocks
 
 ### Content Generation (1 prompt)
 - Podcast to Blog
@@ -126,10 +151,17 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 ### Email & SMS Marketing (1 prompt)
 - GHL Message Templates
 
-### Marketing Automation (3 prompts)
+### Marketing Automation (4 prompts)
 - ManyChat Copy Snippets
 - Marketing Copy Blocks
 - Systeme.io Copy Snippets
+- Bootcamp Funnel Emails
+
+### Sales Pages & Funnels (1 prompt)
+- Sales Layout Prompts
+
+### Branding & Copy (1 prompt)
+- Brand Voice Guidelines
 
 ---
 
@@ -157,6 +189,9 @@ Each prompt is tagged with labels to help you filter by:
 #### 📱 Chatbot
 - **Chatbot Tone** — Chatbot, Quick, Reference Guide, General
 
+#### 📞 Voice AI
+- **AI Receptionist Dialogue Blocks** — Voice AI, Advanced, Dialogue Templates, Roofing / HVAC / Dental / MedSpa / Legal
+
 #### 📝 Content
 - **Podcast to Blog** — Content, Standard, Structured Document, General
 
@@ -174,13 +209,20 @@ Each prompt is tagged with labels to help you filter by:
 #### ⚙️ Operations
 - **Weekly Review & Planning** — Operations, Quick, Weekly Brief, Solo Practice
 
-#### 📧 Email & SMS Marketing
-- **GHL Message Templates** — Marketing, Standard, Message Templates, GHL / Membership / Courses
+#### 📧 Email & SMS
+- **GHL Message Templates** — Email/SMS, Standard, Campaign Templates, GHL / Membership / Courses
 
 #### 🤖 Marketing Automation
 - **ManyChat Copy Snippets** — Marketing Automation, Standard, Conversational Copy, ManyChat / WhatsApp / E-commerce / Coaches
 - **Marketing Copy Blocks** — Marketing Automation, Standard, Multi-format Copy, Landing Pages / Email Sequences / Quiz Funnels / B2B / SaaS
 - **Systeme.io Copy Snippets** — Email Marketing, Standard, Email Sequences, Systeme.io / Coaches / Course Creators / Service Providers
+- **Bootcamp Funnel Emails** — Marketing Automation, Standard, Email Sequences, Real Estate / Coaches / Course Creators
+
+#### 🏗️ Sales Pages & Funnels
+- **Sales Layout Prompts** — Sales Pages, Advanced, Layout Specifications, FG Funnels / ClickFunnels / Coaches / Course Creators
+
+#### 🎨 Branding & Copy
+- **Brand Voice Guidelines** — Branding, Standard, Copy Framework, Luxury / DTC / SaaS / Agency
 
 ---
 
@@ -318,129 +360,129 @@ Each prompt is tagged with labels to help you filter by:
 
 **Use When:**
 - You are about to run a live call to scope automation work and need a repeatable flow
-- You must uncover tools, bottlenecks, and data dependencies before proposing a build
-- You want to leave the call with agreed success metrics and clear next steps
+- You want a balanced agenda with discovery questions, capability mapping, and next steps
+- You need to capture risks, blockers, and integration points during the call
 
-**Expected Output:** Timed agenda, grouped questions with rationale, artifact checklist, automation candidate table, and closing script
+**Expected Output:** Call agenda, opening script, 3-part question bank, recap template, and next-step CTA
 
 ---
 
 ### 9. Chatbot Discovery Call
 **Category:** Discovery
-**Purpose:** Design a chatbot-focused discovery call that maps intents, data readiness, integrations, and success measures
-**Variables:** `{client_overview}`, `{chatbot_goal}`, `{existing_content}`, `{languages_needed}`, `{integration_targets}`, `{call_duration}`
-**Tone:** Curious, methodical, user-centric, plain-spoken
+**Purpose:** Prepare a structured chatbot discovery call plan with agendas and targeted questions
+**Variables:** `{client_overview}`, `{use_case}`, `{languages}`, `{integrations}`
+**Tone:** Consultative, thorough, user-focused
 **Complexity:** Standard
 **Files:** [English](en/chatbot_discovery_call.txt) | [Spanish](es/chatbot_discovery_call.txt)
 
 **Use When:**
-- A lead requests a chatbot and you need to map user journeys before drafting an offer
-- You must verify what knowledge sources and integrations exist (or are missing)
-- You need talking points to guide non-technical stakeholders through scope tradeoffs
+- A prospect wants a chatbot and you need to uncover goals, constraints, and integrations
+- You need to scope multilingual or omnichannel chatbot experiences
+- You want to align technical feasibility with business outcomes
 
-**Expected Output:** Agenda summary, agenda-block question bank, validation checklist, success metrics, and recap script
+**Expected Output:** Call agenda, discovery question bank, risks/assumptions log, and next-step CTA
 
 ---
 
 ### 10. Upwork Job Response Helper
 **Category:** Proposals & Sales
-**Purpose:** Turn a job post plus your capabilities into a structured 200–300 word Upwork response with deliverable bullets and CTA
-**Variables:** `{client_job_post}`, `{my_capabilities}`, `{cta_offer}`
-**Tone:** Confident, specific, collaborative, no hype
+**Purpose:** Turn job posts into concise Upwork responses with plan and CTA
+**Variables:** `{job_post}`, `{skills}`, `{similar_project}`
+**Tone:** Confident, concise, helpful
 **Complexity:** Standard
 **Files:** [English](en/upwork_job_response_helper.txt) | [Spanish](es/upwork_job_response_helper.txt)
 
 **Use When:**
-- You need a fast Upwork reply that mirrors client goals without sounding templated
-- You want bullet-point deliverables tied to their pain points
-- You have a clear CTA (call, Loom review, audit) and want the message to tee it up
+- You need a quick, tailored response to an Upwork job post
+- You want to include a short plan and social proof without writing from scratch
+- You need to keep replies under 300 words
 
-**Expected Output:** Greeting + mirrored goal, proof paragraph, 3–5 delivery bullets, and CTA paragraph anchored to your requested next step
+**Expected Output:** 200–300 word reply with empathy, quick plan, proof points, and CTA
 
 ---
 
 ### 11. Discovery Notes to Scope
 **Category:** Proposals & Discovery
-**Purpose:** Convert messy call notes into a scoped summary with goals, constraints, deliverables, and milestones
-**Variables:** `{client_background}`, `{discovery_call_notes}`, `{constraints}`, `{budget_window}`, `{timeline_expectations}`, `{solution_menu}`
-**Tone:** Structured, confident, candid, delivery-focused
+**Purpose:** Convert raw discovery notes into a scoped project summary
+**Variables:** `{notes}`, `{scope_type}`, `{deliverables}`, `{risks}`
+**Tone:** Structured, clear, client-friendly
 **Complexity:** Standard
 **Files:** [English](en/discovery_notes_to_scope.txt) | [Spanish](es/discovery_notes_to_scope.txt)
 
 **Use When:**
-- You just finished a discovery call and need to send a recap that doubles as a scope section
-- You want to align stakeholders on constraints, phasing, and decision points before drafting an SOW
-- You need a repeatable format to capture risks and next steps straight from your notes
+- You have messy call notes and need to produce a clean scope
+- You want to highlight goals, deliverables, timelines, and risks
+- You need a summary you can send to the client for confirmation
 
-**Expected Output:** Ordered sections covering goals, constraints, phased deliverables, timeline/milestones, risks/questions, and a next-decision paragraph referencing budget/timeline
+**Expected Output:** Scoped summary with goals, requirements, deliverables, timeline, risks, and assumptions
 
 ---
 
 ### 12. Post-Project Retrospective
 **Category:** Post-Engagement
-**Purpose:** Summarize project outcomes for client-facing recaps, case studies, or testimonial requests
-**Variables:** `{client_name}`, `{client_company}`, `{project_name}`, `{engagement_scope}`, `{before_state}`, `{after_state}`, `{measured_results}`, `{client_quote}`, `{next_recommendation}`
-**Tone:** Appreciative, confident, partnership-focused, concrete
+**Purpose:** Summarize project outcomes, lessons, and next steps
+**Variables:** `{project_summary}`, `{outcomes}`, `{metrics}`, `{next_steps}`
+**Tone:** Reflective, concise, constructive
 **Complexity:** Standard
 **Files:** [English](en/post_project_retrospective.txt) | [Spanish](es/post_project_retrospective.txt)
 
 **Use When:**
-- You’re closing an engagement and want an easy-to-share summary of outcomes
-- Marketing or sales needs concise proof points for decks or proposals
-- You want to capture the client’s voice and tee up an expansion conversation in one doc
+- Wrapping up a project and need a client-facing recap
+- Preparing internal lessons learned
+- Setting up follow-on work or upsell opportunities
 
-**Expected Output:** Overview paragraph, highlights bullets with metrics, client voice paragraph, and forward-looking CTA under 250 words
+**Expected Output:** Retrospective document with goals, outcomes, metrics, lessons, and recommended next steps
 
 ---
 
 ### 13. Client Fit / Red Flag Analyzer
 **Category:** Proposals & Discovery
-**Purpose:** Decide whether to pursue an opportunity by weighing signals from job posts or discovery notes
-**Variables:** `{client_name}`, `{project_summary}`, `{job_post}`, `{discovery_notes}`, `{budget_signal}`, `{timeline_signal}`, `{working_style_signal}`, `{gut_check_notes}`
-**Tone:** Candid, analytical, risk-aware, respectful
+**Purpose:** Evaluate whether to pursue a client based on risks and fit
+**Variables:** `{client_info}`, `{project_scope}`, `{timeline}`, `{budget}`
+**Tone:** Objective, risk-aware, concise
 **Complexity:** Quick
 **Files:** [English](en/client_fit_red_flag_analyzer.txt) | [Spanish](es/client_fit_red_flag_analyzer.txt)
 
 **Use When:**
-- You need to triage inbound leads before spending time on proposals
-- A discovery call raised potential red flags and you want an objective read
-- You're managing limited capacity and must pick the best-fit engagements
+- You need a go/no-go decision before committing
+- You want to spot risks early (scope creep, unclear ownership, misaligned budget)
+- You need a structured risk summary to discuss with the client
 
-**Expected Output:** Fit snapshot table, risk list with mitigations, decision recommendation, and tailored next steps under 300 words
+**Expected Output:** Fit score, risk matrix, go/no-go recommendation, and mitigation notes
 
 ---
 
 ### 14. Weekly Review & Planning
 **Category:** Operations
-**Purpose:** Turn weekly reflections into a plan across Upwork, content, and code delivery workstreams
-**Variables:** `{week_range}`, `{wins}`, `{blockers}`, `{pipeline_updates}`, `{upwork_stats}`, `{content_metrics}`, `{code_progress}`, `{energy_level}`
-**Tone:** Pragmatic, encouraging, accountability-focused
+**Purpose:** Convert weekly notes into a plan for the coming week
+**Variables:** `{week_notes}`, `{goals}`, `{risks}`, `{priorities}`
+**Tone:** Practical, concise, action-oriented
 **Complexity:** Quick
 **Files:** [English](en/weekly_review_planning.txt) | [Spanish](es/weekly_review_planning.txt)
 
 **Use When:**
-- You're closing the week and want clarity on Monday priorities
-- You share weekly updates with accountability partners or a team channel
-- You need to balance sales, content, and delivery tasks without burning out
+- You want a simple weekly planning ritual
+- You need to align tasks with goals and flag risks
+- You want a concise summary to share with stakeholders or keep for yourself
 
-**Expected Output:** Snapshot bullets, focus sections for Upwork/Content/Code, pipeline watchlist table, and personal ops note all within 250 words
+**Expected Output:** Weekly brief with wins, lessons, priorities, risks, and focus items
 
 ---
 
 ### 15. Upwork Profile Rewriter
-**Category:** Proposals & Discovery
-**Purpose:** Refresh title and summary copy so your Upwork profile matches the niche you’re targeting
-**Variables:** `{current_profile_summary}`, `{current_title}`, `{target_niche}`, `{signature_proof_points}`, `{clients_served}`
-**Tone:** Confident, specific, expert-yet-approachable
+**Category:** Proposals & Branding
+**Purpose:** Rewrite Upwork profile title and summary for a chosen niche
+**Variables:** `{current_title}`, `{current_summary}`, `{niche}`, `{proof_points}`
+**Tone:** Confident, clear, niche-focused
 **Complexity:** Standard
 **Files:** [English](en/upwork_profile_rewriter.txt) | [Spanish](es/upwork_profile_rewriter.txt)
 
 **Use When:**
-- You pivot from automation to chatbots or AI security and need your profile to reflect it immediately
-- You want SEO-friendly titles and summary copy without sounding generic
-- You’re prepping for an Upwork project boost or agency profile refresh
+- You need to reposition your Upwork profile for a specific niche
+- You want to highlight proof points and offers succinctly
+- You need a checklist of supporting assets to update
 
-**Expected Output:** Three keyword-aware title options, a 180–220 word summary with hook/credibility/offer/proof/CTA, plus a checklist of supporting assets to update
+**Expected Output:** 3 title options, a 180–220 word summary, and an asset checklist
 
 ---
 
@@ -463,18 +505,18 @@ Each prompt is tagged with labels to help you filter by:
 
 ### 17. GHL Message Templates
 **Category:** Email & SMS Marketing
-**Purpose:** Reusable GoHighLevel (GHL) campaign message templates for launches, reminders, replays, teasers, newsletters, upsells, and support across audience segments
-**Variables:** `{product_name}`, `{launch_date}`, `{event_date}`, `{event_time}`, `{timezone}`, `{replay_link}`, `{access_link}`, `{member_name}`, `{product_price}`, `{discount_amount}`, `{discount_code}`, `{expiry_date}`, `{support_topic}`, `{cta_link}`, `{company_name}`, `{sender_name}`
-**Tone:** Warm, professional, action-oriented, segment-appropriate (exclusive for All Access, appreciative for Basic, inviting for Non-member)
+**Purpose:** Reusable message templates for GoHighLevel campaigns across audience segments
+**Variables:** `{audience_segment}`, `{offer}`, `{cta}`, `{bonus}`
+**Tone:** Helpful, direct, segment-aware
 **Complexity:** Standard
 **Files:** [English](en/ghl_message_templates.txt) | [Spanish](es/ghl_message_templates.txt)
 
 **Use When:**
-- You're building GHL email/SMS workflows for product launches, webinars, or course releases
-- You need ready-to-customize copy for different membership tiers (All Access, Basic, Non-member)
-- You want consistent messaging across launch announcements, reminder sequences, replay delivery, monthly teasers, newsletters, upsells, and support replies
+- Building GHL campaigns (launch announcements, reminders, replays, newsletters, upsells, support)
+- You need segment-specific messaging without writing from scratch
+- You want CTA-ready copy that matches audience intent
 
-**Expected Output:** Copy-paste message templates with placeholders for product names, dates, links, and pricing—organized by campaign type and audience segment
+**Expected Output:** Segment-specific announcements, reminders, replays, teasers, newsletters, upsells, and support messages with CTAs
 
 ---
 
@@ -498,28 +540,26 @@ Each prompt is tagged with labels to help you filter by:
 
 ### 19. Marketing Copy Blocks
 **Category:** Marketing Automation
-**Purpose:** Comprehensive copy blocks for checklist landing pages, quiz funnels, blog CTAs, popup headlines, and 5-email follow-up sequences
-**Variables:** `{lead_name}`, `{company_name}`, `{checklist_title}`, `{quiz_title}`, `{result_type}`, `{product_name}`, `{industry}`, `{stat_number}`, `{stat_source}`, `{benefit_1}`, `{benefit_2}`, `{benefit_3}`, `{cta_url}`
-**Tone:** Data-backed, compliance-friendly, professional, clear, benefit-driven
+**Purpose:** Multi-format marketing copy for landing pages, quizzes, popups, and 5-email sequences
+**Variables:** `{offer}`, `{audience}`, `{proof_points}`, `{cta}`
+**Tone:** Direct, conversion-focused, helpful
 **Complexity:** Standard
 **Files:** [English](en/marketing_copy_blocks.md)
 
 **Use When:**
-- Building lead magnet landing pages for checklists or downloadable resources
-- Creating quiz funnels with personalized result pages and segmentation
-- Adding high-converting CTAs to blog content (inline, end-of-post, sidebar)
-- Designing popup campaigns (exit-intent, timed, scroll-triggered)
-- Setting up 5-email follow-up sequences (orientation → proof → mini-teach → soft CTA → hard CTA)
+- You need consistent copy across landing pages, quizzes, CTAs, and follow-up emails
+- You want reusable blocks to speed up campaign launches
+- You need a starting point that can be quickly tailored to different offers
 
-**Expected Output:** Complete copy blocks for 5 marketing asset types: (1) checklist landing page with headlines, body copy, form sections, and trust indicators; (2) quiz intro/results screens with three result paths; (3) blog CTAs for inline, end-of-article, and sidebar placements; (4) popup headlines for exit-intent, timed, and promotional use; (5) 5-email nurture sequence with subject lines and full body copy—all with compliance notes and variable references
+**Expected Output:** Copy blocks for checklist pages, quiz funnels, blog CTAs, popups, and 5-email sequences
 
 ---
 
 ### 20. Systeme.io Copy Snippets
-**Category:** Marketing Automation / Email Marketing
-**Purpose:** Reusable email copy for systeme.io campaigns including welcome sequences, nurture flows, discovery call CTAs, and drip reminders
-**Variables:** `{first_name}`, `{offer_name}`, `{bonus}`, `{deadline}`, `{calendar_link}`, `{sender_name}`, `{company_name}`
-**Tone:** Warm professional, conversational mentor, encouraging without being pushy
+**Category:** Marketing Automation
+**Purpose:** Email templates for systeme.io campaigns across welcome, nurture, discovery call, deadline, and re-engagement flows
+**Variables:** `{audience_segment}`, `{offer}`, `{deadline}`, `{bonus}`, `{cta}`, `{tag}`
+**Tone:** Warm, clear, value-driven
 **Complexity:** Standard
 **Files:** [English](en/systeme_io_copy_snippets.md)
 
@@ -532,6 +572,98 @@ Each prompt is tagged with labels to help you filter by:
 - Re-engaging inactive subscribers
 
 **Expected Output:** Complete email templates across 5 categories: welcome emails (new lead, lead magnet delivery, returning subscriber), nurture touchpoints (teaching frameworks, stories, testimonials, FAQ/objection handlers, quick tips), discovery call CTAs (soft/direct invitations, reminders, no-show follow-ups), drip reminders (launch announcements, 72hr/24hr/final hour deadlines, post-deadline), and re-engagement emails (check-ins, value bombs, last-chance)—each with subject line options, segment-specific notes, and systeme.io tag recommendations
+
+---
+
+### 21. AI Receptionist Dialogue Blocks
+**Category:** Voice AI
+**Purpose:** Reusable conversation flows for AI-powered phone receptionists across service industries
+**Variables:** `{business_name}`, `{agent_name}`, `{customer_name}`, `{phone_number}`, `{service_area}`, `{appointment_date}`, `{appointment_time}`
+**Tone:** Professional, helpful, industry-appropriate (warm for dental/medspa, authoritative for legal, urgent-capable for HVAC)
+**Complexity:** Advanced
+**Files:** [English](en/ai_receptionist_dialogue_blocks.md)
+
+**Industries Covered:**
+- Roofing – storm damage, inspections, estimates
+- HVAC – repairs, maintenance, installations
+- Dental – cleanings, procedures, emergencies
+- MedSpa – aesthetic treatments, consultations
+- Legal – case intake, consultations
+
+**Intents Included:**
+- Greeting (with industry variants)
+- Qualification (lead scoring questions)
+- Appointment scheduling
+- Objection handling
+- Outbound follow-up
+- Voicemail fallback
+
+**ElevenLabs Integration:**
+- Voice style recommendations per industry
+- API configuration templates
+- SSML for natural pauses
+
+**Use When:**
+- Building AI phone receptionists with Bland.ai, Vapi, or Retell
+- Need consistent dialogue patterns across service industries
+- Integrating ElevenLabs voices into conversation flows
+- Training voice AI for lead qualification and scheduling
+
+**Expected Output:** Complete dialogue templates, qualification flows, objection responses, and voicemail scripts ready for voice AI platforms
+
+---
+
+### 22. Bootcamp Funnel Emails
+**Category:** Marketing Automation
+**Purpose:** Complete email sequences for real estate bootcamp funnels including nurture, webinar reminders, purchase nudges, and onboarding
+**Variables:** `{first_name}`, `{bootcamp_name}`, `{start_date}`, `{start_time}`, `{timezone}`, `{price}`, `{original_price}`, `{bonus}`, `{bonus_value}`, `{deposit_amount}`, `{payment_link}`, `{webinar_link}`, `{replay_link}`, `{community_link}`, `{mentor_name}`, `{mentor_credential}`, `{deadline}`, `{seats_remaining}`, `{success_story_name}`, `{success_story_result}`
+**Tone:** Confident real-estate mentor — direct, no-nonsense, experienced, encouraging but not pushy, speaks from authority
+**Complexity:** Standard
+**Files:** [English](en/bootcamp_funnel_emails.md)
+
+**Use When:**
+- Launching a real estate bootcamp or coaching program and need complete email sequences
+- Setting up a webinar funnel with registration, reminders, and replay sequences
+- Creating cart abandonment and purchase nudge campaigns
+- Building post-purchase onboarding flows for new students
+
+**Expected Output:** Complete email copy for 4 funnel stages: 5-email nurture sequence (welcome, pain points, value, social proof, final CTA), webinar reminders (confirmation, 24hr, 1hr, live, no-show, replay expiring), deposit/purchase nudges (deposit offer, cart abandonment, price warnings, final hours), and 5-email post-signup onboarding (welcome, community intro, expectations, call reminder, week-one check-in)—with subject lines, body copy, and implementation timing notes
+
+---
+
+### 23. Brand Voice Guidelines
+**Category:** Branding & Copy
+**Purpose:** Establish brand voice principles and provide ready-to-use copy snippets for luxury-focused marketing
+**Variables:** `{brand_name}`, `{product_name}`, `{user_name}`, `{deposit_amount}`, `{launch_date}`, `{exclusive_benefit}`
+**Tone:** Modern, luxurious, concise
+**Complexity:** Standard
+**Files:** [English](en/brand_voice_guidelines.md)
+
+**Use When:**
+- Launching a new brand or product that requires elevated, luxury positioning
+- Building marketing assets that need consistent voice across touchpoints
+- Creating waitlist campaigns, pre-launch teasers, or deposit flows
+- Training team members on brand voice standards
+
+**Expected Output:** Brand voice principles with do/don't guidelines, word palette, and ready-to-use copy snippets for headlines, hero CTAs, teaser copy, waitlist emails, and deposit confirmations—all in a modern, luxurious, concise tone
+
+---
+
+### 24. Sales Layout Prompts
+**Category:** Sales Pages & Funnels
+**Purpose:** Ready-to-use layout prompts for arranging sales page sections in FG Funnels blocks while maintaining reference site fidelity
+**Variables:** `{brand_color_primary}`, `{brand_color_secondary}`, `{logo_url}`, `{hero_image_url}`, `{testimonial_images}`, `{program_name}`, `{price}`, `{cta_text}`
+**Tone:** Conversion-focused, visually clear, mobile-responsive, brand-consistent
+**Complexity:** Advanced
+**Files:** [English](en/sales_layout_prompts.md)
+
+**Use When:**
+- Building sales pages in FG Funnels and need structured layout guidance
+- Recreating a reference site's layout in funnel builder blocks
+- Setting up hero sections, credibility bars, program breakdowns, testimonials, or FAQ sections
+- Need consistent spacing, typography, and mobile behavior specifications
+
+**Expected Output:** Detailed block configurations for 5 sales page sections (Hero, Credibility, Program Breakdown, Testimonials, FAQ), including grid layouts, spacing guidelines, mobile behavior, styling tokens, and FG Funnels-specific implementation settings
 
 ---
 
@@ -549,12 +681,11 @@ Each prompt is tagged with labels to help you filter by:
 When adding new prompts to the library:
 
 1. Follow the standardized format (CATEGORY, PURPOSE, VARIABLES, TONE, PROMPT, EXAMPLE USAGE)
-2. Create both English and Spanish versions
+2. Create both English and Spanish versions (when applicable)
 3. Add entries to this index under the appropriate use case and category
 4. Assign relevant tags
 5. Update the main README if creating a new category
 
 ---
 
-**Last Updated:** November 2025
-**Total Prompts:** 38 (21 English + 17 Spanish)
+**Last Updated:** [DATE]
