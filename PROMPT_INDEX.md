@@ -52,6 +52,13 @@ Configure and train AI chatbots with consistent voice and behavior.
 |--------|---------|-------|------------|
 | **Chatbot Tone** | Define chatbot voice, style, and interaction patterns | [en](en/chatbot_tone.md) / [es](es/chatbot_tone.md) | Quick |
 
+### 📞 Voice AI & Receptionists
+Build AI-powered phone systems with natural conversation flows.
+
+| Prompt | Purpose | Files | Complexity |
+|--------|---------|-------|------------|
+| **AI Receptionist Dialogue Blocks** | Reusable conversation flows for AI receptionists across industries (roofing, HVAC, dental, medspa, legal) | [en](en/ai_receptionist_dialogue_blocks.md) | Advanced |
+
 ### 📚 Content Creation
 Transform raw content into multi-format, publishable material.
 
@@ -89,6 +96,9 @@ Run the business side of your solo practice with weekly planning.
 
 ### Chatbot Configuration (1 prompt)
 - Chatbot Tone
+
+### Voice AI (1 prompt)
+- AI Receptionist Dialogue Blocks
 
 ### Content Generation (1 prompt)
 - Podcast to Blog
@@ -132,6 +142,9 @@ Each prompt is tagged with labels to help you filter by:
 
 #### 📱 Chatbot
 - **Chatbot Tone** — Chatbot, Quick, Reference Guide, General
+
+#### 📞 Voice AI
+- **AI Receptionist Dialogue Blocks** — Voice AI, Advanced, Dialogue Templates, Roofing / HVAC / Dental / MedSpa / Legal
 
 #### 📝 Content
 - **Podcast to Blog** — Content, Standard, Structured Document, General
@@ -205,7 +218,45 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 4. Podcast to Blog
+### 4. AI Receptionist Dialogue Blocks
+**Category:** Voice AI
+**Purpose:** Reusable conversation flows for AI-powered phone receptionists across service industries
+**Variables:** `{business_name}`, `{agent_name}`, `{customer_name}`, `{phone_number}`, `{service_area}`, `{appointment_date}`, `{appointment_time}`
+**Tone:** Professional, helpful, industry-appropriate (warm for dental/medspa, authoritative for legal, urgent-capable for HVAC)
+**Complexity:** Advanced
+**Files:** [English](en/ai_receptionist_dialogue_blocks.md)
+
+**Industries Covered:**
+- Roofing – storm damage, inspections, estimates
+- HVAC – repairs, maintenance, installations
+- Dental – cleanings, procedures, emergencies
+- MedSpa – aesthetic treatments, consultations
+- Legal – case intake, consultations
+
+**Intents Included:**
+- Greeting (with industry variants)
+- Qualification (lead scoring questions)
+- Appointment scheduling
+- Objection handling
+- Outbound follow-up
+- Voicemail fallback
+
+**ElevenLabs Integration:**
+- Voice style recommendations per industry
+- API configuration templates
+- SSML for natural pauses
+
+**Use When:**
+- Building AI phone receptionists with Bland.ai, Vapi, or Retell
+- Need consistent dialogue patterns across service industries
+- Integrating ElevenLabs voices into conversation flows
+- Training voice AI for lead qualification and scheduling
+
+**Expected Output:** Complete dialogue templates, qualification flows, objection responses, and voicemail scripts ready for voice AI platforms
+
+---
+
+### 5. Podcast to Blog
 **Category:** Content Generation
 **Purpose:** Transform podcast transcripts into blog, show notes, and social posts
 **Variables:** `{transcript}`
@@ -225,7 +276,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 5. Lead Research to Email Intro
+### 6. Lead Research to Email Intro
 **Category:** Outreach
 **Purpose:** Generate personalized cold-email opening lines from prospect research
 **Variables:** `{prospect_name}`, `{company}`, `{research_snippets}`
@@ -242,7 +293,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 6. Upwork Proposal General
+### 7. Upwork Proposal General
 **Category:** Proposals & Sales
 **Purpose:** Draft compelling Upwork proposals from client job posts and your capabilities
 **Variables:** `{client_job_post}`, `{my_capabilities}`
@@ -259,7 +310,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 7. Automation Discovery Questions
+### 8. Automation Discovery Questions
 **Category:** Discovery
 **Purpose:** Strategic questions to understand workflows and pain points for automation projects
 **Variables:** None (reference guide)
@@ -276,7 +327,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 8. Chatbot Discovery Questions
+### 9. Chatbot Discovery Questions
 **Category:** Discovery
 **Purpose:** Comprehensive questions to scope chatbot project requirements
 **Variables:** None (reference guide)
@@ -293,7 +344,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 9. Automation Discovery Call
+### 10. Automation Discovery Call
 **Category:** Discovery
 **Purpose:** Prepare a structured automation discovery call plan with agendas, targeted questions, and follow-ups
 **Variables:** `{client_overview}`, `{current_stack}`, `{call_duration}`, `{my_capabilities}`
@@ -310,7 +361,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 10. Chatbot Discovery Call
+### 11. Chatbot Discovery Call
 **Category:** Discovery
 **Purpose:** Design a chatbot-focused discovery call that maps intents, data readiness, integrations, and success measures
 **Variables:** `{client_overview}`, `{chatbot_goal}`, `{existing_content}`, `{languages_needed}`, `{integration_targets}`, `{call_duration}`
@@ -327,7 +378,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 11. Upwork Job Response Helper
+### 12. Upwork Job Response Helper
 **Category:** Proposals & Sales
 **Purpose:** Turn a job post plus your capabilities into a structured 200–300 word Upwork response with deliverable bullets and CTA
 **Variables:** `{client_job_post}`, `{my_capabilities}`, `{cta_offer}`
@@ -344,7 +395,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 12. Discovery Notes to Scope
+### 13. Discovery Notes to Scope
 **Category:** Proposals & Discovery
 **Purpose:** Convert messy call notes into a scoped summary with goals, constraints, deliverables, and milestones
 **Variables:** `{client_background}`, `{discovery_call_notes}`, `{constraints}`, `{budget_window}`, `{timeline_expectations}`, `{solution_menu}`
@@ -361,7 +412,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 13. Post-Project Retrospective
+### 14. Post-Project Retrospective
 **Category:** Post-Engagement
 **Purpose:** Summarize project outcomes for client-facing recaps, case studies, or testimonial requests
 **Variables:** `{client_name}`, `{client_company}`, `{project_name}`, `{engagement_scope}`, `{before_state}`, `{after_state}`, `{measured_results}`, `{client_quote}`, `{next_recommendation}`
@@ -378,7 +429,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 14. Client Fit / Red Flag Analyzer
+### 15. Client Fit / Red Flag Analyzer
 **Category:** Proposals & Discovery
 **Purpose:** Decide whether to pursue an opportunity by weighing signals from job posts or discovery notes
 **Variables:** `{client_name}`, `{project_summary}`, `{job_post}`, `{discovery_notes}`, `{budget_signal}`, `{timeline_signal}`, `{working_style_signal}`, `{gut_check_notes}`
@@ -395,7 +446,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 15. Weekly Review & Planning
+### 16. Weekly Review & Planning
 **Category:** Operations
 **Purpose:** Turn weekly reflections into a plan across Upwork, content, and code delivery workstreams
 **Variables:** `{week_range}`, `{wins}`, `{blockers}`, `{pipeline_updates}`, `{upwork_stats}`, `{content_metrics}`, `{code_progress}`, `{energy_level}`
@@ -412,7 +463,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 16. Upwork Profile Rewriter
+### 17. Upwork Profile Rewriter
 **Category:** Proposals & Discovery
 **Purpose:** Refresh title and summary copy so your Upwork profile matches the niche you’re targeting
 **Variables:** `{current_profile_summary}`, `{current_title}`, `{target_niche}`, `{signature_proof_points}`, `{clients_served}`
@@ -429,7 +480,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 17. Upwork Job Triage → Proposal Plan
+### 18. Upwork Job Triage → Proposal Plan
 **Category:** Proposals & Discovery
 **Purpose:** Compare multiple Upwork jobs, decide which to pursue, and map mini action plans within your available time
 **Variables:** `{jobs_list}`, `{available_time_hours}`, `{current_pipeline_pressure}`, `{proof_assets}`, `{followup_capacity}`
@@ -467,5 +518,5 @@ When adding new prompts to the library:
 
 ---
 
-**Last Updated:** January 2025
-**Total Prompts:** 32 (16 English + 16 Spanish)
+**Last Updated:** November 2025
+**Total Prompts:** 34 (17 English + 16 Spanish + 1 English-only Voice AI)
