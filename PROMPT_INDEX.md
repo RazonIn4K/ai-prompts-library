@@ -80,6 +80,7 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 |--------|---------|-------|------------|
 | **ManyChat Copy Snippets** | Conversational copy for ManyChat flows with CTA buttons and tags | [en](en/manychat_copy_snippets.md) | Standard |
 | **Marketing Copy Blocks** | Checklist landing pages, quiz funnels, blog CTAs, popups, and 5-email sequences | [en](en/marketing_copy_blocks.md) | Standard |
+| **Systeme.io Copy Snippets** | Email copy for welcome sequences, nurture flows, discovery call CTAs, and drip reminders | [en](en/systeme_io_copy_snippets.md) | Standard |
 
 ---
 
@@ -118,6 +119,7 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 ### Marketing Automation (2 prompts)
 - ManyChat Copy Snippets
 - Marketing Copy Blocks
+- Systeme.io Copy Snippets
 
 ---
 
@@ -165,6 +167,7 @@ Each prompt is tagged with labels to help you filter by:
 #### 🤖 Marketing Automation
 - **ManyChat Copy Snippets** — Marketing Automation, Standard, Conversational Copy, ManyChat / WhatsApp / E-commerce / Coaches
 - **Marketing Copy Blocks** — Marketing Automation, Standard, Multi-format Copy, Landing Pages / Email Sequences / Quiz Funnels / B2B / SaaS
+- **Systeme.io Copy Snippets** — Email Marketing, Standard, Email Sequences, Systeme.io / Coaches / Course Creators / Service Providers
 
 ---
 
@@ -496,6 +499,23 @@ Each prompt is tagged with labels to help you filter by:
 - Setting up 5-email follow-up sequences (orientation → proof → mini-teach → soft CTA → hard CTA)
 
 **Expected Output:** Complete copy blocks for 5 marketing asset types: (1) checklist landing page with headlines, body copy, form sections, and trust indicators; (2) quiz intro/results screens with three result paths; (3) blog CTAs for inline, end-of-article, and sidebar placements; (4) popup headlines for exit-intent, timed, and promotional use; (5) 5-email nurture sequence with subject lines and full body copy—all with compliance notes and variable references
+### 19. Systeme.io Copy Snippets
+**Category:** Marketing Automation / Email Marketing
+**Purpose:** Reusable email copy for systeme.io campaigns including welcome sequences, nurture flows, discovery call CTAs, and drip reminders
+**Variables:** `{first_name}`, `{offer_name}`, `{bonus}`, `{deadline}`, `{calendar_link}`, `{sender_name}`, `{company_name}`
+**Tone:** Warm professional, conversational mentor, encouraging without being pushy
+**Complexity:** Standard
+**Files:** [English](en/systeme_io_copy_snippets.md)
+
+**Use When:**
+- Building systeme.io email automation campaigns
+- Setting up welcome sequences for new subscribers
+- Creating nurture flows to warm up leads before offers
+- Writing discovery call invitations and follow-ups
+- Designing deadline-based launch and drip reminder sequences
+- Re-engaging inactive subscribers
+
+**Expected Output:** Complete email templates across 5 categories: welcome emails (new lead, lead magnet delivery, returning subscriber), nurture touchpoints (teaching frameworks, stories, testimonials, FAQ/objection handlers, quick tips), discovery call CTAs (soft/direct invitations, reminders, no-show follow-ups), drip reminders (launch announcements, 72hr/24hr/final hour deadlines, post-deadline), and re-engagement emails (check-ins, value bombs, last-chance)—each with subject line options, segment-specific notes, and systeme.io tag recommendations
 
 ---
 
