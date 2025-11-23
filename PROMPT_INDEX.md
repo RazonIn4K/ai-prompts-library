@@ -80,6 +80,13 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 |--------|---------|-------|------------|
 | **ManyChat Copy Snippets** | Conversational copy for ManyChat flows with CTA buttons and tags | [en](en/manychat_copy_snippets.md) | Standard |
 
+### 🎨 Branding & Copy
+Establish brand voice and create consistent, on-brand messaging.
+
+| Prompt | Purpose | Files | Complexity |
+|--------|---------|-------|------------|
+| **Brand Voice Guidelines** | Brand voice principles + reusable copy snippets (headlines, CTAs, teasers, emails) | [en](en/brand_voice_guidelines.md) | Standard |
+
 ---
 
 ## By Category
@@ -116,6 +123,9 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 
 ### Marketing Automation (1 prompt)
 - ManyChat Copy Snippets
+
+### Branding & Copy (1 prompt)
+- Brand Voice Guidelines
 
 ---
 
@@ -162,6 +172,9 @@ Each prompt is tagged with labels to help you filter by:
 
 #### 🤖 Marketing Automation
 - **ManyChat Copy Snippets** — Marketing Automation, Standard, Conversational Copy, ManyChat / WhatsApp / E-commerce / Coaches
+
+#### 🎨 Branding & Copy
+- **Brand Voice Guidelines** — Branding, Standard, Copy Framework, Luxury / DTC / SaaS / Agency
 
 ---
 
@@ -477,6 +490,24 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
+### 19. Brand Voice Guidelines
+**Category:** Branding & Copy
+**Purpose:** Establish brand voice principles and provide ready-to-use copy snippets for luxury-focused marketing
+**Variables:** `{brand_name}`, `{product_name}`, `{user_name}`, `{deposit_amount}`, `{launch_date}`, `{exclusive_benefit}`
+**Tone:** Modern, luxurious, concise
+**Complexity:** Standard
+**Files:** [English](en/brand_voice_guidelines.md)
+
+**Use When:**
+- Launching a new brand or product that requires elevated, luxury positioning
+- Building marketing assets that need consistent voice across touchpoints
+- Creating waitlist campaigns, pre-launch teasers, or deposit flows
+- Training team members on brand voice standards
+
+**Expected Output:** Brand voice principles with do/don't guidelines, word palette, and ready-to-use copy snippets for headlines, hero CTAs, teaser copy, waitlist emails, and deposit confirmations—all in a modern, luxurious, concise tone
+
+---
+
 ## How to Use the Index
 
 1. **Start with "By Use Case"** if you know what you're trying to accomplish
@@ -499,4 +530,4 @@ When adding new prompts to the library:
 ---
 
 **Last Updated:** November 2025
-**Total Prompts:** 33 (17 English + 16 Spanish)
+**Total Prompts:** 35 (18 English + 17 Spanish)
