@@ -73,6 +73,13 @@ Run the business side of your solo practice with weekly planning.
 |--------|---------|-------|------------|
 | **Weekly Review & Planning** | Convert weekly notes into a go-forward plan | [en](en/weekly_review_planning.txt) / [es](es/weekly_review_planning.txt) | Quick |
 
+### 📧 Email & SMS Marketing
+Reusable message templates for GoHighLevel (GHL) campaigns across audience segments.
+
+| Prompt | Purpose | Files | Complexity |
+|--------|---------|-------|------------|
+| **GHL Message Templates** | Launch announcements, reminders, replays, teasers, newsletters, upsells, and support by segment | [en](en/ghl_message_templates.txt) / [es](es/ghl_message_templates.txt) | Standard |
+
 ### 🤖 Marketing Automation
 Ready-to-use conversational copy for chatbot and messaging platform flows.
 
@@ -116,7 +123,10 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 ### Operations (1 prompt)
 - Weekly Review & Planning
 
-### Marketing Automation (2 prompts)
+### Email & SMS Marketing (1 prompt)
+- GHL Message Templates
+
+### Marketing Automation (3 prompts)
 - ManyChat Copy Snippets
 - Marketing Copy Blocks
 - Systeme.io Copy Snippets
@@ -163,6 +173,9 @@ Each prompt is tagged with labels to help you filter by:
 
 #### ⚙️ Operations
 - **Weekly Review & Planning** — Operations, Quick, Weekly Brief, Solo Practice
+
+#### 📧 Email & SMS Marketing
+- **GHL Message Templates** — Marketing, Standard, Message Templates, GHL / Membership / Courses
 
 #### 🤖 Marketing Automation
 - **ManyChat Copy Snippets** — Marketing Automation, Standard, Conversational Copy, ManyChat / WhatsApp / E-commerce / Coaches
@@ -244,24 +257,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 5. Lead Research to Email Intro
-**Category:** Outreach
-**Purpose:** Generate personalized cold-email opening lines from prospect research
-**Variables:** `{prospect_name}`, `{company}`, `{research_snippets}`
-**Tone:** Genuine, conversational, research-backed, non-salesy
-**Complexity:** Quick
-**Files:** [English](en/lead_research_to_email_intro.txt) | [Spanish](es/lead_research_to_email_intro.txt)
-
-**Use When:**
-- You need to write a cold email with a personalized first line
-- You've done research and want to show genuine interest
-- You want to stand out from generic outreach
-
-**Expected Output:** 1–2 sentence opening line
-
----
-
-### 6. Upwork Proposal General
+### 5. Upwork Proposal General
 **Category:** Proposals & Sales
 **Purpose:** Draft compelling Upwork proposals from client job posts and your capabilities
 **Variables:** `{client_job_post}`, `{my_capabilities}`
@@ -278,7 +274,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 7. Automation Discovery Questions
+### 6. Automation Discovery Questions
 **Category:** Discovery
 **Purpose:** Strategic questions to understand workflows and pain points for automation projects
 **Variables:** None (reference guide)
@@ -295,7 +291,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 8. Chatbot Discovery Questions
+### 7. Chatbot Discovery Questions
 **Category:** Discovery
 **Purpose:** Comprehensive questions to scope chatbot project requirements
 **Variables:** None (reference guide)
@@ -312,7 +308,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 9. Automation Discovery Call
+### 8. Automation Discovery Call
 **Category:** Discovery
 **Purpose:** Prepare a structured automation discovery call plan with agendas, targeted questions, and follow-ups
 **Variables:** `{client_overview}`, `{current_stack}`, `{call_duration}`, `{my_capabilities}`
@@ -329,7 +325,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 10. Chatbot Discovery Call
+### 9. Chatbot Discovery Call
 **Category:** Discovery
 **Purpose:** Design a chatbot-focused discovery call that maps intents, data readiness, integrations, and success measures
 **Variables:** `{client_overview}`, `{chatbot_goal}`, `{existing_content}`, `{languages_needed}`, `{integration_targets}`, `{call_duration}`
@@ -346,7 +342,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 11. Upwork Job Response Helper
+### 10. Upwork Job Response Helper
 **Category:** Proposals & Sales
 **Purpose:** Turn a job post plus your capabilities into a structured 200–300 word Upwork response with deliverable bullets and CTA
 **Variables:** `{client_job_post}`, `{my_capabilities}`, `{cta_offer}`
@@ -363,7 +359,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 12. Discovery Notes to Scope
+### 11. Discovery Notes to Scope
 **Category:** Proposals & Discovery
 **Purpose:** Convert messy call notes into a scoped summary with goals, constraints, deliverables, and milestones
 **Variables:** `{client_background}`, `{discovery_call_notes}`, `{constraints}`, `{budget_window}`, `{timeline_expectations}`, `{solution_menu}`
@@ -380,7 +376,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 13. Post-Project Retrospective
+### 12. Post-Project Retrospective
 **Category:** Post-Engagement
 **Purpose:** Summarize project outcomes for client-facing recaps, case studies, or testimonial requests
 **Variables:** `{client_name}`, `{client_company}`, `{project_name}`, `{engagement_scope}`, `{before_state}`, `{after_state}`, `{measured_results}`, `{client_quote}`, `{next_recommendation}`
@@ -397,7 +393,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 14. Client Fit / Red Flag Analyzer
+### 13. Client Fit / Red Flag Analyzer
 **Category:** Proposals & Discovery
 **Purpose:** Decide whether to pursue an opportunity by weighing signals from job posts or discovery notes
 **Variables:** `{client_name}`, `{project_summary}`, `{job_post}`, `{discovery_notes}`, `{budget_signal}`, `{timeline_signal}`, `{working_style_signal}`, `{gut_check_notes}`
@@ -414,7 +410,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 15. Weekly Review & Planning
+### 14. Weekly Review & Planning
 **Category:** Operations
 **Purpose:** Turn weekly reflections into a plan across Upwork, content, and code delivery workstreams
 **Variables:** `{week_range}`, `{wins}`, `{blockers}`, `{pipeline_updates}`, `{upwork_stats}`, `{content_metrics}`, `{code_progress}`, `{energy_level}`
@@ -431,7 +427,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 16. Upwork Profile Rewriter
+### 15. Upwork Profile Rewriter
 **Category:** Proposals & Discovery
 **Purpose:** Refresh title and summary copy so your Upwork profile matches the niche you’re targeting
 **Variables:** `{current_profile_summary}`, `{current_title}`, `{target_niche}`, `{signature_proof_points}`, `{clients_served}`
@@ -448,7 +444,7 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
-### 17. Upwork Job Triage → Proposal Plan
+### 16. Upwork Job Triage → Proposal Plan
 **Category:** Proposals & Discovery
 **Purpose:** Compare multiple Upwork jobs, decide which to pursue, and map mini action plans within your available time
 **Variables:** `{jobs_list}`, `{available_time_hours}`, `{current_pipeline_pressure}`, `{proof_assets}`, `{followup_capacity}`
@@ -462,6 +458,23 @@ Each prompt is tagged with labels to help you filter by:
 - You want each proposal effort to include Loom + follow-up timing baked in
 
 **Expected Output:** Triage table with scores, recommendation list, per-job mini plans (proposal angle/Loom/follow-up), and focus order while respecting available hours
+
+---
+
+### 17. GHL Message Templates
+**Category:** Email & SMS Marketing
+**Purpose:** Reusable GoHighLevel (GHL) campaign message templates for launches, reminders, replays, teasers, newsletters, upsells, and support across audience segments
+**Variables:** `{product_name}`, `{launch_date}`, `{event_date}`, `{event_time}`, `{timezone}`, `{replay_link}`, `{access_link}`, `{member_name}`, `{product_price}`, `{discount_amount}`, `{discount_code}`, `{expiry_date}`, `{support_topic}`, `{cta_link}`, `{company_name}`, `{sender_name}`
+**Tone:** Warm, professional, action-oriented, segment-appropriate (exclusive for All Access, appreciative for Basic, inviting for Non-member)
+**Complexity:** Standard
+**Files:** [English](en/ghl_message_templates.txt) | [Spanish](es/ghl_message_templates.txt)
+
+**Use When:**
+- You're building GHL email/SMS workflows for product launches, webinars, or course releases
+- You need ready-to-customize copy for different membership tiers (All Access, Basic, Non-member)
+- You want consistent messaging across launch announcements, reminder sequences, replay delivery, monthly teasers, newsletters, upsells, and support replies
+
+**Expected Output:** Copy-paste message templates with placeholders for product names, dates, links, and pricing—organized by campaign type and audience segment
 
 ---
 
@@ -499,7 +512,10 @@ Each prompt is tagged with labels to help you filter by:
 - Setting up 5-email follow-up sequences (orientation → proof → mini-teach → soft CTA → hard CTA)
 
 **Expected Output:** Complete copy blocks for 5 marketing asset types: (1) checklist landing page with headlines, body copy, form sections, and trust indicators; (2) quiz intro/results screens with three result paths; (3) blog CTAs for inline, end-of-article, and sidebar placements; (4) popup headlines for exit-intent, timed, and promotional use; (5) 5-email nurture sequence with subject lines and full body copy—all with compliance notes and variable references
-### 19. Systeme.io Copy Snippets
+
+---
+
+### 20. Systeme.io Copy Snippets
 **Category:** Marketing Automation / Email Marketing
 **Purpose:** Reusable email copy for systeme.io campaigns including welcome sequences, nurture flows, discovery call CTAs, and drip reminders
 **Variables:** `{first_name}`, `{offer_name}`, `{bonus}`, `{deadline}`, `{calendar_link}`, `{sender_name}`, `{company_name}`
@@ -541,4 +557,4 @@ When adding new prompts to the library:
 ---
 
 **Last Updated:** November 2025
-**Total Prompts:** 35 (19 English + 16 Spanish)
+**Total Prompts:** 38 (21 English + 17 Spanish)

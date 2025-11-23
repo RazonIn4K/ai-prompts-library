@@ -1,0 +1,643 @@
+CATEGORY: Email y Marketing SMS
+PURPOSE: Plantillas reutilizables de mensajes para campanas de GoHighLevel (GHL): lanzamientos, recordatorios, replays, avances, newsletters, upsells y soporte por segmento de audiencia
+VARIABLES: {nombre_producto}, {fecha_lanzamiento}, {fecha_evento}, {hora_evento}, {zona_horaria}, {enlace_replay}, {enlace_acceso}, {nombre_miembro}, {precio_producto}, {monto_descuento}, {codigo_descuento}, {fecha_expiracion}, {tema_soporte}, {enlace_cta}, {nombre_empresa}, {nombre_remitente}
+TONE: Calido, profesional, orientado a la accion, apropiado por segmento (exclusivo para Acceso Total, agradecido para Miembro Basico, invitador para No-miembro)
+
+PROMPT:
+Eres un redactor de marketing creando mensajes para campanas de GoHighLevel (GHL). Genera mensajes usando las plantillas a continuacion, reemplazando los marcadores con valores reales. Adapta el tono segun el segmento de audiencia.
+
+---
+
+## SEGMENTOS DE AUDIENCIA
+
+**Acceso Total** – Miembros premium con acceso completo a todos los productos/contenido. Tono: Exclusivo, agradecido, lenguaje de insider.
+**Miembro Basico** – Miembros de nivel inicial con acceso limitado. Tono: Agradecido, enfocado en upgrade, destacando valor.
+**No-miembro** – Prospectos o leads que aun no se han suscrito. Tono: Invitador, orientado a beneficios, urgencia apropiada.
+
+---
+
+## 1. PLANTILLAS DE ANUNCIO DE LANZAMIENTO
+
+### Acceso Total – Anuncio de Lanzamiento (Email)
+
+Asunto: {nombre_miembro}, tu acceso anticipado exclusivo a {nombre_producto} esta aqui
+
+Hola {nombre_miembro},
+
+Como miembro de Acceso Total, tienes prioridad sobre {nombre_producto} antes que nadie.
+
+A partir del {fecha_lanzamiento}, tendras acceso inmediato—sin cargo extra, sin lista de espera.
+
+Esto es lo que incluye:
+• [Beneficio 1]
+• [Beneficio 2]
+• [Beneficio 3]
+
+Accede ahora: {enlace_acceso}
+
+Gracias por ser parte del circulo interno.
+
+{nombre_remitente}
+{nombre_empresa}
+
+---
+
+### Acceso Total – Anuncio de Lanzamiento (SMS)
+
+{nombre_miembro}, {nombre_producto} acaba de salir! Como Acceso Total, ya estas dentro. Miralo: {enlace_acceso}
+
+---
+
+### Miembro Basico – Anuncio de Lanzamiento (Email)
+
+Asunto: Presentamos {nombre_producto} – Precio especial para miembros como tu
+
+Hola {nombre_miembro},
+
+Grandes noticias: {nombre_producto} se lanza el {fecha_lanzamiento}, y como miembro valioso, tienes acceso anticipado exclusivo.
+
+Esto es lo que obtendras:
+• [Beneficio 1]
+• [Beneficio 2]
+• [Beneficio 3]
+
+Precio solo para miembros: {precio_producto} (ahorra {monto_descuento} con el codigo {codigo_descuento})
+
+Reserva tu lugar: {enlace_cta}
+
+Esta oferta expira el {fecha_expiracion}.
+
+{nombre_remitente}
+{nombre_empresa}
+
+---
+
+### Miembro Basico – Anuncio de Lanzamiento (SMS)
+
+{nombre_miembro}, {nombre_producto} esta EN VIVO! Miembros ahorran {monto_descuento} con codigo {codigo_descuento}. Termina {fecha_expiracion}: {enlace_cta}
+
+---
+
+### No-miembro – Anuncio de Lanzamiento (Email)
+
+Asunto: {nombre_producto} esta aqui – Unete a la lista de espera ahora
+
+Hola {nombre_miembro},
+
+Has estado preguntando por esto, y finalmente esta aqui.
+
+{nombre_producto} se lanza el {fecha_lanzamiento}—y los primeros en apoyar obtienen acceso prioritario.
+
+Que incluye:
+• [Beneficio 1]
+• [Beneficio 2]
+• [Beneficio 3]
+
+Asegura tu lugar ahora: {enlace_cta}
+
+No te pierdas la ventana de lanzamiento—el precio de early bird termina el {fecha_expiracion}.
+
+{nombre_remitente}
+{nombre_empresa}
+
+---
+
+### No-miembro – Anuncio de Lanzamiento (SMS)
+
+{nombre_producto} se lanza el {fecha_lanzamiento}! Precio early bird disponible ahora. No te lo pierdas: {enlace_cta}
+
+---
+
+## 2. PLANTILLAS DE SECUENCIA DE RECORDATORIO
+
+### Acceso Total – Secuencia de Recordatorio (Serie de Emails)
+
+**Email 1: 3 Dias Antes**
+Asunto: {nombre_miembro}, {nombre_producto} sale en vivo en 3 dias
+
+Hola {nombre_miembro},
+
+Recordatorio rapido: {nombre_producto} se lanza el {fecha_lanzamiento} y tendras acceso instantaneo como miembro de Acceso Total.
+
+Marca tu calendario—te enviare el enlace directo en el momento que este en vivo.
+
+{nombre_remitente}
+
+---
+
+**Email 2: Dia Antes**
+Asunto: Manana: {nombre_producto} se desbloquea para ti
+
+{nombre_miembro},
+
+Es hora—{nombre_producto} sale en vivo manana ({fecha_lanzamiento}).
+
+Como miembro de Acceso Total, todo ya esta incluido en tu membresia. Solo inicia sesion y sumérgete.
+
+Nos vemos adentro.
+
+{nombre_remitente}
+
+---
+
+**Email 3: Dia Del Lanzamiento**
+Asunto: ESTA EN VIVO: {nombre_producto} esta listo para ti
+
+{nombre_miembro},
+
+{nombre_producto} esta oficialmente en vivo.
+
+Accede ahora: {enlace_acceso}
+
+Sin checkout, sin pasos extra—ya es tuyo.
+
+{nombre_remitente}
+
+---
+
+### Miembro Basico – Secuencia de Recordatorio (Serie de Emails)
+
+**Email 1: 3 Dias Antes**
+Asunto: 3 dias hasta {nombre_producto} – asegura tu descuento de miembro
+
+Hola {nombre_miembro},
+
+{nombre_producto} se lanza en 3 dias ({fecha_lanzamiento}).
+
+Como miembro, obtendras {monto_descuento} de descuento con el codigo {codigo_descuento}—pero solo hasta el {fecha_expiracion}.
+
+Reserva tu lugar: {enlace_cta}
+
+{nombre_remitente}
+
+---
+
+**Email 2: Dia Antes**
+Asunto: Manana: {nombre_producto} se lanza (tu descuento expira pronto)
+
+{nombre_miembro},
+
+Ultimo recordatorio antes del lanzamiento: {nombre_producto} sale en vivo manana.
+
+Tu codigo de miembro {codigo_descuento} te ahorra {monto_descuento}, pero expira el {fecha_expiracion}.
+
+No esperes: {enlace_cta}
+
+{nombre_remitente}
+
+---
+
+**Email 3: Dia Del Lanzamiento**
+Asunto: {nombre_producto} ESTA EN VIVO – Usa tu descuento de miembro ahora
+
+{nombre_miembro},
+
+{nombre_producto} acaba de lanzarse!
+
+Usa el codigo {codigo_descuento} en el checkout para {monto_descuento} de descuento.
+
+Obtenlo aqui: {enlace_cta}
+
+Oferta valida hasta el {fecha_expiracion}.
+
+{nombre_remitente}
+
+---
+
+### No-miembro – Secuencia de Recordatorio (Serie de Emails)
+
+**Email 1: 3 Dias Antes**
+Asunto: {nombre_producto} se lanza en 3 dias – estas dentro?
+
+Hola {nombre_miembro},
+
+En 3 dias, {nombre_producto} se lanza oficialmente.
+
+El precio early bird esta disponible AHORA, pero solo hasta el {fecha_expiracion}.
+
+Asegura tu lugar: {enlace_cta}
+
+{nombre_remitente}
+
+---
+
+**Email 2: Dia Antes**
+Asunto: Manana: {nombre_producto} sale en vivo
+
+{nombre_miembro},
+
+Manana es el dia. {nombre_producto} se lanza el {fecha_lanzamiento}.
+
+El precio early bird termina el {fecha_expiracion}—esta es tu ultima oportunidad de ahorrar.
+
+Reclama tu lugar: {enlace_cta}
+
+{nombre_remitente}
+
+---
+
+**Email 3: Dia Del Lanzamiento**
+Asunto: {nombre_producto} ESTA AHORA EN VIVO
+
+{nombre_miembro},
+
+Esta aqui. {nombre_producto} esta oficialmente en vivo.
+
+Obtenlo ahora antes de que expire el precio especial: {enlace_cta}
+
+{nombre_remitente}
+
+---
+
+### Plantillas SMS de Recordatorio (Todos los Segmentos)
+
+**3 Dias Antes:**
+{nombre_miembro}, {nombre_producto} llega en 3 dias! Preparate: {enlace_cta}
+
+**Dia Antes:**
+Manana: {nombre_producto} se lanza! No te lo pierdas: {enlace_cta}
+
+**Dia Del Lanzamiento:**
+ESTA EN VIVO! {nombre_producto} esta listo. Accede ahora: {enlace_cta}
+
+---
+
+## 3. PLANTILLAS DE ENTREGA DE REPLAY
+
+### Acceso Total – Entrega de Replay (Email)
+
+Asunto: {nombre_miembro}, tu replay esta listo
+
+Hola {nombre_miembro},
+
+Te perdiste la sesion en vivo? No hay problema—tu replay esta listo.
+
+Miralo ahora: {enlace_replay}
+
+Como miembro de Acceso Total, este replay es tuyo para siempre. Vuelve a verlo cuando quieras.
+
+{nombre_remitente}
+
+---
+
+### Acceso Total – Entrega de Replay (SMS)
+
+Replay listo! Mira {nombre_producto} ahora: {enlace_replay}
+
+---
+
+### Miembro Basico – Entrega de Replay (Email)
+
+Asunto: Tu replay de {nombre_producto} esta aqui
+
+Hola {nombre_miembro},
+
+Gracias por unirte! Aqui esta tu replay:
+
+Miralo ahora: {enlace_replay}
+
+Replay disponible hasta el {fecha_expiracion}.
+
+Quieres acceso ilimitado a todos los replays? Actualiza a Acceso Total: {enlace_cta}
+
+{nombre_remitente}
+
+---
+
+### Miembro Basico – Entrega de Replay (SMS)
+
+Tu replay esta listo: {enlace_replay} (disponible hasta {fecha_expiracion})
+
+---
+
+### No-miembro – Entrega de Replay (Email)
+
+Asunto: Mira el replay de {nombre_producto}
+
+Hola {nombre_miembro},
+
+Gracias por tu interes en {nombre_producto}. Aqui esta tu replay por tiempo limitado:
+
+Miralo ahora: {enlace_replay}
+
+El replay expira el {fecha_expiracion}.
+
+Listo para obtener acceso completo? Unete aqui: {enlace_cta}
+
+{nombre_remitente}
+
+---
+
+### No-miembro – Entrega de Replay (SMS)
+
+Tu replay: {enlace_replay} – Miralo antes del {fecha_expiracion}!
+
+---
+
+## 4. PLANTILLAS DE AVANCE MENSUAL DE PRODUCTO
+
+### Acceso Total – Avance Mensual (Email)
+
+Asunto: Llegando este mes: {nombre_producto}
+
+Hola {nombre_miembro},
+
+Aqui tienes un adelanto de lo que llega este mes...
+
+**{nombre_producto}** – Disponible el {fecha_lanzamiento}
+
+• [Vista previa de caracteristica/beneficio 1]
+• [Vista previa de caracteristica/beneficio 2]
+• [Vista previa de caracteristica/beneficio 3]
+
+Como miembro de Acceso Total, esta automaticamente incluido. Te enviare el enlace cuando este en vivo.
+
+Mantente atento,
+{nombre_remitente}
+
+---
+
+### Miembro Basico – Avance Mensual (Email)
+
+Asunto: Este mes: {nombre_producto} (vista previa exclusiva para miembros)
+
+Hola {nombre_miembro},
+
+Noticias emocionantes para este mes...
+
+**{nombre_producto}** se lanza el {fecha_lanzamiento}
+
+Esto es lo que viene:
+• [Vista previa de caracteristica/beneficio 1]
+• [Vista previa de caracteristica/beneficio 2]
+• [Vista previa de caracteristica/beneficio 3]
+
+Los miembros obtienen primer acceso + precios especiales. Revisa tu inbox el {fecha_lanzamiento}.
+
+{nombre_remitente}
+
+---
+
+### No-miembro – Avance Mensual (Email)
+
+Asunto: Algo nuevo viene: {nombre_producto}
+
+Hola {nombre_miembro},
+
+Marca tu calendario para el {fecha_lanzamiento}.
+
+Estamos lanzando **{nombre_producto}**—y estas en la lista de notificacion temprana.
+
+Aqui tienes una vista previa:
+• [Vista previa de caracteristica/beneficio 1]
+• [Vista previa de caracteristica/beneficio 2]
+• [Vista previa de caracteristica/beneficio 3]
+
+Quieres acceso anticipado + precios de miembro? Unete ahora: {enlace_cta}
+
+{nombre_remitente}
+
+---
+
+### SMS de Avance Mensual (Todos los Segmentos)
+
+Llegando el {fecha_lanzamiento}: {nombre_producto}! Mantente atento para acceso exclusivo.
+
+---
+
+## 5. PLANTILLAS DE FRAGMENTO DE NEWSLETTER
+
+### Acceso Total – Fragmento de Newsletter
+
+**Encabezado de Seccion:** Tus Beneficios de Acceso Total Esta Semana
+
+{nombre_miembro}, esto es lo nuevo en tu membresia:
+
+✓ **Nuevo Lanzamiento:** {nombre_producto} – Ahora disponible en tu dashboard
+✓ **Proximamente:** [Producto/caracteristica proxima]
+✓ **Destacado de Miembro:** [Logro de comunidad o testimonio]
+
+Accede a tu dashboard: {enlace_acceso}
+
+---
+
+### Miembro Basico – Fragmento de Newsletter
+
+**Encabezado de Seccion:** Actualizaciones para Miembros
+
+Hola {nombre_miembro},
+
+Esto es lo que esta pasando:
+
+• **Nuevo para Miembros:** {nombre_producto} – Obtén {monto_descuento} de descuento con codigo {codigo_descuento}
+• **Beneficio de Upgrade:** Los miembros de Acceso Total obtienen [beneficio exclusivo]. Mas info: {enlace_cta}
+• **Recurso:** [Tip util o enlace a articulo]
+
+---
+
+### No-miembro – Fragmento de Newsletter
+
+**Encabezado de Seccion:** Lo Que Te Estas Perdiendo
+
+Hola {nombre_miembro},
+
+Esto es lo que nuestros miembros estan disfrutando ahora mismo:
+
+• **Lanzamiento Destacado:** {nombre_producto}
+• **Beneficio de Miembro:** [Beneficio exclusivo que obtendrian]
+• **Comunidad:** [Prueba social o testimonio]
+
+Listo para unirte? {enlace_cta}
+
+---
+
+## 6. PLANTILLAS DE UPSELL
+
+### Miembro Basico → Upsell a Acceso Total (Email)
+
+Asunto: Desbloquea todo con Acceso Total, {nombre_miembro}
+
+Hola {nombre_miembro},
+
+Has estado obteniendo valor de tu membresia Basica—pero imagina tener acceso a TODO.
+
+**Lo que incluye Acceso Total:**
+• Acceso instantaneo a {nombre_producto} y todos los lanzamientos futuros
+• [Beneficio premium 1]
+• [Beneficio premium 2]
+• [Beneficio premium 3]
+
+Actualiza ahora y ahorra {monto_descuento}: {enlace_cta}
+
+Usa el codigo {codigo_descuento} en el checkout. Expira el {fecha_expiracion}.
+
+{nombre_remitente}
+
+---
+
+### Miembro Basico → Upsell a Acceso Total (SMS)
+
+{nombre_miembro}, actualiza a Acceso Total y desbloquea {nombre_producto} + todo lo demas. Ahorra {monto_descuento} con codigo {codigo_descuento}: {enlace_cta}
+
+---
+
+### No-miembro → Upsell a Miembro Basico (Email)
+
+Asunto: Unete a {nombre_empresa} y obtén {nombre_producto}
+
+Hola {nombre_miembro},
+
+Has estado siguiendo—ahora es momento de profundizar.
+
+**La Membresia Basica incluye:**
+• Acceso a {nombre_producto}
+• [Beneficio principal 1]
+• [Beneficio principal 2]
+• Precios exclusivos para miembros en todos los lanzamientos futuros
+
+Unete hoy por solo {precio_producto}: {enlace_cta}
+
+Lugares limitados disponibles.
+
+{nombre_remitente}
+
+---
+
+### No-miembro → Upsell a Miembro Basico (SMS)
+
+Listo para unirte? Obtén {nombre_producto} + beneficios de miembro por {precio_producto}: {enlace_cta}
+
+---
+
+### No-miembro → Upsell a Acceso Total (Email)
+
+Asunto: Salta Basico—ve directo a Acceso Total
+
+Hola {nombre_miembro},
+
+Por que empezar pequeno cuando puedes tenerlo todo?
+
+**Acceso Total te da:**
+• Acceso instantaneo a {nombre_producto} y toda nuestra biblioteca
+• [Beneficio premium 1]
+• [Beneficio premium 2]
+• Soporte prioritario y acceso anticipado a todo
+
+Unete a Acceso Total: {enlace_cta}
+
+{nombre_remitente}
+
+---
+
+### No-miembro → Upsell a Acceso Total (SMS)
+
+Ve a Acceso Total: Obtén {nombre_producto} + nuestra biblioteca completa al instante. Unete ahora: {enlace_cta}
+
+---
+
+## 7. PLANTILLAS DE RESPUESTA DE SOPORTE
+
+### Acceso Total – Respuesta de Soporte
+
+Asunto: Re: {tema_soporte}
+
+Hola {nombre_miembro},
+
+Gracias por contactarnos—encantado de ayudar!
+
+[Respuesta personalizada abordando su problema especifico]
+
+Como miembro de Acceso Total, tambien tienes acceso a:
+• Soporte prioritario (estas al frente de la fila)
+• Nuestra comunidad privada para respuestas rapidas
+• Acceso directo a [recurso/documentacion]
+
+Si necesitas algo mas, solo responde a este email.
+
+{nombre_remitente}
+Soporte de {nombre_empresa}
+
+---
+
+### Miembro Basico – Respuesta de Soporte
+
+Asunto: Re: {tema_soporte}
+
+Hola {nombre_miembro},
+
+Gracias por tu mensaje—estoy aqui para ayudar.
+
+[Respuesta personalizada abordando su problema especifico]
+
+Tip rapido: Muchas preguntas comunes estan respondidas en nuestro FAQ para miembros: {enlace_cta}
+
+Necesitas soporte mas rapido? Los miembros de Acceso Total obtienen tiempos de respuesta prioritarios. Mas info: {enlace_cta}
+
+{nombre_remitente}
+Soporte de {nombre_empresa}
+
+---
+
+### No-miembro – Respuesta de Soporte
+
+Asunto: Re: {tema_soporte}
+
+Hola {nombre_miembro},
+
+Gracias por contactarnos!
+
+[Respuesta personalizada abordando su problema especifico]
+
+Para guias detalladas y soporte prioritario, revisa nuestras opciones de membresia: {enlace_cta}
+
+Avisame si tienes otras preguntas.
+
+{nombre_remitente}
+Soporte de {nombre_empresa}
+
+---
+
+### Plantillas SMS de Soporte
+
+**Confirmacion:**
+{nombre_miembro}, recibimos tu mensaje sobre {tema_soporte}. Responderemos en 24 horas.
+
+**Resolucion:**
+Hola {nombre_miembro}, tu problema de {tema_soporte} ha sido resuelto. Preguntas? Responde aqui.
+
+**Seguimiento:**
+{nombre_miembro}, solo verificando—esta resuelto tu problema de {tema_soporte}? Cuentanos: {enlace_cta}
+
+---
+
+## REFERENCIA RAPIDA: GUIA DE MARCADORES
+
+| Marcador | Descripcion | Ejemplo |
+|----------|-------------|---------|
+| {nombre_producto} | Nombre del producto/curso/evento | "Curso Dominio de Contenido" |
+| {fecha_lanzamiento} | Fecha de lanzamiento o evento | "15 de enero, 2025" |
+| {fecha_evento} | Fecha especifica del evento | "20 de enero, 2025" |
+| {hora_evento} | Hora de inicio del evento | "2:00 PM" |
+| {zona_horaria} | Zona horaria | "EST" |
+| {enlace_replay} | URL del replay | "https://ejemplo.com/replay" |
+| {enlace_acceso} | URL del dashboard/acceso | "https://ejemplo.com/dashboard" |
+| {nombre_miembro} | Nombre o nombre completo | "Sara" |
+| {precio_producto} | Monto del precio | "$197" |
+| {monto_descuento} | Monto del ahorro | "$50" |
+| {codigo_descuento} | Codigo promocional | "MIEMBRO50" |
+| {fecha_expiracion} | Fecha limite | "20 de enero, 2025" |
+| {tema_soporte} | Asunto del ticket de soporte | "Problemas de Inicio de Sesion" |
+| {enlace_cta} | URL del call-to-action | "https://ejemplo.com/unirse" |
+| {nombre_empresa} | Nombre de tu marca | "Acme Learning" |
+| {nombre_remitente} | Tu nombre o nombre del equipo | "El Equipo de Acme" |
+
+---
+
+EJEMPLO DE USO:
+1. Elige el tipo de plantilla (lanzamiento, recordatorio, replay, avance, newsletter, upsell o soporte)
+2. Selecciona el segmento de audiencia apropiado (Acceso Total, Miembro Basico o No-miembro)
+3. Copia la plantilla y reemplaza todos los marcadores con tu contenido real
+4. Pega en el constructor de campanas de GHL (flujo de email o SMS)
+5. Prueba con una vista previa antes de enviar
+
+CONSEJO PRO: Crea valores personalizados en GHL para marcadores comunes ({nombre_empresa}, {nombre_remitente}, {enlace_acceso}) para auto-rellenar en todas las campanas.

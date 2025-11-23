@@ -169,6 +169,22 @@ List {wins}, {blockers}, and pipeline notes at the end of the week. The output s
 and adds a pipeline watchlist plus personal ops reminder—all in under 250 words.
 ```
 
+### Email & SMS Marketing
+Reusable message templates for GoHighLevel (GHL) campaigns across audience segments.
+
+#### GHL Message Templates
+Complete collection of email and SMS templates for product launches, reminder sequences, replay delivery, monthly teasers, newsletters, upsells, and support replies—segmented for All Access, Basic Member, and Non-member audiences.
+
+- **English**: [en/ghl_message_templates.txt](en/ghl_message_templates.txt)
+- **Spanish**: [es/ghl_message_templates.txt](es/ghl_message_templates.txt)
+
+**Quick Example:**
+```
+Choose template type (launch/reminder/replay/teaser/newsletter/upsell/support), select audience segment,
+replace placeholders like {product_name}, {launch_date}, {member_name}, {discount_code}, and paste into GHL.
+Templates include subject lines, email body copy, and SMS variants ready to customize.
+```
+
 ### Marketing Automation
 Ready-to-use conversational copy for chatbot and messaging platform flows.
 
@@ -182,6 +198,16 @@ Complete conversational copy for every ManyChat flow step: keyword responses, we
 Use the copy blocks directly in ManyChat by replacing {lead_name}, {product_name}, {price}, and other variables.
 Each snippet includes button labels and tag recommendations—just copy, customize, and publish your flow.
 ```
+
+#### Marketing Copy Blocks
+Comprehensive copy blocks for checklist landing pages, quiz funnels, blog CTAs, popup headlines, and 5-email follow-up sequences.
+
+- **English**: [en/marketing_copy_blocks.md](en/marketing_copy_blocks.md)
+
+#### Systeme.io Copy Snippets
+Reusable email copy for systeme.io campaigns including welcome sequences, nurture flows, discovery call CTAs, and drip reminders.
+
+- **English**: [en/systeme_io_copy_snippets.md](en/systeme_io_copy_snippets.md)
 
 ## 🌍 Supported Languages
 
@@ -311,7 +337,7 @@ This project is open source and available for use in your AI applications and wo
 ## ✨ Key Features
 
 - **Standardized format** across all prompts for consistency and discoverability
-- **33 bilingual prompts** covering outreach, discovery, chatbot, content, proposals, post-engagement, operations, and marketing automation
+- **38 bilingual prompts** covering outreach, discovery, chatbot, content, proposals, post-engagement, operations, email/SMS marketing, and marketing automation
 - **Platform-agnostic** – Use with ChatGPT, Claude, Gemini, Copilot, and more
 - **Production-ready** – Each prompt has been tested and refined for real-world use
 - **Easy customization** – Clear variables and tone guidance for your specific needs
