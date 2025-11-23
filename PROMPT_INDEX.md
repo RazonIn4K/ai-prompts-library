@@ -79,6 +79,7 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 | Prompt | Purpose | Files | Complexity |
 |--------|---------|-------|------------|
 | **ManyChat Copy Snippets** | Conversational copy for ManyChat flows with CTA buttons and tags | [en](en/manychat_copy_snippets.md) | Standard |
+| **Systeme.io Copy Snippets** | Email copy for welcome sequences, nurture flows, discovery call CTAs, and drip reminders | [en](en/systeme_io_copy_snippets.md) | Standard |
 
 ---
 
@@ -114,8 +115,9 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 ### Operations (1 prompt)
 - Weekly Review & Planning
 
-### Marketing Automation (1 prompt)
+### Marketing Automation (2 prompts)
 - ManyChat Copy Snippets
+- Systeme.io Copy Snippets
 
 ---
 
@@ -162,6 +164,7 @@ Each prompt is tagged with labels to help you filter by:
 
 #### 🤖 Marketing Automation
 - **ManyChat Copy Snippets** — Marketing Automation, Standard, Conversational Copy, ManyChat / WhatsApp / E-commerce / Coaches
+- **Systeme.io Copy Snippets** — Email Marketing, Standard, Email Sequences, Systeme.io / Coaches / Course Creators / Service Providers
 
 ---
 
@@ -477,6 +480,26 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
+### 19. Systeme.io Copy Snippets
+**Category:** Marketing Automation / Email Marketing
+**Purpose:** Reusable email copy for systeme.io campaigns including welcome sequences, nurture flows, discovery call CTAs, and drip reminders
+**Variables:** `{first_name}`, `{offer_name}`, `{bonus}`, `{deadline}`, `{calendar_link}`, `{sender_name}`, `{company_name}`
+**Tone:** Warm professional, conversational mentor, encouraging without being pushy
+**Complexity:** Standard
+**Files:** [English](en/systeme_io_copy_snippets.md)
+
+**Use When:**
+- Building systeme.io email automation campaigns
+- Setting up welcome sequences for new subscribers
+- Creating nurture flows to warm up leads before offers
+- Writing discovery call invitations and follow-ups
+- Designing deadline-based launch and drip reminder sequences
+- Re-engaging inactive subscribers
+
+**Expected Output:** Complete email templates across 5 categories: welcome emails (new lead, lead magnet delivery, returning subscriber), nurture touchpoints (teaching frameworks, stories, testimonials, FAQ/objection handlers, quick tips), discovery call CTAs (soft/direct invitations, reminders, no-show follow-ups), drip reminders (launch announcements, 72hr/24hr/final hour deadlines, post-deadline), and re-engagement emails (check-ins, value bombs, last-chance)—each with subject line options, segment-specific notes, and systeme.io tag recommendations
+
+---
+
 ## How to Use the Index
 
 1. **Start with "By Use Case"** if you know what you're trying to accomplish
@@ -499,4 +522,4 @@ When adding new prompts to the library:
 ---
 
 **Last Updated:** November 2025
-**Total Prompts:** 33 (17 English + 16 Spanish)
+**Total Prompts:** 35 (19 English + 16 Spanish)
