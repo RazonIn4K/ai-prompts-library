@@ -208,7 +208,6 @@ Comprehensive copy blocks for checklist landing pages, quiz funnels, blog CTAs, 
 Reusable email copy for systeme.io campaigns including welcome sequences, nurture flows, discovery call CTAs, and drip reminders.
 
 - **English**: [en/systeme_io_copy_snippets.md](en/systeme_io_copy_snippets.md)
-```
 
 ## 🌍 Supported Languages
 
