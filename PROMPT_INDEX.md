@@ -23,6 +23,13 @@ Generate leads and warm prospects with personalized messaging.
 | **Outreach First Line** | Generate personalized opening lines for cold emails | [en](en/outreach_first_line.txt) / [es](es/outreach_first_line.txt) | Quick |
 | **Lead Research to Email Intro** | Create 1–2 sentence cold-email openings from research | [en](en/lead_research_to_email_intro.txt) / [es](es/lead_research_to_email_intro.txt) | Quick |
 
+### 🏗️ Sales Pages & Funnels
+Build high-converting sales pages with structured layouts and design systems.
+
+| Prompt | Purpose | Files | Complexity |
+|--------|---------|-------|------------|
+| **Sales Layout Prompts** | Layout configurations for FG Funnels blocks (Hero, Credibility, Program, Testimonials, FAQ) | [en](en/sales_layout_prompts.md) | Advanced |
+
 ### 📄 Proposals & Discovery
 Close deals faster with proposal-ready responses and structured scoping artifacts.
 
@@ -117,6 +124,9 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 ### Marketing Automation (1 prompt)
 - ManyChat Copy Snippets
 
+### Sales Pages & Funnels (1 prompt)
+- Sales Layout Prompts
+
 ---
 
 ## By Tags
@@ -162,6 +172,9 @@ Each prompt is tagged with labels to help you filter by:
 
 #### 🤖 Marketing Automation
 - **ManyChat Copy Snippets** — Marketing Automation, Standard, Conversational Copy, ManyChat / WhatsApp / E-commerce / Coaches
+
+#### 🏗️ Sales Pages & Funnels
+- **Sales Layout Prompts** — Sales Pages, Advanced, Layout Specifications, FG Funnels / ClickFunnels / Coaches / Course Creators
 
 ---
 
@@ -477,6 +490,24 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
+### 19. Sales Layout Prompts
+**Category:** Sales Pages & Funnels
+**Purpose:** Ready-to-use layout prompts for arranging sales page sections in FG Funnels blocks while maintaining reference site fidelity
+**Variables:** `{brand_color_primary}`, `{brand_color_secondary}`, `{logo_url}`, `{hero_image_url}`, `{testimonial_images}`, `{program_name}`, `{price}`, `{cta_text}`
+**Tone:** Conversion-focused, visually clear, mobile-responsive, brand-consistent
+**Complexity:** Advanced
+**Files:** [English](en/sales_layout_prompts.md)
+
+**Use When:**
+- Building sales pages in FG Funnels and need structured layout guidance
+- Recreating a reference site's layout in funnel builder blocks
+- Setting up hero sections, credibility bars, program breakdowns, testimonials, or FAQ sections
+- Need consistent spacing, typography, and mobile behavior specifications
+
+**Expected Output:** Detailed block configurations for 5 sales page sections (Hero, Credibility, Program Breakdown, Testimonials, FAQ), including grid layouts, spacing guidelines, mobile behavior, styling tokens, and FG Funnels-specific implementation settings
+
+---
+
 ## How to Use the Index
 
 1. **Start with "By Use Case"** if you know what you're trying to accomplish
@@ -499,4 +530,4 @@ When adding new prompts to the library:
 ---
 
 **Last Updated:** November 2025
-**Total Prompts:** 33 (17 English + 16 Spanish)
+**Total Prompts:** 35 (18 English + 17 Spanish)
