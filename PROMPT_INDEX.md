@@ -79,6 +79,7 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 | Prompt | Purpose | Files | Complexity |
 |--------|---------|-------|------------|
 | **ManyChat Copy Snippets** | Conversational copy for ManyChat flows with CTA buttons and tags | [en](en/manychat_copy_snippets.md) | Standard |
+| **Bootcamp Funnel Emails** | Complete email sequences for bootcamp funnels: nurture, webinar, purchase nudges, onboarding | [en](en/bootcamp_funnel_emails.md) | Standard |
 
 ---
 
@@ -114,8 +115,9 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 ### Operations (1 prompt)
 - Weekly Review & Planning
 
-### Marketing Automation (1 prompt)
+### Marketing Automation (2 prompts)
 - ManyChat Copy Snippets
+- Bootcamp Funnel Emails
 
 ---
 
@@ -162,6 +164,7 @@ Each prompt is tagged with labels to help you filter by:
 
 #### 🤖 Marketing Automation
 - **ManyChat Copy Snippets** — Marketing Automation, Standard, Conversational Copy, ManyChat / WhatsApp / E-commerce / Coaches
+- **Bootcamp Funnel Emails** — Marketing Automation, Standard, Email Sequences, Real Estate / Coaches / Course Creators
 
 ---
 
@@ -477,6 +480,24 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
+### 19. Bootcamp Funnel Emails
+**Category:** Marketing Automation
+**Purpose:** Complete email sequences for real estate bootcamp funnels including nurture, webinar reminders, purchase nudges, and onboarding
+**Variables:** `{first_name}`, `{bootcamp_name}`, `{start_date}`, `{start_time}`, `{timezone}`, `{price}`, `{original_price}`, `{bonus}`, `{bonus_value}`, `{deposit_amount}`, `{payment_link}`, `{webinar_link}`, `{replay_link}`, `{community_link}`, `{mentor_name}`, `{mentor_credential}`, `{deadline}`, `{seats_remaining}`, `{success_story_name}`, `{success_story_result}`
+**Tone:** Confident real-estate mentor — direct, no-nonsense, experienced, encouraging but not pushy, speaks from authority
+**Complexity:** Standard
+**Files:** [English](en/bootcamp_funnel_emails.md)
+
+**Use When:**
+- Launching a real estate bootcamp or coaching program and need complete email sequences
+- Setting up a webinar funnel with registration, reminders, and replay sequences
+- Creating cart abandonment and purchase nudge campaigns
+- Building post-purchase onboarding flows for new students
+
+**Expected Output:** Complete email copy for 4 funnel stages: 5-email nurture sequence (welcome, pain points, value, social proof, final CTA), webinar reminders (confirmation, 24hr, 1hr, live, no-show, replay expiring), deposit/purchase nudges (deposit offer, cart abandonment, price warnings, final hours), and 5-email post-signup onboarding (welcome, community intro, expectations, call reminder, week-one check-in)—with subject lines, body copy, and implementation timing notes
+
+---
+
 ## How to Use the Index
 
 1. **Start with "By Use Case"** if you know what you're trying to accomplish
@@ -499,4 +520,4 @@ When adding new prompts to the library:
 ---
 
 **Last Updated:** November 2025
-**Total Prompts:** 33 (17 English + 16 Spanish)
+**Total Prompts:** 34 (18 English + 16 Spanish)
