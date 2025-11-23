@@ -79,6 +79,7 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 | Prompt | Purpose | Files | Complexity |
 |--------|---------|-------|------------|
 | **ManyChat Copy Snippets** | Conversational copy for ManyChat flows with CTA buttons and tags | [en](en/manychat_copy_snippets.md) | Standard |
+| **Marketing Copy Blocks** | Checklist landing pages, quiz funnels, blog CTAs, popups, and 5-email sequences | [en](en/marketing_copy_blocks.md) | Standard |
 | **Systeme.io Copy Snippets** | Email copy for welcome sequences, nurture flows, discovery call CTAs, and drip reminders | [en](en/systeme_io_copy_snippets.md) | Standard |
 
 ---
@@ -117,6 +118,7 @@ Ready-to-use conversational copy for chatbot and messaging platform flows.
 
 ### Marketing Automation (2 prompts)
 - ManyChat Copy Snippets
+- Marketing Copy Blocks
 - Systeme.io Copy Snippets
 
 ---
@@ -164,6 +166,7 @@ Each prompt is tagged with labels to help you filter by:
 
 #### 🤖 Marketing Automation
 - **ManyChat Copy Snippets** — Marketing Automation, Standard, Conversational Copy, ManyChat / WhatsApp / E-commerce / Coaches
+- **Marketing Copy Blocks** — Marketing Automation, Standard, Multi-format Copy, Landing Pages / Email Sequences / Quiz Funnels / B2B / SaaS
 - **Systeme.io Copy Snippets** — Email Marketing, Standard, Email Sequences, Systeme.io / Coaches / Course Creators / Service Providers
 
 ---
@@ -480,6 +483,22 @@ Each prompt is tagged with labels to help you filter by:
 
 ---
 
+### 19. Marketing Copy Blocks
+**Category:** Marketing Automation
+**Purpose:** Comprehensive copy blocks for checklist landing pages, quiz funnels, blog CTAs, popup headlines, and 5-email follow-up sequences
+**Variables:** `{lead_name}`, `{company_name}`, `{checklist_title}`, `{quiz_title}`, `{result_type}`, `{product_name}`, `{industry}`, `{stat_number}`, `{stat_source}`, `{benefit_1}`, `{benefit_2}`, `{benefit_3}`, `{cta_url}`
+**Tone:** Data-backed, compliance-friendly, professional, clear, benefit-driven
+**Complexity:** Standard
+**Files:** [English](en/marketing_copy_blocks.md)
+
+**Use When:**
+- Building lead magnet landing pages for checklists or downloadable resources
+- Creating quiz funnels with personalized result pages and segmentation
+- Adding high-converting CTAs to blog content (inline, end-of-post, sidebar)
+- Designing popup campaigns (exit-intent, timed, scroll-triggered)
+- Setting up 5-email follow-up sequences (orientation → proof → mini-teach → soft CTA → hard CTA)
+
+**Expected Output:** Complete copy blocks for 5 marketing asset types: (1) checklist landing page with headlines, body copy, form sections, and trust indicators; (2) quiz intro/results screens with three result paths; (3) blog CTAs for inline, end-of-article, and sidebar placements; (4) popup headlines for exit-intent, timed, and promotional use; (5) 5-email nurture sequence with subject lines and full body copy—all with compliance notes and variable references
 ### 19. Systeme.io Copy Snippets
 **Category:** Marketing Automation / Email Marketing
 **Purpose:** Reusable email copy for systeme.io campaigns including welcome sequences, nurture flows, discovery call CTAs, and drip reminders
