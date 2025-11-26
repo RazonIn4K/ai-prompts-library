@@ -16,125 +16,143 @@ A comprehensive guide to finding and using prompts in the AI Prompts Library. Al
 ## By Use Case
 
 ### 🎯 Sales & Outreach
+
 Generate leads and warm prospects with personalized messaging.
 
-| Prompt | Purpose | Files | Complexity |
-|--------|---------|-------|------------|
-| **Outreach First Line** | Generate personalized opening lines for cold emails | [en](en/outreach_first_line.txt) / [es](es/outreach_first_line.txt) | Quick |
-| **Lead Research to Email Intro** | Create 1–2 sentence cold-email openings from research | [en](en/lead_research_to_email_intro.txt) / [es](es/lead_research_to_email_intro.txt) | Quick |
+| Prompt                           | Purpose                                               | Files                                                                                 | Complexity |
+| -------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------- |
+| **Outreach First Line**          | Generate personalized opening lines for cold emails   | [en](en/outreach_first_line.txt) / [es](es/outreach_first_line.txt)                   | Quick      |
+| **Lead Research to Email Intro** | Create 1–2 sentence cold-email openings from research | [en](en/lead_research_to_email_intro.txt) / [es](es/lead_research_to_email_intro.txt) | Quick      |
 
 ### 🏗️ Sales Pages & Funnels
+
 Build high-converting sales pages with structured layouts and design systems.
 
-| Prompt | Purpose | Files | Complexity |
-|--------|---------|-------|------------|
-| **Sales Layout Prompts** | Layout configurations for FG Funnels blocks (Hero, Credibility, Program, Testimonials, FAQ) | [en](en/sales_layout_prompts.md) | Advanced |
+| Prompt                   | Purpose                                                                                     | Files                            | Complexity |
+| ------------------------ | ------------------------------------------------------------------------------------------- | -------------------------------- | ---------- |
+| **Sales Layout Prompts** | Layout configurations for FG Funnels blocks (Hero, Credibility, Program, Testimonials, FAQ) | [en](en/sales_layout_prompts.md) | Advanced   |
 
 ### 📄 Proposals & Discovery
+
 Close deals faster with proposal-ready responses and structured scoping artifacts.
 
-| Prompt | Purpose | Files | Complexity |
-|--------|---------|-------|------------|
-| **Upwork Proposal General** | Draft compelling proposals for Upwork projects | [en](en/upwork_proposal_general.txt) / [es](es/upwork_proposal_general.txt) | Standard |
-| **Upwork Job Response Helper** | Turn job posts + skills into a 200–300 word reply with CTA | [en](en/upwork_job_response_helper.txt) / [es](es/upwork_job_response_helper.txt) | Standard |
-| **Discovery Notes to Scope** | Convert raw call notes into a scoped project summary | [en](en/discovery_notes_to_scope.txt) / [es](es/discovery_notes_to_scope.txt) | Standard |
-| **Client Fit / Red Flag Analyzer** | Decide go/no-go and surface risks before committing | [en](en/client_fit_red_flag_analyzer.txt) / [es](es/client_fit_red_flag_analyzer.txt) | Quick |
-| **Upwork Profile Rewriter** | Refresh title + summary for a chosen niche | [en](en/upwork_profile_rewriter.txt) / [es](es/upwork_profile_rewriter.txt) | Standard |
-| **Upwork Job Triage → Proposal Plan** | Prioritize 3–5 jobs and outline proposal steps | [en](en/upwork_job_triage_plan.txt) / [es](es/upwork_job_triage_plan.txt) | Quick |
+| Prompt                                | Purpose                                                    | Files                                                                                 | Complexity |
+| ------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------- |
+| **Upwork Proposal General**           | Draft compelling proposals for Upwork projects             | [en](en/upwork_proposal_general.txt) / [es](es/upwork_proposal_general.txt)           | Standard   |
+| **Upwork Job Response Helper**        | Turn job posts + skills into a 200–300 word reply with CTA | [en](en/upwork_job_response_helper.txt) / [es](es/upwork_job_response_helper.txt)     | Standard   |
+| **Discovery Notes to Scope**          | Convert raw call notes into a scoped project summary       | [en](en/discovery_notes_to_scope.txt) / [es](es/discovery_notes_to_scope.txt)         | Standard   |
+| **Client Fit / Red Flag Analyzer**    | Decide go/no-go and surface risks before committing        | [en](en/client_fit_red_flag_analyzer.txt) / [es](es/client_fit_red_flag_analyzer.txt) | Quick      |
+| **Upwork Profile Rewriter**           | Refresh title + summary for a chosen niche                 | [en](en/upwork_profile_rewriter.txt) / [es](es/upwork_profile_rewriter.txt)           | Standard   |
+| **Upwork Job Triage → Proposal Plan** | Prioritize 3–5 jobs and outline proposal steps             | [en](en/upwork_job_triage_plan.txt) / [es](es/upwork_job_triage_plan.txt)             | Quick      |
 
 ### 💼 Discovery & Scoping
+
 Ask the right questions to understand client needs before proposing solutions.
 
-| Prompt | Purpose | Files | Complexity |
-|--------|---------|-------|------------|
-| **Automation Discovery Questions** | 16 questions to scope automation projects | [en](en/automation_discovery_questions.txt) / [es](es/automation_discovery_questions.txt) | Standard |
-| **Chatbot Discovery Questions** | 22 questions to scope chatbot projects | [en](en/chatbot_discovery_questions.txt) / [es](es/chatbot_discovery_questions.txt) | Standard |
-| **Automation Discovery Call** | Call agenda + question bank for automation scoping | [en](en/automation_discovery_call.txt) / [es](es/automation_discovery_call.txt) | Standard |
-| **Chatbot Discovery Call** | Call agenda + question bank for chatbot scoping | [en](en/chatbot_discovery_call.txt) / [es](es/chatbot_discovery_call.txt) | Standard |
+| Prompt                             | Purpose                                            | Files                                                                                     | Complexity |
+| ---------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------- |
+| **Automation Discovery Questions** | 16 questions to scope automation projects          | [en](en/automation_discovery_questions.txt) / [es](es/automation_discovery_questions.txt) | Standard   |
+| **Chatbot Discovery Questions**    | 22 questions to scope chatbot projects             | [en](en/chatbot_discovery_questions.txt) / [es](es/chatbot_discovery_questions.txt)       | Standard   |
+| **Automation Discovery Call**      | Call agenda + question bank for automation scoping | [en](en/automation_discovery_call.txt) / [es](es/automation_discovery_call.txt)           | Standard   |
+| **Chatbot Discovery Call**         | Call agenda + question bank for chatbot scoping    | [en](en/chatbot_discovery_call.txt) / [es](es/chatbot_discovery_call.txt)                 | Standard   |
 
 ### 📱 Chatbot Development
+
 Configure and train AI chatbots with consistent voice and behavior.
 
-| Prompt | Purpose | Files | Complexity |
-|--------|---------|-------|------------|
-| **Chatbot Tone** | Define chatbot voice, style, and interaction patterns | [en](en/chatbot_tone.md) / [es](es/chatbot_tone.md) | Quick |
+| Prompt           | Purpose                                               | Files                                               | Complexity |
+| ---------------- | ----------------------------------------------------- | --------------------------------------------------- | ---------- |
+| **Chatbot Tone** | Define chatbot voice, style, and interaction patterns | [en](en/chatbot_tone.md) / [es](es/chatbot_tone.md) | Quick      |
 
 ### 📞 Voice AI & Receptionists
+
 Build AI-powered phone systems with natural conversation flows.
 
-| Prompt | Purpose | Files | Complexity |
-|--------|---------|-------|------------|
-| **AI Receptionist Dialogue Blocks** | Reusable conversation flows for AI receptionists across industries (roofing, HVAC, dental, medspa, legal) | [en](en/ai_receptionist_dialogue_blocks.md) | Advanced |
+| Prompt                              | Purpose                                                                                                   | Files                                       | Complexity |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------------------------- | ---------- |
+| **AI Receptionist Dialogue Blocks** | Reusable conversation flows for AI receptionists across industries (roofing, HVAC, dental, medspa, legal) | [en](en/ai_receptionist_dialogue_blocks.md) | Advanced   |
 
 ### 📚 Content Creation
+
 Transform raw content into multi-format, publishable material.
 
-| Prompt | Purpose | Files | Complexity |
-|--------|---------|-------|------------|
-| **Podcast to Blog** | Generate blog post, show notes, and 5 social posts from podcast transcripts | [en](en/podcast_to_blog.txt) / [es](es/podcast_to_blog.txt) | Standard |
+| Prompt              | Purpose                                                                     | Files                                                       | Complexity |
+| ------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------- | ---------- |
+| **Podcast to Blog** | Generate blog post, show notes, and 5 social posts from podcast transcripts | [en](en/podcast_to_blog.txt) / [es](es/podcast_to_blog.txt) | Standard   |
 
 ### ✅ Post-Engagement
+
 Wrap projects with results-focused assets for testimonials and renewals.
 
-| Prompt | Purpose | Files | Complexity |
-|--------|---------|-------|------------|
-| **Post-Project Retrospective** | Summarize goals, outcomes, and next steps for client-facing recaps | [en](en/post_project_retrospective.txt) / [es](es/post_project_retrospective.txt) | Standard |
+| Prompt                         | Purpose                                                            | Files                                                                             | Complexity |
+| ------------------------------ | ------------------------------------------------------------------ | --------------------------------------------------------------------------------- | ---------- |
+| **Post-Project Retrospective** | Summarize goals, outcomes, and next steps for client-facing recaps | [en](en/post_project_retrospective.txt) / [es](es/post_project_retrospective.txt) | Standard   |
 
 ### ⚙️ Operations
+
 Run the business side of your solo practice with weekly planning.
 
-| Prompt | Purpose | Files | Complexity |
-|--------|---------|-------|------------|
-| **Weekly Review & Planning** | Convert weekly notes into a go-forward plan | [en](en/weekly_review_planning.txt) / [es](es/weekly_review_planning.txt) | Quick |
+| Prompt                       | Purpose                                     | Files                                                                     | Complexity |
+| ---------------------------- | ------------------------------------------- | ------------------------------------------------------------------------- | ---------- |
+| **Weekly Review & Planning** | Convert weekly notes into a go-forward plan | [en](en/weekly_review_planning.txt) / [es](es/weekly_review_planning.txt) | Quick      |
 
 ### 📧 Email & SMS Marketing
+
 Reusable message templates for GoHighLevel (GHL) campaigns across audience segments.
 
-| Prompt | Purpose | Files | Complexity |
-|--------|---------|-------|------------|
-| **GHL Message Templates** | Launch announcements, reminders, replays, teasers, newsletters, upsells, and support by segment | [en](en/ghl_message_templates.txt) / [es](es/ghl_message_templates.txt) | Standard |
+| Prompt                    | Purpose                                                                                         | Files                                                                   | Complexity |
+| ------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------- |
+| **GHL Message Templates** | Launch announcements, reminders, replays, teasers, newsletters, upsells, and support by segment | [en](en/ghl_message_templates.txt) / [es](es/ghl_message_templates.txt) | Standard   |
 
 ### 🤖 Marketing Automation
+
 Ready-to-use conversational copy for chatbot and messaging platform flows.
 
-| Prompt | Purpose | Files | Complexity |
-|--------|---------|-------|------------|
-| **ManyChat Copy Snippets** | Conversational copy for ManyChat flows with CTA buttons and tags | [en](en/manychat_copy_snippets.md) | Standard |
-| **Marketing Copy Blocks** | Checklist landing pages, quiz funnels, blog CTAs, popups, and 5-email sequences | [en](en/marketing_copy_blocks.md) | Standard |
-| **Systeme.io Copy Snippets** | Email copy for welcome sequences, nurture flows, discovery call CTAs, and drip reminders | [en](en/systeme_io_copy_snippets.md) | Standard |
-| **Bootcamp Funnel Emails** | Complete email sequences for bootcamp funnels: nurture, webinar, purchase nudges, onboarding | [en](en/bootcamp_funnel_emails.md) | Standard |
+| Prompt                       | Purpose                                                                                      | Files                                | Complexity |
+| ---------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------ | ---------- |
+| **ManyChat Copy Snippets**   | Conversational copy for ManyChat flows with CTA buttons and tags                             | [en](en/manychat_copy_snippets.md)   | Standard   |
+| **Marketing Copy Blocks**    | Checklist landing pages, quiz funnels, blog CTAs, popups, and 5-email sequences              | [en](en/marketing_copy_blocks.md)    | Standard   |
+| **Systeme.io Copy Snippets** | Email copy for welcome sequences, nurture flows, discovery call CTAs, and drip reminders     | [en](en/systeme_io_copy_snippets.md) | Standard   |
+| **Bootcamp Funnel Emails**   | Complete email sequences for bootcamp funnels: nurture, webinar, purchase nudges, onboarding | [en](en/bootcamp_funnel_emails.md)   | Standard   |
 
 ### 🎨 Branding & Copy
+
 Establish brand voice and create consistent, on-brand messaging.
 
-| Prompt | Purpose | Files | Complexity |
-|--------|---------|-------|------------|
-| **Brand Voice Guidelines** | Brand voice principles + reusable copy snippets (headlines, CTAs, teasers, emails) | [en](en/brand_voice_guidelines.md) | Standard |
+| Prompt                     | Purpose                                                                            | Files                              | Complexity |
+| -------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------- | ---------- |
+| **Brand Voice Guidelines** | Brand voice principles + reusable copy snippets (headlines, CTAs, teasers, emails) | [en](en/brand_voice_guidelines.md) | Standard   |
 
 ---
 
 ## By Category
 
 ### Outreach (2 prompts)
+
 - Outreach First Line
 - Lead Research to Email Intro
 
 ### Discovery (4 prompts)
+
 - Automation Discovery Questions
 - Chatbot Discovery Questions
 - Automation Discovery Call
 - Chatbot Discovery Call
 
 ### Chatbot Configuration (1 prompt)
+
 - Chatbot Tone
 
 ### Voice AI (1 prompt)
+
 - AI Receptionist Dialogue Blocks
 
 ### Content Generation (1 prompt)
+
 - Podcast to Blog
 
 ### Proposals & Discovery (6 prompts)
+
 - Upwork Proposal General
 - Upwork Job Response Helper
 - Discovery Notes to Scope
@@ -143,24 +161,30 @@ Establish brand voice and create consistent, on-brand messaging.
 - Upwork Job Triage → Proposal Plan
 
 ### Post-Engagement (1 prompt)
+
 - Post-Project Retrospective
 
 ### Operations (1 prompt)
+
 - Weekly Review & Planning
 
 ### Email & SMS Marketing (1 prompt)
+
 - GHL Message Templates
 
 ### Marketing Automation (4 prompts)
+
 - ManyChat Copy Snippets
 - Marketing Copy Blocks
 - Systeme.io Copy Snippets
 - Bootcamp Funnel Emails
 
 ### Sales Pages & Funnels (1 prompt)
+
 - Sales Layout Prompts
 
 ### Branding & Copy (1 prompt)
+
 - Brand Voice Guidelines
 
 ---
@@ -168,7 +192,9 @@ Establish brand voice and create consistent, on-brand messaging.
 ## By Tags
 
 ### Tags Explained
+
 Each prompt is tagged with labels to help you filter by:
+
 - **Use Case**: Outreach, Sales, Content, Discovery, Chatbot, Proposals, Post-Engagement
 - **Complexity**: Quick (< 2 min setup), Standard (2–5 min), Advanced (5+ min)
 - **Output Type**: Single-sentence, Multi-sentence, List, Structured Document
@@ -177,25 +203,31 @@ Each prompt is tagged with labels to help you filter by:
 ### All Tagged Prompts
 
 #### 🎯 Outreach
+
 - **Outreach First Line** — Sales, Quick, Single-sentence, General
 - **Lead Research to Email Intro** — Sales, Quick, Single-sentence, General
 
 #### 💡 Discovery
+
 - **Automation Discovery Questions** — Discovery, Standard, List, General / SaaS / Freelance
 - **Chatbot Discovery Questions** — Discovery, Standard, List, General / SaaS
 - **Automation Discovery Call** — Discovery, Standard, Call Agenda, General / SaaS / Ops
 - **Chatbot Discovery Call** — Discovery, Standard, Call Agenda, Support / Product / Ops
 
 #### 📱 Chatbot
+
 - **Chatbot Tone** — Chatbot, Quick, Reference Guide, General
 
 #### 📞 Voice AI
+
 - **AI Receptionist Dialogue Blocks** — Voice AI, Advanced, Dialogue Templates, Roofing / HVAC / Dental / MedSpa / Legal
 
 #### 📝 Content
+
 - **Podcast to Blog** — Content, Standard, Structured Document, General
 
 #### 📄 Proposals & Discovery
+
 - **Upwork Proposal General** — Proposals, Sales, Standard, Multi-paragraph, Freelance / Agency
 - **Upwork Job Response Helper** — Proposals, Sales, Standard, Multi-paragraph + Bullets, Freelance / Agency
 - **Discovery Notes to Scope** — Proposals, Discovery, Standard, Structured Document, Ops / Product
@@ -204,24 +236,30 @@ Each prompt is tagged with labels to help you filter by:
 - **Upwork Job Triage → Proposal Plan** — Proposals, Sales, Quick, Prioritization Plan, Freelance / Agency
 
 #### ✅ Post-Engagement
+
 - **Post-Project Retrospective** — Post-Engagement, Standard, Recap Document, Client Success / Marketing
 
 #### ⚙️ Operations
+
 - **Weekly Review & Planning** — Operations, Quick, Weekly Brief, Solo Practice
 
 #### 📧 Email & SMS
+
 - **GHL Message Templates** — Email/SMS, Standard, Campaign Templates, GHL / Membership / Courses
 
 #### 🤖 Marketing Automation
+
 - **ManyChat Copy Snippets** — Marketing Automation, Standard, Conversational Copy, ManyChat / WhatsApp / E-commerce / Coaches
 - **Marketing Copy Blocks** — Marketing Automation, Standard, Multi-format Copy, Landing Pages / Email Sequences / Quiz Funnels / B2B / SaaS
 - **Systeme.io Copy Snippets** — Email Marketing, Standard, Email Sequences, Systeme.io / Coaches / Course Creators / Service Providers
 - **Bootcamp Funnel Emails** — Marketing Automation, Standard, Email Sequences, Real Estate / Coaches / Course Creators
 
 #### 🏗️ Sales Pages & Funnels
+
 - **Sales Layout Prompts** — Sales Pages, Advanced, Layout Specifications, FG Funnels / ClickFunnels / Coaches / Course Creators
 
 #### 🎨 Branding & Copy
+
 - **Brand Voice Guidelines** — Branding, Standard, Copy Framework, Luxury / DTC / SaaS / Agency
 
 ---
@@ -229,6 +267,7 @@ Each prompt is tagged with labels to help you filter by:
 ## All Prompts Reference
 
 ### 1. Outreach First Line
+
 **Category:** Outreach
 **Purpose:** Generate personalized opening lines for cold emails
 **Variables:** `{name}`, `{personalized_fact}`
@@ -237,6 +276,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/outreach_first_line.txt) | [Spanish](es/outreach_first_line.txt)
 
 **Use When:**
+
 - You need to warm up a prospect with a personalized message
 - You want to avoid generic "hope this finds you well" phrases
 - You have researched the person and found a relevant connection point
@@ -246,6 +286,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 2. Lead Research to Email Intro
+
 **Category:** Outreach
 **Purpose:** Create personalized cold-email opening lines from prospect research
 **Variables:** `{prospect_name}`, `{company}`, `{research_snippets}`
@@ -254,6 +295,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/lead_research_to_email_intro.txt) | [Spanish](es/lead_research_to_email_intro.txt)
 
 **Use When:**
+
 - You've done research on a prospect and want to write a personalized first line
 - You want to establish credibility and genuine interest before pitching
 - You need an opening that doesn't feel templated
@@ -263,6 +305,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 3. Chatbot Tone
+
 **Category:** Chatbot Configuration
 **Purpose:** Define voice and tone characteristics for AI chatbots
 **Variables:** None (reference guide)
@@ -271,6 +314,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/chatbot_tone.md) | [Spanish](es/chatbot_tone.md)
 
 **Use When:**
+
 - Building a new chatbot and want consistent voice across all interactions
 - Training a team on how your chatbot should sound
 - Reviewing chatbot responses for alignment with brand voice
@@ -280,6 +324,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 4. Podcast to Blog
+
 **Category:** Content Generation
 **Purpose:** Transform podcast transcripts into blog, show notes, and social posts
 **Variables:** `{transcript}`
@@ -288,11 +333,13 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/podcast_to_blog.txt) | [Spanish](es/podcast_to_blog.txt)
 
 **Use When:**
+
 - You have a podcast episode transcript and want to repurpose it
 - You need blog content, show notes, and social media posts from one source
 - You want to maximize reach by publishing across multiple formats
 
 **Expected Output:**
+
 - 600–800 word blog post with headings
 - 8–10 bullet-point show notes
 - 5 standalone social media posts
@@ -300,6 +347,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 5. Upwork Proposal General
+
 **Category:** Proposals & Sales
 **Purpose:** Draft compelling Upwork proposals from client job posts and your capabilities
 **Variables:** `{client_job_post}`, `{my_capabilities}`
@@ -308,6 +356,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/upwork_proposal_general.txt) | [Spanish](es/upwork_proposal_general.txt)
 
 **Use When:**
+
 - You're applying for an Upwork project and need a strong proposal
 - You want to customize your response to specific client needs
 - You need to include your value proposition in under 300 words
@@ -317,6 +366,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 6. Automation Discovery Questions
+
 **Category:** Discovery
 **Purpose:** Strategic questions to understand workflows and pain points for automation projects
 **Variables:** None (reference guide)
@@ -325,6 +375,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/automation_discovery_questions.txt) | [Spanish](es/automation_discovery_questions.txt)
 
 **Use When:**
+
 - You're in early conversations with an automation prospect
 - You need to understand their current processes before proposing solutions
 - You want to ensure alignment with real business needs
@@ -334,6 +385,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 7. Chatbot Discovery Questions
+
 **Category:** Discovery
 **Purpose:** Comprehensive questions to scope chatbot project requirements
 **Variables:** None (reference guide)
@@ -342,6 +394,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/chatbot_discovery_questions.txt) | [Spanish](es/chatbot_discovery_questions.txt)
 
 **Use When:**
+
 - A prospect wants a chatbot solution and you need to understand their needs
 - You want to scope the project before writing a proposal
 - You need to cover all dimensions (purpose, audience, functionality, integrations, budget)
@@ -351,6 +404,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 8. Automation Discovery Call
+
 **Category:** Discovery
 **Purpose:** Prepare a structured automation discovery call plan with agendas, targeted questions, and follow-ups
 **Variables:** `{client_overview}`, `{current_stack}`, `{call_duration}`, `{my_capabilities}`
@@ -359,6 +413,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/automation_discovery_call.txt) | [Spanish](es/automation_discovery_call.txt)
 
 **Use When:**
+
 - You are about to run a live call to scope automation work and need a repeatable flow
 - You want a balanced agenda with discovery questions, capability mapping, and next steps
 - You need to capture risks, blockers, and integration points during the call
@@ -368,6 +423,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 9. Chatbot Discovery Call
+
 **Category:** Discovery
 **Purpose:** Prepare a structured chatbot discovery call plan with agendas and targeted questions
 **Variables:** `{client_overview}`, `{use_case}`, `{languages}`, `{integrations}`
@@ -376,6 +432,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/chatbot_discovery_call.txt) | [Spanish](es/chatbot_discovery_call.txt)
 
 **Use When:**
+
 - A prospect wants a chatbot and you need to uncover goals, constraints, and integrations
 - You need to scope multilingual or omnichannel chatbot experiences
 - You want to align technical feasibility with business outcomes
@@ -385,6 +442,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 10. Upwork Job Response Helper
+
 **Category:** Proposals & Sales
 **Purpose:** Turn job posts into concise Upwork responses with plan and CTA
 **Variables:** `{job_post}`, `{skills}`, `{similar_project}`
@@ -393,6 +451,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/upwork_job_response_helper.txt) | [Spanish](es/upwork_job_response_helper.txt)
 
 **Use When:**
+
 - You need a quick, tailored response to an Upwork job post
 - You want to include a short plan and social proof without writing from scratch
 - You need to keep replies under 300 words
@@ -402,6 +461,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 11. Discovery Notes to Scope
+
 **Category:** Proposals & Discovery
 **Purpose:** Convert raw discovery notes into a scoped project summary
 **Variables:** `{notes}`, `{scope_type}`, `{deliverables}`, `{risks}`
@@ -410,6 +470,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/discovery_notes_to_scope.txt) | [Spanish](es/discovery_notes_to_scope.txt)
 
 **Use When:**
+
 - You have messy call notes and need to produce a clean scope
 - You want to highlight goals, deliverables, timelines, and risks
 - You need a summary you can send to the client for confirmation
@@ -419,6 +480,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 12. Post-Project Retrospective
+
 **Category:** Post-Engagement
 **Purpose:** Summarize project outcomes, lessons, and next steps
 **Variables:** `{project_summary}`, `{outcomes}`, `{metrics}`, `{next_steps}`
@@ -427,6 +489,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/post_project_retrospective.txt) | [Spanish](es/post_project_retrospective.txt)
 
 **Use When:**
+
 - Wrapping up a project and need a client-facing recap
 - Preparing internal lessons learned
 - Setting up follow-on work or upsell opportunities
@@ -436,6 +499,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 13. Client Fit / Red Flag Analyzer
+
 **Category:** Proposals & Discovery
 **Purpose:** Evaluate whether to pursue a client based on risks and fit
 **Variables:** `{client_info}`, `{project_scope}`, `{timeline}`, `{budget}`
@@ -444,6 +508,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/client_fit_red_flag_analyzer.txt) | [Spanish](es/client_fit_red_flag_analyzer.txt)
 
 **Use When:**
+
 - You need a go/no-go decision before committing
 - You want to spot risks early (scope creep, unclear ownership, misaligned budget)
 - You need a structured risk summary to discuss with the client
@@ -453,6 +518,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 14. Weekly Review & Planning
+
 **Category:** Operations
 **Purpose:** Convert weekly notes into a plan for the coming week
 **Variables:** `{week_notes}`, `{goals}`, `{risks}`, `{priorities}`
@@ -461,6 +527,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/weekly_review_planning.txt) | [Spanish](es/weekly_review_planning.txt)
 
 **Use When:**
+
 - You want a simple weekly planning ritual
 - You need to align tasks with goals and flag risks
 - You want a concise summary to share with stakeholders or keep for yourself
@@ -470,6 +537,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 15. Upwork Profile Rewriter
+
 **Category:** Proposals & Branding
 **Purpose:** Rewrite Upwork profile title and summary for a chosen niche
 **Variables:** `{current_title}`, `{current_summary}`, `{niche}`, `{proof_points}`
@@ -478,6 +546,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/upwork_profile_rewriter.txt) | [Spanish](es/upwork_profile_rewriter.txt)
 
 **Use When:**
+
 - You need to reposition your Upwork profile for a specific niche
 - You want to highlight proof points and offers succinctly
 - You need a checklist of supporting assets to update
@@ -487,6 +556,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 16. Upwork Job Triage → Proposal Plan
+
 **Category:** Proposals & Discovery
 **Purpose:** Compare multiple Upwork jobs, decide which to pursue, and map mini action plans within your available time
 **Variables:** `{jobs_list}`, `{available_time_hours}`, `{current_pipeline_pressure}`, `{proof_assets}`, `{followup_capacity}`
@@ -495,6 +565,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/upwork_job_triage_plan.txt) | [Spanish](es/upwork_job_triage_plan.txt)
 
 **Use When:**
+
 - You have a backlog of job tabs and need to focus on the highest ROI options fast
 - You must balance proposal time with delivery capacity
 - You want each proposal effort to include Loom + follow-up timing baked in
@@ -504,6 +575,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 17. GHL Message Templates
+
 **Category:** Email & SMS Marketing
 **Purpose:** Reusable message templates for GoHighLevel campaigns across audience segments
 **Variables:** `{audience_segment}`, `{offer}`, `{cta}`, `{bonus}`
@@ -512,6 +584,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/ghl_message_templates.txt) | [Spanish](es/ghl_message_templates.txt)
 
 **Use When:**
+
 - Building GHL campaigns (launch announcements, reminders, replays, newsletters, upsells, support)
 - You need segment-specific messaging without writing from scratch
 - You want CTA-ready copy that matches audience intent
@@ -521,6 +594,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 18. ManyChat Copy Snippets
+
 **Category:** Marketing Automation
 **Purpose:** Ready-to-use conversational copy snippets for ManyChat flows with CTA buttons and tags
 **Variables:** `{lead_name}`, `{product_name}`, `{price}`, `{bonus_name}`, `{deadline}`, `{whatsapp_link}`, `{testimonial_name}`, `{result_achieved}`
@@ -529,6 +603,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/manychat_copy_snippets.md)
 
 **Use When:**
+
 - Building ManyChat automation flows and need plug-and-play copy
 - Setting up welcome sequences, nurture flows, or sales funnels
 - Creating waitlist campaigns with urgency and countdown messaging
@@ -539,6 +614,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 19. Marketing Copy Blocks
+
 **Category:** Marketing Automation
 **Purpose:** Multi-format marketing copy for landing pages, quizzes, popups, and 5-email sequences
 **Variables:** `{offer}`, `{audience}`, `{proof_points}`, `{cta}`
@@ -547,6 +623,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/marketing_copy_blocks.md)
 
 **Use When:**
+
 - You need consistent copy across landing pages, quizzes, CTAs, and follow-up emails
 - You want reusable blocks to speed up campaign launches
 - You need a starting point that can be quickly tailored to different offers
@@ -556,6 +633,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 20. Systeme.io Copy Snippets
+
 **Category:** Marketing Automation
 **Purpose:** Email templates for systeme.io campaigns across welcome, nurture, discovery call, deadline, and re-engagement flows
 **Variables:** `{audience_segment}`, `{offer}`, `{deadline}`, `{bonus}`, `{cta}`, `{tag}`
@@ -564,6 +642,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/systeme_io_copy_snippets.md)
 
 **Use When:**
+
 - Building systeme.io email automation campaigns
 - Setting up welcome sequences for new subscribers
 - Creating nurture flows to warm up leads before offers
@@ -576,6 +655,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 21. AI Receptionist Dialogue Blocks
+
 **Category:** Voice AI
 **Purpose:** Reusable conversation flows for AI-powered phone receptionists across service industries
 **Variables:** `{business_name}`, `{agent_name}`, `{customer_name}`, `{phone_number}`, `{service_area}`, `{appointment_date}`, `{appointment_time}`
@@ -584,6 +664,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/ai_receptionist_dialogue_blocks.md)
 
 **Industries Covered:**
+
 - Roofing – storm damage, inspections, estimates
 - HVAC – repairs, maintenance, installations
 - Dental – cleanings, procedures, emergencies
@@ -591,6 +672,7 @@ Each prompt is tagged with labels to help you filter by:
 - Legal – case intake, consultations
 
 **Intents Included:**
+
 - Greeting (with industry variants)
 - Qualification (lead scoring questions)
 - Appointment scheduling
@@ -599,11 +681,13 @@ Each prompt is tagged with labels to help you filter by:
 - Voicemail fallback
 
 **ElevenLabs Integration:**
+
 - Voice style recommendations per industry
 - API configuration templates
 - SSML for natural pauses
 
 **Use When:**
+
 - Building AI phone receptionists with Bland.ai, Vapi, or Retell
 - Need consistent dialogue patterns across service industries
 - Integrating ElevenLabs voices into conversation flows
@@ -614,6 +698,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 22. Bootcamp Funnel Emails
+
 **Category:** Marketing Automation
 **Purpose:** Complete email sequences for real estate bootcamp funnels including nurture, webinar reminders, purchase nudges, and onboarding
 **Variables:** `{first_name}`, `{bootcamp_name}`, `{start_date}`, `{start_time}`, `{timezone}`, `{price}`, `{original_price}`, `{bonus}`, `{bonus_value}`, `{deposit_amount}`, `{payment_link}`, `{webinar_link}`, `{replay_link}`, `{community_link}`, `{mentor_name}`, `{mentor_credential}`, `{deadline}`, `{seats_remaining}`, `{success_story_name}`, `{success_story_result}`
@@ -622,6 +707,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/bootcamp_funnel_emails.md)
 
 **Use When:**
+
 - Launching a real estate bootcamp or coaching program and need complete email sequences
 - Setting up a webinar funnel with registration, reminders, and replay sequences
 - Creating cart abandonment and purchase nudge campaigns
@@ -632,6 +718,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 23. Brand Voice Guidelines
+
 **Category:** Branding & Copy
 **Purpose:** Establish brand voice principles and provide ready-to-use copy snippets for luxury-focused marketing
 **Variables:** `{brand_name}`, `{product_name}`, `{user_name}`, `{deposit_amount}`, `{launch_date}`, `{exclusive_benefit}`
@@ -640,6 +727,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/brand_voice_guidelines.md)
 
 **Use When:**
+
 - Launching a new brand or product that requires elevated, luxury positioning
 - Building marketing assets that need consistent voice across touchpoints
 - Creating waitlist campaigns, pre-launch teasers, or deposit flows
@@ -650,6 +738,7 @@ Each prompt is tagged with labels to help you filter by:
 ---
 
 ### 24. Sales Layout Prompts
+
 **Category:** Sales Pages & Funnels
 **Purpose:** Ready-to-use layout prompts for arranging sales page sections in FG Funnels blocks while maintaining reference site fidelity
 **Variables:** `{brand_color_primary}`, `{brand_color_secondary}`, `{logo_url}`, `{hero_image_url}`, `{testimonial_images}`, `{program_name}`, `{price}`, `{cta_text}`
@@ -658,6 +747,7 @@ Each prompt is tagged with labels to help you filter by:
 **Files:** [English](en/sales_layout_prompts.md)
 
 **Use When:**
+
 - Building sales pages in FG Funnels and need structured layout guidance
 - Recreating a reference site's layout in funnel builder blocks
 - Setting up hero sections, credibility bars, program breakdowns, testimonials, or FAQ sections
@@ -688,4 +778,4 @@ When adding new prompts to the library:
 
 ---
 
-**Last Updated:** [DATE]
+**Last Updated:** 2025-11-23
