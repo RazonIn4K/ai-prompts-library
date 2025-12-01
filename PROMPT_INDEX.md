@@ -159,6 +159,7 @@ Establish brand voice and create consistent, on-brand messaging.
 - Client Fit / Red Flag Analyzer
 - Upwork Profile Rewriter
 - Upwork Job Triage → Proposal Plan
+- **[Upwork Funnel Job Prompt Pack](en/upwork_funnel_pack/README.md)** — A suite of 10 prompts for specific funnel/CRO jobs (Systeme.io, ClickFunnels, WordPress, etc.)
 
 ### Post-Engagement (1 prompt)
 
