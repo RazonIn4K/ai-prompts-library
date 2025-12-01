@@ -32,6 +32,14 @@ Build high-converting sales pages with structured layouts and design systems.
 | ------------------------ | ------------------------------------------------------------------------------------------- | -------------------------------- | ---------- |
 | **Sales Layout Prompts** | Layout configurations for FG Funnels blocks (Hero, Credibility, Program, Testimonials, FAQ) | [en](en/sales_layout_prompts.md) | Advanced   |
 
+### 📊 Slides & Decks
+
+Structured slide prompts for Kimi K2 and other deck builders.
+
+| Prompt                        | Purpose                                                       | Files                                 | Complexity |
+| ----------------------------- | ------------------------------------------------------------- | ------------------------------------- | ---------- |
+| **Kimi K2 Slide Prompt Pack** | Slide-by-slide outlines with 1 universal + 5 scenario add-ons | [en](en/kimi_k2_slide_pack/README.md) | Advanced   |
+
 ### 📄 Proposals & Discovery
 
 Close deals faster with proposal-ready responses and structured scoping artifacts.
@@ -184,6 +192,10 @@ Establish brand voice and create consistent, on-brand messaging.
 
 - Sales Layout Prompts
 
+### Presentations (1 prompt)
+
+- Kimi K2 Slide Prompt Pack — slide-ready outlines for executive, product, case study, workshop, and QBR decks
+
 ### Branding & Copy (1 prompt)
 
 - Brand Voice Guidelines
@@ -258,6 +270,14 @@ Each prompt is tagged with labels to help you filter by:
 #### 🏗️ Sales Pages & Funnels
 
 - **Sales Layout Prompts** — Sales Pages, Advanced, Layout Specifications, FG Funnels / ClickFunnels / Coaches / Course Creators
+
+#### 📊 Presentations
+
+- **Kimi K2 Slide Prompt Pack** — Presentations, Advanced, Slide Outlines, Exec / Product / Case Study / Workshop / QBR
+
+#### 🤖 Repo Assistants
+
+- **Upwork Funnel Job Repo Assistant** — Proposals, Advanced, Repo Builder, GHL / Funnels / Automation
 
 #### 🎨 Branding & Copy
 
@@ -755,6 +775,25 @@ Each prompt is tagged with labels to help you filter by:
 - Need consistent spacing, typography, and mobile behavior specifications
 
 **Expected Output:** Detailed block configurations for 5 sales page sections (Hero, Credibility, Program Breakdown, Testimonials, FAQ), including grid layouts, spacing guidelines, mobile behavior, styling tokens, and FG Funnels-specific implementation settings
+
+---
+
+### 25. Kimi K2 Slide Prompt Pack
+
+**Category:** Presentations  
+**Purpose:** Generate slide-by-slide outlines for Kimi K2 with one universal header and five scenario add-ons (exec pitch, product release, case study, workshop, QBR)  
+**Variables:** `{audience}`, `{goal}`, `{brand_voice}`, `{design_language}`, `{brand_colors}`, `{slide_count}`, `{logo_url}`, `{proof_points}`, `{chart_data}`  
+**Tone:** Crisp, executive, instructional, slide-ready  
+**Complexity:** Advanced  
+**Files:** [English pack](en/kimi_k2_slide_pack/README.md)
+
+**Use When:**
+
+- You need a complete deck outline with copy, visuals, and layout cues for Kimi K2
+- You’re preparing exec pitches, product demos, case studies, workshops, or QBRs
+- You want presenter notes plus asset/assumption checklists
+
+**Expected Output:** Numbered slides with titles, purpose, 3–5 bullets, visual and layout guidance, presenter notes, plus “Assets Needed” and “Assumptions” lists ready to paste into Kimi K2
 
 ---
 
